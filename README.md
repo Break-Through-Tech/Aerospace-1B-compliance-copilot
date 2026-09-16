@@ -7,11 +7,11 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Sonya Popov      | @sophie2126   | Data exploration, visualization, overall project coordination            |
-| Victor Silva     | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Nima Sherpa      | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
+| Victor Silva     | @VSilva0806   | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Nima Sherpa      | @SoulNims     | Data preprocessing, feature engineering, data validation                 |
 | Erick Jacomes    | @EJacomes     | Model selection, hyperparameter tuning, model training and optimization  |
-| Max Hu           | @chrispark    | Model evaluation, performance analysis, results interpretation           |
-| Lauren Nunez     | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Max Hu           | @maxwellhu9   | Model evaluation, performance analysis, results interpretation           |
+| Lauren Nunez     | @laurn156     | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
