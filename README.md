@@ -9,7 +9,7 @@
 | Sonya Popov      | @sophie2126   | Data exploration, visualization, overall project coordination            |
 | Victor Silva     | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Nima Sherpa      | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Erick Jacomes    | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
+| Erick Jacomes    | @EJacomes     | Model selection, hyperparameter tuning, model training and optimization  |
 | Max Hu           | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 | Lauren Nunez     | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
