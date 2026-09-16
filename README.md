@@ -1,20 +1,17 @@
-# AI Studio Challenge Project Title
-
-> 💡 **Note for the team:** This is just a template. Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and example text in this template and populate this README with your own content. You can work on this README throughout AI Studio, and get feedback from your AI Studio Coach and Challenge Advisor before finalizing it.  
-
+# Aerospace 1B
 ---
 
 ### 👥 **Team Members**
 
-**Example:**
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Sonya Popov      | @sophie2126   | Data exploration, visualization, overall project coordination            |
+| Victor Silva     | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Nima Sherpa      | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
+| Erick Jacomes    | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
+| Max Hu           | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Lauren Nunez     | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
@@ -22,10 +19,14 @@
 
 **Example:**
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
+- AI-Powered Compliance Auditing: Automates first-pass review of software requirements against NASA engineering standards.
+- Progressive AI Architecture: Evolves from a traditional rule/keyword-based baseline → deterministic RAG pipeline → tool-calling LLM agent.
+- Grounded Decisions: Every compliance verdict is tied to a specific NASA NPR 7150.2 clause to reduce unsupported or hallucinated judgments.
+- Structured Compliance Classification: Categorizes requirements as Meets, Partial, or Gap and produces machine-readable results.
+- Agentic Workflow: Uses specialized tools such as retrieve_clause, check_requirement, and log_gap to orchestrate the auditing process.
+- Automated Audit Reports: Generates structured JSON and Markdown gap reports identifying potential compliance issues.
+- Benchmark-Driven Evaluation: Measures precision, recall, and citation groundedness against a human-labeled ground-truth dataset.
+- Real-World Applicability: Designed around aerospace compliance, with an architecture that could potentially generalize to other regulated domains such as MedTech and FinTech GRC.
 
 ---
 
@@ -43,11 +44,18 @@
 
 ## 🏗️ **Project Overview**
 
-**Describe:**
+**Description:**
 
 - How this project is connected to the Break Through Tech AI Program
 - Your AI Studio host company and the project objective and scope
 - The real-world significance of the problem and the potential impact of your work
+
+This project is part of the **Break Through Tech AI Program's AI Studio**, where student teams apply machine learning and AI techniques to real-world industry problems. Our project focuses on developing an AI-powered **Compliance Copilot** for software engineering requirements.
+
+The objective of the project is to create a system that can evaluate software requirements against established engineering compliance standards. We are using **NASA NPR 7150.2**, a software engineering requirements standard, as the primary compliance standard. The project will progress from an initial non-LLM baseline to a Retrieval-Augmented Generation (RAG) system and eventually a tool-calling LLM agent capable of retrieving relevant clauses, checking individual requirements, identifying compliance gaps, and generating structured audit reports.
+
+Compliance review is especially important in safety-critical and highly regulated industries such as aerospace, medical technology, and financial infrastructure. Requirements may need to be manually reviewed against extensive engineering standards, making the process time-consuming and dependent on domain experts. The Compliance Copilot aims to support this process by providing a faster and more structured first-pass review while grounding its conclusions in specific clauses from the relevant standard. This could help engineers identify potential compliance gaps earlier and make the review process more efficient and transparent.
+
 
 ---
 
@@ -59,6 +67,17 @@
 * Data exploration and preprocessing approaches
 * Insights from your Exploratory Data Analysis (EDA)
 * Challenges and assumptions when working with the dataset(s)
+
+### Datasets
+
+The project uses several sources related to NASA software engineering requirements:
+
+* **NASA NPR 7150.2D – Software Engineering Requirements:** The primary compliance standard used by the project. It contains numbered and structured software engineering requirements that serve as the reference for evaluating software requirements.
+* **NASA Software Engineering and Assurance Handbook:** Provides additional guidance and context for interpreting software engineering requirements.
+* **Synthetic Software Requirements (SRS) Dataset:** A collection of software requirements used as inputs for the compliance auditing system. The dataset includes examples designed to represent both compliant requirements and requirements containing potential compliance gaps.
+
+The project data is primarily text-based and is stored or processed in formats including **PDF, plain text, CSV, and JSON**. The overall dataset is relatively small and can be processed using standard Python tools and Google Colab.
+
 
 **Potential visualizations to include:**
 
