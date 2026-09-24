@@ -1,0 +1,1234 @@
+[
+    {
+        "swe_id":"SWE-002",
+        "section":"2.1.1.1",
+        "text":"The NASA OCE shall lead and maintain a NASA Software Engineering Initiative to advance software engineering practices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-004",
+        "section":"2.1.1.2",
+        "text":"The NASA OCE shall periodically benchmark each Center\u2019s software engineering capability against requirements in this directive.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-152",
+        "section":"2.1.1.3",
+        "text":"The NASA OCE shall periodically review the project requirements mapping matrices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-129",
+        "section":"2.1.1.4",
+        "text":"The NASA OCE shall authorize appraisals against selected requirements in this NPR to check compliance.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-100",
+        "section":"2.1.1.5",
+        "text":"The NASA OCE and Center training organizations shall provide training to advance software engineering practices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-098",
+        "section":"2.1.1.6",
+        "text":"The NASA OCE shall maintain an Agency-wide process asset library of applicable best practices and process templates for all size projects.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-208",
+        "section":"2.1.2.2",
+        "text":"The NASA Chief, SMA shall lead and maintain a NASA Software Assurance and Software Safety Initiative to advance software assurance and software safety practices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-209",
+        "section":"2.1.2.3",
+        "text":"The NASA Chief, SMA shall periodically benchmark each Center\u2019s software assurance and software safety capabilities against the NASA-STD-8739.8, NASA Software Assurance and Software Safety Standard.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-212",
+        "section":"2.1.2.4",
+        "text":"The NASA Chief, SMA shall periodically review the project\u2019s requirements mapping matrices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-221",
+        "section":"2.1.2.5",
+        "text":"The NASA Chief, SMA shall authorize appraisals against selected requirements in this NPR to check compliance.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-222",
+        "section":"2.1.2.6",
+        "text":"The NASA Chief, SMA shall provide for software assurance training.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-223",
+        "section":"2.1.2.7",
+        "text":"The NASA Chief, SMA shall make the final decision on all proposed tailoring of SWE-141, the Independent Verification and Validation (IV&V) requirement.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-003",
+        "section":"2.1.5.2",
+        "text":"Center Director, or designee, shall maintain, staff, and implement a plan to continually advance the Center\u2019s in-house software engineering capability and monitor the software engineering capability of NASA\u2019s contractors.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-005",
+        "section":"2.1.5.3",
+        "text":"Center Director, or designee, shall establish, document, execute, and maintain software processes per the requirements in this directive.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-140",
+        "section":"2.1.5.4",
+        "text":"Center Director, or designee, shall comply with the requirements in this directive that are marked with an \u201cX\u201d in Appendix C.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-095",
+        "section":"2.1.5.5",
+        "text":"The Center Director, or designee, shall report on the status of the Center\u2019s software engineering discipline, as applied to its projects, upon request by the OCE, OSMA, or OCHMO.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-006",
+        "section":"2.1.5.6",
+        "text":"Center Director, or designee, shall maintain a reliable list of their Center\u2019s programs and projects containing Class A, B, C, and D software. The list should include:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-091",
+        "section":"2.1.5.7",
+        "text":"For Class A, B, and C software projects, the Center Director, or designee, shall establish and maintain a software measurement repository for software project measurements containing at a minimum:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-092",
+        "section":"2.1.5.8",
+        "text":"For Class A, B, and C software projects, the Center Director, or designee, shall utilize software measurement data for monitoring software engineering capability, improving software quality, and to track the status of software engineering improvement activities.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-142",
+        "section":"2.1.5.10",
+        "text":"For Class A, B, and C software projects, each Center Director, or designee, shall establish and maintain software cost repository(ies) that contains at least the following measures:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-144",
+        "section":"2.1.5.11",
+        "text":"Each Center Director, or designee, shall contribute applicable software engineering process assets in use at his\/her Centers to the Agency-wide process asset library.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-153",
+        "section":"2.1.5.12",
+        "text":"The designated ETA(s) shall define the content requirements for software documents or records.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-215",
+        "section":"2.1.5.13",
+        "text":"The Center Director, or designee, shall ensure that the Government has clear rights in the software, a Government purpose license, or other appropriate license or permission from third party owners prior to providing the software for internal NASA software sharing or reuse.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-216",
+        "section":"2.1.5.14",
+        "text":"The Center Director, or designee, shall ensure that all software listed on the internal software sharing or reuse catalog(s) conforms to NASA software engineering policy and requirements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-217",
+        "section":"2.1.5.15",
+        "text":"The Center Director, or designee, (e.g., the Civil Servant Technical Point of Contact (POC) for the software product) shall perform the following actions:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-214",
+        "section":"2.1.5.16",
+        "text":"The Center Director or designee (e.g., the Civil Servant Technical POC for the software product) shall perform the following actions for each type of internal NASA software transfer or reuse:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-218",
+        "section":"2.1.7.1",
+        "text":"Contracting Officers, as defined in FAR 2.101, or Agreement Managers as defined in NAII 1050.3, NASA Partnership Guide, in conjunction with Program\/Project Managers shall ensure that the appropriate FAR, NFS, and other provisions\/clauses based on this requirements document and NASA-STD-8739.8 are included for all NASA contracts, Space Act Agreements, cooperative agreements, partnership agreements, grants, or other agreements pursuant to which software is being acquired, developed, modified, operated, or managed for NASA.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-126",
+        "section":"2.1.8.2",
+        "text":"The technical and institutional authorities for requirements in this directive shall:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-150",
+        "section":"7150.2",
+        "text":"requirements per the requirements mapping matrix authority column.",
+        "source":"NPR 7150.2D",
+        "source_url":null
+    },
+    {
+        "swe_id":"SWE-021",
+        "section":"2.2.8",
+        "text":"If a system or subsystem development evolves to meet a higher or lower software classification as defined in Appendix D, then the project manager shall update their plan(s) and initiate modifications to any supplier contracts to fulfill the applicable requirements per the Requirements Mapping Matrix in Appendix C with approved tailoring.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2"
+    },
+    {
+        "swe_id":"SWE-033",
+        "section":"3.1.2",
+        "text":"The project manager shall assess options for software acquisition versus development.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-013",
+        "section":"3.1.3",
+        "text":"The project manager shall develop, maintain, and execute software plans, including security plans, that cover the entire software life cycle and, as a minimum, address the requirements of this directive with approved tailoring.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-024",
+        "section":"3.1.4",
+        "text":"The project manager shall track the actual results and performance of software activities against the software plans.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-034",
+        "section":"3.1.5",
+        "text":"The project manager shall define and document the acceptance criteria for the software.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-036",
+        "section":"3.1.6",
+        "text":"The project manager shall establish and maintain the software processes, software documentation plans, list of developed electronic products, deliverables, and list of tasks for the software development that are required for the project\u2019s software developers, as well as the action required (e.g., approval, review) of the Government upon receipt of each of the deliverables.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-037",
+        "section":"3.1.7",
+        "text":"The project manager shall define and document the milestones at which the software developer(s) progress will be reviewed and audited.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-039",
+        "section":"3.1.8",
+        "text":"The project manager shall require the software developer(s) to periodically report status and provide insight into software development and test activities; at a minimum, the software developer(s) will be required to allow the project manager and software assurance personnel to:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-040",
+        "section":"3.1.9",
+        "text":"The project manager shall require the software developer(s) to provide NASA with software products, traceability, software change tracking information, and nonconformances in electronic format, including software development and management metrics.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-042",
+        "section":"3.1.10",
+        "text":"The project manager shall require the software developer(s) to provide NASA with electronic access to the source code developed for the project in a modifiable format.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-139",
+        "section":"3.1.11",
+        "text":"The project manager shall comply with the requirements in this NPR that are marked with an \u201cX\u201d in Appendix C consistent with their software classification.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-121",
+        "section":"3.1.12",
+        "text":"Where approved, the project manager shall document and reflect the tailored requirement in the plans or procedures controlling the development, acquisition, and deployment of the affected software.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-125",
+        "section":"3.1.13",
+        "text":"Each project manager with software components shall maintain a requirements mapping matrix or multiple requirements mapping matrices against requirements in this NPR, including those delegated to other parties or accomplished by contract vehicles or Space Act Agreements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-027",
+        "section":"3.1.14",
+        "text":"The project manager shall satisfy the following conditions when a COTS, GOTS, MOTS, OSS, or reused software component is acquired or used:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-015",
+        "section":"3.2.1",
+        "text":"To better estimate the cost of development, the project manager shall establish, document, and maintain:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-151",
+        "section":"3.2.2",
+        "text":"The project manager\u2019s software cost estimate(s) shall satisfy the following conditions:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-174",
+        "section":"3.2.3",
+        "text":"The project manager shall submit software planning parameters, including size and effort estimates, milestones, and characteristics, to the Center measurement repository at the conclusion of major milestones.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-016",
+        "section":"3.3.1",
+        "text":"The project manager shall document and maintain a software schedule that satisfies the following conditions:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-018",
+        "section":"3.3.2",
+        "text":"The project manager shall regularly hold reviews of software schedule activities, status, performance metrics, and assessment\/analysis results with the project stakeholders and track issues to resolution.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-046",
+        "section":"3.3.3",
+        "text":"The project manager shall require the software developer(s) to provide a software schedule for the project\u2019s review, and schedule updates as requested.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-017",
+        "section":"3.4.1",
+        "text":"The project manager shall plan, track, and ensure project specific software training for project personnel.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-020",
+        "section":"3.5.1",
+        "text":"The project manager shall classify each system and subsystem containing software in accordance with the highest applicable software classification definitions for Classes A, B, C, D, E, and F software in Appendix D.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-176",
+        "section":"3.5.2",
+        "text":"The project manager shall maintain records of each software classification determination, each software Requirements Mapping Matrix, and the results of each software independent classification assessments for the life of the project.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-022",
+        "section":"3.6.1",
+        "text":"The project manager shall plan and implement software assurance, software safety, and IV&V (if required) per NASA-STD-8739.8, Software Assurance and Software Safety Standard.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-141",
+        "section":"3.6.2",
+        "text":"For projects reaching Key Decision Point A, the program manager shall ensure that software IV&V is performed on the following categories of projects:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-131",
+        "section":"3.6.3",
+        "text":"If software IV&V is required for a project, the project manager, in consultation with NASA IV&V, shall ensure an IPEP is developed, approved, maintained, and executed in accordance with IV&V requirements in NASA-STD-8739.8.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-178",
+        "section":"3.6.4",
+        "text":"If software IV&V is performed on a project, the project manager shall ensure that IV&V is provided access to development artifacts, products, source code, and data required to perform the IV&V analysis efficiently and effectively.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-179",
+        "section":"3.6.5",
+        "text":"If software IV&V is performed on a project, the project manager shall provide responses to IV&V submitted issues and risks and track these issues and risks to closure.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-205",
+        "section":"3.7.1",
+        "text":"The project manager, in conjunction with the SMA organization, shall determine if each software component is considered to be safety-critical per the criteria defined in NASA-STD-8739.8.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-023",
+        "section":"3.7.2",
+        "text":"If a project has safety-critical software, the project manager shall implement the safety-critical software requirements contained in NASA-STD-8739.8.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-134",
+        "section":"3.7.3",
+        "text":"If a project has safety-critical software or mission-critical software, the project manager shall implement the following items in the software:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-219",
+        "section":"3.7.4",
+        "text":"If a project has safety-critical software, the project manager shall ensure that there is 100 NPR 7150.2D -- Chapter3 Page 26 of 89 NPR 7150.2D -- Chapter3 Page 26 of 89 percent code test coverage using the Modified Condition\/Decision Coverage (MC\/DC) criterion for all identified safety-critical software components.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-220",
+        "section":"3.7.5",
+        "text":"If a project has safety-critical software, the project manager shall ensure all identified safety-critical software components have a cyclomatic complexity value of 15 or lower. Any exceedance shall be reviewed and waived with rationale by the project manager or technical approval authority.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-146",
+        "section":"3.8.1",
+        "text":"The project manager shall define the approach to the automatic generation of software source code including:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-206",
+        "section":"3.8.2",
+        "text":"The project manager shall require the software developers and custom software suppliers to provide NASA with electronic access to the models, simulations, and associated data used as inputs NPR 7150.2D -- Chapter3 Page 27 of 89 NPR 7150.2D -- Chapter3 Page 27 of 89 for auto-generation of software.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-032",
+        "section":"3.9.2",
+        "text":"The project manager shall acquire, develop, and maintain software from an organization with a non-expired CMMI\u00ae-DEV rating as measured by a CMMI\u00ae Institute Certified Lead Appraiser as follows:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-147",
+        "section":"3.10.1",
+        "text":"The project manager shall specify reusability requirements that apply to its software development activities to enable future reuse of the software, including the models, simulations, and associated data used as inputs for auto-generation of software, for U.S. Government purposes.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-148",
+        "section":"3.10.2",
+        "text":"The project manager shall evaluate software for potential reuse by other projects across NASA and contribute reuse candidates to the appropriate NASA internal sharing and reuse software system. However, if the project manager is not a civil servant, then a civil servant will pre-approve all such software contributions; all software contributions should include, at a minimum, the following information:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-156",
+        "section":"3.11.2",
+        "text":"The project manager shall perform a software cybersecurity assessment on the software components per the Agency security policies and the project requirements, including risks posed by the use of COTS, GOTS, MOTS, OSS, or reused software components.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-154",
+        "section":"3.11.3",
+        "text":"The project manager shall identify cybersecurity risks, along with their mitigations, in flight and ground software systems and plan the mitigations for these systems.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-157",
+        "section":"3.11.4",
+        "text":"The project manager shall implement protections for software systems with communications capabilities against unauthorized access per the requirements contained in the NASA-STD-1006, Space System Protection Standard.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-159",
+        "section":"3.11.5",
+        "text":"The project manager shall test the software and record test results for the required software cybersecurity mitigation implementations identified from the security vulnerabilities and security weaknesses analysis.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-207",
+        "section":"3.11.6",
+        "text":"The project manager shall identify, record, and implement secure coding practices.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-185",
+        "section":"3.11.7",
+        "text":"The project manager shall verify that the software code meets the project\u2019s secure coding standard by using the results from static analysis tool(s).",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-210",
+        "section":"3.11.8",
+        "text":"The project manager shall identify software requirements for the collection, reporting, and storage of data relating to the detection of adversarial actions.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-052",
+        "section":"3.12.1",
+        "text":"The project manager shall perform, record, and maintain bi-directional traceability between the following software elements:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3"
+    },
+    {
+        "swe_id":"SWE-050",
+        "section":"4.1.2",
+        "text":"The project manager shall establish, capture, record, approve, and maintain software requirements, including requirements for COTS, GOTS, MOTS, OSS, or reused software components, as part of the technical specification.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-051",
+        "section":"4.1.3",
+        "text":"The project manager shall perform software requirements analysis based on flowed-down and derived requirements from the top-level systems engineering requirements, safety and reliability analyses, and the hardware specifications and design.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-184",
+        "section":"4.1.4",
+        "text":"The project manager shall include software related safety constraints, controls, mitigations, and assumptions between the hardware, operator, and software in the software requirements documentation.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-053",
+        "section":"4.1.5",
+        "text":"The project manager shall track and manage changes to the software requirements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-054",
+        "section":"4.1.6",
+        "text":"The project manager shall identify, initiate corrective actions, and track until closure inconsistencies among requirements, project plans, and software products.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-055",
+        "section":"4.1.7",
+        "text":"The project manager shall perform requirements validation to ensure that the software will perform as intended in the customer environment.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-057",
+        "section":"4.2.3",
+        "text":"The project manager shall transform the requirements for the software into a recorded software architecture.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-143",
+        "section":"4.2.4",
+        "text":"The project manager shall perform a software architecture review on the following categories of projects:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-058",
+        "section":"4.3.2",
+        "text":"The project manager shall develop, record, and maintain a software design based on the software architectural design that describes the lower-level units so that they can be coded, compiled, and tested.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-060",
+        "section":"4.4.2",
+        "text":"The project manager shall implement the software design into software code.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-061",
+        "section":"4.4.3",
+        "text":"The project manager shall select, define, and adhere to software coding methods, standards, and criteria.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-135",
+        "section":"4.4.4",
+        "text":"The project manager shall use static analysis tools to analyze the code during the development and testing phases to, at a minimum, detect defects, software security, code coverage, and software complexity.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-062",
+        "section":"4.4.5",
+        "text":"The project manager shall unit test the software code.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-186",
+        "section":"4.4.6",
+        "text":"The project manager shall assure that the unit test results are repeatable.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-063",
+        "section":"4.4.7",
+        "text":"The project manager shall provide a software version description for each software release.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-136",
+        "section":"4.4.8",
+        "text":"The project manager shall validate and accredit the software tool(s) required to develop or maintain software.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-065",
+        "section":"4.5.2",
+        "text":"The project manager shall establish and maintain:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-066",
+        "section":"4.5.3",
+        "text":"The project manager shall test the software against its requirements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-187",
+        "section":"4.5.4",
+        "text":"The project manager shall place software items under configuration management prior to testing.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-068",
+        "section":"4.5.5",
+        "text":"The project manager shall evaluate test results and record the evaluation.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-070",
+        "section":"4.5.6",
+        "text":"The project manager shall use validated and accredited software models, simulations, and analysis tools required to perform qualification of flight software or flight equipment.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-071",
+        "section":"4.5.7",
+        "text":"The project manager shall update the software test and verification plan(s) and procedure(s) to be consistent with software requirements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-073",
+        "section":"4.5.8",
+        "text":"The project manager shall validate the software system on the targeted platform or high-fidelity simulation.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-189",
+        "section":"4.5.9",
+        "text":"The project manager shall ensure that the code coverage measurements for the software are selected, implemented, tracked, recorded, and reported.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-190",
+        "section":"4.5.10",
+        "text":"The project manager shall verify code coverage is measured by analysis of the results of the execution of tests.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-191",
+        "section":"4.5.11",
+        "text":"The project manager shall plan and conduct software regression testing to demonstrate that defects have not been introduced into previously integrated or tested software and have not produced a security vulnerability.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-192",
+        "section":"4.5.12",
+        "text":"The project manager shall verify through test the software requirements that trace to a hazardous event, cause, or mitigation technique.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-193",
+        "section":"4.5.13",
+        "text":"The project manager shall develop acceptance tests for loaded or uplinked data, rules, and code that affects software and software system behavior.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-211",
+        "section":"4.5.14",
+        "text":"The project manager shall test embedded COTS, GOTS, MOTS, OSS, or reused software components to the same level required to accept a custom developed software component for its intended use.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-075",
+        "section":"4.6.2",
+        "text":"The project manager shall plan and implement software operations, maintenance, and retirement activities.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-077",
+        "section":"4.6.3",
+        "text":"The project manager shall complete and deliver the software product to the customer with appropriate records, including as-built records, to support the operations and maintenance phase of the software\u2019s life cycle.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-194",
+        "section":"4.6.4",
+        "text":"The project manager shall complete, prior to delivery, verification that all software requirements identified for this delivery have been met or dispositioned, that all approved changes have been implemented, and that all defects designated for resolution prior to delivery have been resolved.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-195",
+        "section":"4.6.5",
+        "text":"The project manager shall maintain the software using standards and processes per the applicable software classification throughout the maintenance phase.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-196",
+        "section":"4.6.6",
+        "text":"The project manager shall identify the records and software tools to be archived, the location of the archive, and procedures for access to the products for software retirement or disposal.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4"
+    },
+    {
+        "swe_id":"SWE-079",
+        "section":"5.1.2",
+        "text":"The project manager shall develop a software configuration management plan that describes the functions, responsibilities, and authority for the implementation of software configuration management for the project.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-080",
+        "section":"5.1.3",
+        "text":"The project manager shall track and evaluate changes to software products.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-081",
+        "section":"5.1.4",
+        "text":"The project manager shall identify the software configuration items (e.g., software records, code, data, tools, models, scripts) and their versions to be controlled for the project.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-082",
+        "section":"5.1.5",
+        "text":"The project manager shall establish and implement procedures to:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-083",
+        "section":"5.1.6",
+        "text":"The project manager shall prepare and maintain records of the configuration status of software configuration items.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-084",
+        "section":"5.1.7",
+        "text":"The project manager shall perform software configuration audits to determine the correct version of the software configuration items and verify that they conform to the records that define them.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-085",
+        "section":"5.1.8",
+        "text":"The project manager shall establish and implement procedures for the storage, handling, delivery, release, and maintenance of deliverable software products.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-045",
+        "section":"5.1.9",
+        "text":"The project manager shall participate in any joint NASA\/developer audits.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-086",
+        "section":"5.2",
+        "text":"Software Risk Management The project manager shall record, analyze, plan, track, control, and communicate all of the software risks and mitigation plans.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-087",
+        "section":"5.3.2",
+        "text":"The project manager shall perform and report the results of software peer reviews or software inspections for:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-088",
+        "section":"5.3.3",
+        "text":"The project manager shall, for each planned software peer review or software inspection:",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-089",
+        "section":"5.3.4",
+        "text":"The project manager shall, for each planned software peer review or software inspection, record necessary measurements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-090",
+        "section":"5.4.2",
+        "text":"The project manager shall establish, record, maintain, report, and utilize software management and technical measurements.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-093",
+        "section":"5.4.3",
+        "text":"The project manager shall analyze software measurement data collected using documented project-specified and Center\/organizational analysis procedures.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-094",
+        "section":"5.4.4",
+        "text":"The project manager shall provide access to the software measurement data, measurement analyses, and software development status as requested to the sponsoring Mission Directorate, the NASA Chief Engineer, the Center Technical Authorities, HQ SMA, and other organizations as appropriate.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-199",
+        "section":"5.4.5",
+        "text":"The project manager shall monitor measures to ensure the software will meet or exceed performance and functionality requirements, including satisfying constraints.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-200",
+        "section":"5.4.6",
+        "text":"The project manager shall collect, track, and report software requirements volatility metrics.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-201",
+        "section":"5.5.1",
+        "text":"The project manager shall track and maintain software non-conformances (including defects in tools and appropriate ground software).",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-202",
+        "section":"5.5.2",
+        "text":"The project manager shall define and implement clear software severity levels for all software non-conformances (including tools, COTS, GOTS, MOTS, OSS, reused software components, and applicable ground systems).",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-203",
+        "section":"5.5.3",
+        "text":"The project manager shall implement mandatory assessments of reported non-conformances for all COTS, GOTS, MOTS, OSS, and\/or reused software components.",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":"SWE-204",
+        "section":"5.5.4",
+        "text":"The project manager shall implement process assessments for all high-severity software non-conformances (closed loop process).",
+        "source":"NPR 7150.2D",
+        "source_url":"https:\/\/nodis3.gsfc.nasa.gov\/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5"
+    },
+    {
+        "swe_id":null,
+        "section":"3.1",
+        "text":"Introduction The introductory section provides the foundational context for the SRS and provides essential background information. Use it to establish the purpose and scope of the software requirements and introduce the software system being built.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.1.1",
+        "text":"Purpose Specify the purpose of the SRS and how it contributes to the project\u2019s lifecycle and stakeholders. Identify the document\u2019s audience\u2014such as developers, testers, system engineers, users, and acquirers. Example: \u201cThe purpose of this SRS is to de\ufb01ne the software requirements for the XYZ Mission Control Software. The SRS serves as a blueprint for all development stages and a contractual reference for alignment between stakeholders.\u201d",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.1.2",
+        "text":"Scope Describe the software product under development, including the scope of its goals, functions, and limitations. Highlight its relationship with the larger system or mission objectives. Discuss the problem domain and how the software addresses speci\ufb01c user needs. Example: \"The software will allow ground controllers to monitor spacecraft telemetry in real-time and send corrective commands. The system will operate with a maximum latency of 5 seconds under nominal conditions but will not perform onboard diagnostics, as these are managed at the subsystem level.\"",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.1.3",
+        "text":"Software System Overview Provide an overview of the software system and its major components, including a high-level description of its functionality, context, and relationships with other systems or environments. The overview should allow the readers to quickly understand the software\u2019s purpose and architecture before diving into the speci\ufb01c requirements. It should include: CSCI Identi\ufb01er: CSCI name or other identi\ufb01er (e.g., CSCI name and abbreviation\/acronym) Key Functions\/Capabilities: High-level summary of primary functions and components Product Perspective: How the software \ufb01ts into the larger system. Product Functions: What the software will do. Background Information: Include supporting background information e.g.: Operating Environment: Supported hardware, software, and networks. User Classes and Characteristics: De\ufb01ne primary (e.g., mission operators) and secondary (e.g., maintenance personnel) user groups, highlighting their unique needs. Assumptions and Dependencies: External factors, constraints, or limitations that in\ufb02uence requirements. Design and Implementation Constraints: Any limitations (e.g., programming languages, frameworks) Interfaces: High-level summary of primary user interfaces, hardware interfaces, software interfaces, communication interfaces. (Note when software design interface descriptions will be captured in a separate 5.02 - IDD - Interface Design Description, 5.13 - SwDD - Software Design Description, or Interface Requirements Speci\ufb01cation\/Document (IRS\/IRD).) Example: \u201cThe software will run on Red Hat Enterprise Linux 8.4 and interact with satellite payloads through the SpaceWire communication bus. It assumes ground station connectivity and relies on an external API for mission planning schedules.\u201d",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2",
+        "text":"CSCI Requirements For purposes including, but not limited to, planning work, assigning resources, and understanding the size of the software, it is helpful to organize requirements by CSCIs. It is also helpful to understand the rationale behind a requirement to understand its intent; therefore, consider co-locating the \"supporting requirements rationale\", as described in Section 3.4 of this guidance, with each requirement. The SRS compiles both functional and non-functional requirements along with interface and user requirements to ensure completeness, usability, and alignment with user and technical needs. Each requirement should satisfy these characteristics: speci\ufb01city, traceability, and testability. For each CSCI, include: Functional Requirements Non-functional Requirements Interface Requirements User Requirements",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1",
+        "text":"Functional Requirements Functional requirements describe the speci\ufb01c behaviors, functions, and features a software system must perform \u2014 they de\ufb01ne the core functions, features, and behaviors of the software from the user's perspective. These are the actions the system must perform to ful\ufb01ll its intended purpose. Functional requirements are typically high-level and user focused and form the starting point for further analysis and re\ufb01nement. Identify Functional Requirements to: Translate user needs into technical speci\ufb01cations. De\ufb01ne the scope of the system\u2019s functionality. Guide developers in implementing features including: Descriptions of system behaviors under speci\ufb01c conditions. Descriptions of inputs, outputs, and processing logic. Speci\ufb01cations for user interactions, data handling, and system responses. Serve as a basis for test case development and requirements traceability matrices to ensure traceability from business goals to system behaviors. Tips for Writing Good Functional Requirements: The following Best Practices should be implemented for each type of Functional Requirement in this section: Use clear and consistent language: Avoid ambiguity; use \u201cshall\u201d to indicate mandatory behavior. Follow a structured format: Include requirement ID, description, rationale, and acceptance criteria. Number each requirement for easy reference (e.g., FR-1, FR-2). Include use cases or user stories: Provide context for how the requirement supports user goals. De\ufb01ne inputs and outputs: Specify data types, formats, validation rules, and conditions including: Validity checks on the inputs. 214 Relationship of outputs to inputs, including: 214 Input\/output sequences. Formulas for input to output conversion. Include exception and error handling: Describe how the system should behave under off-nominal situations including:214 Over\ufb02ow. Communication facilities. Error handling and recovery. Relevant operational modes (nominal, critical, contingency). Exact sequence of operations. 214 Effect of parameters. 214 Ensure testability: Write requirements that can be veri\ufb01ed through testing. Prioritize requirements: Identify which functions are critical vs. optional. Characteristics of Functional Requirements Speci\ufb01c: Clear and unambiguous (e.g., avoid subjective terms like \u201cef\ufb01cient\u201d or \u201cuser-friendly\u201d) User-focused: They describe how the system will respond to user inputs. Speci\ufb01c and veri\ufb01able\/testable: Each requirement should be clear enough to be tested with de\ufb01ned success criteria. Behavioral: They de\ufb01ne system behavior or operations under speci\ufb01c conditions. Traceable: Linked to user needs, business goals, or use cases. Complete: Cover all expected inputs, outputs, and scenarios. Common Types of Functional Requirements Authentication & Authorization: Role-speci\ufb01c access control Login, roles, permissions. Data Management: Create, read, update, delete (CRUD) operations. I\/O Management: User interface and device responsiveness. Safety Features: De\ufb01ne emergency response triggers. Control Logic: How the system reacts to speci\ufb01c events or sequences. State Management: Support for operational modes like Idle, Active, or Contingency. Business Rules: Logic that governs how data is processed. Noti\ufb01cations: Emails, alerts, messages. Reporting: Generating and exporting reports. User Interfaces: What users can do on each screen or page. Examples of Functional Requirements ID Requirement Example FR-1 The system shall allow users to log in using a username and password. FR-2 The system shall send a con\ufb01rmation email after successful registration. FR-3 The system shall allow users to search for products by name or category. FR-4 The system shall generate a monthly sales report in PDF format. FR-13 The system shall support retrieval of historical mission data within 3 seconds for up to 1 million records Because functional requirements tend to be large in number, it may be helpful to organize them into groups or subsections appropriate for the software project. Include requirements for the following.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.1",
+        "text":"General Functional Requirements The general functional requirements need to be established to form a starting point for further analysis and re\ufb01nement. Performing software requirements analysis ensures that the software component of a system fully aligns with top-level system requirements, safety analyses, and hardware constraints. It promotes clarity, completeness, and quality, reducing risks of integration failures, system anomalies, and downstream costs caused by requirement misalignment. Asking the following questions may be helpful when identifying these requirements: What functions need to be performed? Where do they need to be performed? How often? (also useful for performance and timing requirements) Under what operational and environmental conditions? (also useful for environmental requirements) 273 As systems become more complex, general functional requirements are often decomposed into smaller, more manageable sub-requirements. This process is known as requirements decomposition. Some of these requirements may not be explicitly stated but inferred. These are referred to as derived requirements. Both the decomposed and derived requirements need to be captured as part of the functional requirements. Conversations with Stakeholders will typically help decompose the higher-level functional requirements and expose any derived requirements. Expand the items below for additional information on decomposed and derived requirements.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.1.1",
+        "text":"Decomposed Requirements Decomposed requirements are lower-level, more detailed or re\ufb01ned requirements that result from breaking down the high-level functional or non-functional requirements into smaller, manageable components. They are typically listed as child requirements under a parent requirement, often using hierarchical IDs (e.g., REQ-001.1, REQ-001.2). Think of decomposition as \u201cbreaking down\u201d a requirement into its constituent parts. Decompose requirements to: To clarify and detail what each functional requirement entails. To assign responsibilities to speci\ufb01c components or modules. To facilitate design, implementation, and testing. Examples of Decomposed requirement Functional Requirement: The system shall authenticate users. Decomposed Requirements: The system shall validate the username format. The system shall verify the password against the stored hash. The system shall lock the account after 5 failed attempts. These decomposed requirements are directly traceable to the parent functional requirement and help ensure completeness and testability.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.1.2",
+        "text":"Derived Requirements Derived requirements are requirements that are not explicitly stated by stakeholders but are inferred or generated from higher-level requirements, system constraints, or design decisions. They are necessary to support, enable, or ensure the ful\ufb01llment of other requirements. They are newly created requirements that are not directly part of the original Note: Additional requirements may be identi\ufb01ed during the Design phase. These design requirements should be added to the SRS as they are understood and analyzed. The updated SRS should be included as part of the PDR and\/or CDR review packages to allow the Stakeholders to validate the requirements changes. \uf1b3 requirements decomposition but are essential for realizing the system's intended behavior. Derived Requirements are documented with a traceability link to the source requirement or rationale, often \ufb02agged as \u201cderived\u201d as the requirement type. Think of derived requirements as \u201cemerging needs\u201d that arise from analysis or design. Derive requirements to: To support or enable the ful\ufb01llment of functional requirements. To address technical constraints, such as performance, security, or compliance. To ensure system integrity in real-world operating conditions. Examples of Derived requirements Functional Requirement: The system shall allow users to reset their password. Derived Requirements: The system shall send a one-time password (OTP) to the user\u2019s registered email. The system shall expire the OTP after 10 minutes. The system shall log all password reset attempts for auditing. The password shall be 12 to 32 characters long in length and consist of at least one upper case character, one lower case character, a number, and special characters. The password shall not be updated more than once in a 24-hour period. These are not directly requested by users but are necessary to implement the functional requirements securely and effectively.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.1.3",
+        "text":"Summary of Relationships Type Origin Purpose Traceability Functional Directly from stakeholders De\ufb01ne what the system must do High-level Decomposed From functional requirements Break down into detailed, actionable parts Directly traceable to functional Derived Inferred from functional, constraints, or design Support or enable functional requirements Indirectly traceable",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.1.4",
+        "text":"Best Practices Use requirements traceability matrices (RTMs) to link functional, decomposed, and derived requirements. Validate derived requirements with stakeholders to ensure alignment. Keep decomposition logical and hierarchical to maintain clarity. Ensure all derived and decomposed requirements are testable and measurable. See SWE-050 - Software Requirements and SWE-051 - Software Requirements Analysis.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.2",
+        "text":"State and Mode Requirements If the software is required to operate in more than one state or mode, having requirements that distinguish each state or mode is a necessity. Identify and de\ufb01ne each state and mode. Each requirement or group of requirements should be correlated to the states and modes. The correlation may be documented in a table, an appendix, or by annotation of the requirements. The differences between State and Mode requirements are illustrated below: State vs. Mode: Key Differences Aspect State Mode De\ufb01nition Current condition of the system Operational context or con\ufb01guration Scope Often short-term and reactive Often long-term and strategic Trigger Events or conditions Commands, faults, or system decisions Example Idle, Active, Error Normal, Maintenance, Emergency Examples of states and modes include idle, ready, active, post-use analysis, training, degraded, emergency, backup, launch, testing, and deployment. To put these into context, the table shows an example of each. State requirements de\ufb01ne the behavior of a system based on its current condition or status (i.e., its state). A state represents a speci\ufb01c situation during the life of a system where certain conditions hold true. They specify how the system should behave in each state and how it should transition between states based on events or conditions. State requirements are used in systems with \ufb01nite state machines, event-driven architectures, or work\ufb02ow-based logic. There should be clearly de\ufb01ne entry\/exit conditions for each state. \uf1b3 Mode requirements de\ufb01ne the system\u2019s behavior based on its operational context or con\ufb01guration, often representing different levels of functionality or control. They specify how the system should behave in different modes of operation, such as normal, degraded, maintenance, or emergency. They are commonly used in safety-critical systems. \uf1b3 Example of State Requirements Example of Mode Requirements Elevator Control System State: Idle When the elevator is in the Idle state and receives a \ufb02oor request, it shall transition to the Moving state. State: Moving While in the Moving state, the elevator shall ignore new requests for the current direction until it reaches the requested \ufb02oor. State: Door Open The elevator shall remain in the Door Open state for 10 seconds before transitioning to Idle, unless a door obstruction is detected. Aircraft Flight Control System Mode: Normal Flight Mode In Normal Flight Mode, the system shall allow full autopilot control and respond to pilot inputs for navigation and altitude adjustments. Mode: Emergency Mode In Emergency Mode, the system shall disable autopilot and prioritize manual control inputs from the pilot. Mode: Maintenance Mode In Maintenance Mode, the system shall allow access to diagnostic tools and inhibit \ufb02ight control operations.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.3",
+        "text":"Internal and External Data Requirements Most software has internal or external data requirements for the system being designed and built. They detail key data de\ufb01nitions, formats, and storage requirements. As such, these requirements need to be identi\ufb01ed and documented. a. Internal data requirements specify the data that is created, stored, processed, or managed entirely within the system. This data is typically generated by the system itself or entered by users and is not dependent on external sources. It de\ufb01nes how the system handles its own data assets, such as \ufb01les, databases, user pro\ufb01les, logs, con\ufb01gurations, or transaction records. Internal data requirements include information such as: Data types. Modes of access, e.g., random, sequential. Size and format. Units of measure. Common types of internal data are: User accounts and credentials Application logs Con\ufb01guration settings Audit trails Locally generated reports Examples of internal data requirements are: The system shall store user login history for 90 days. The application shall maintain a local cache of the last 100 search queries. The system shall encrypt all stored passwords using SHA-256. b. External data requirements specify the data that the system must access, retrieve, or exchange with external sources, such as third-party systems, databases, APIs, or services. It de\ufb01nes how the system interacts with external data providers, ensuring proper integration, data format compatibility, and security. Common sources of external data are: APIs (e.g., payment gateways, weather services) External databases or data warehouses File imports (e.g., CSV, XML) Cloud services (e.g., AWS S3, Google Sheets) Examples of external data requirements are: The system shall retrieve weather data from the National Weather Service API every 15 minutes. The application shall import customer records from the external CRM system in CSV format. The system shall validate shipping addresses using a third-party geolocation service. Key Differences between Internal and External Data Requirements: Aspect Internal Data External Data Source Generated or managed within the system Comes from outside the system Control Fully controlled by the system Partially or fully controlled by external entities Examples User pro\ufb01les, logs, settings API data, imported \ufb01les, third-party services Risks Data integrity, storage limits Data availability, format changes, security If a database is used, consider capturing the following requirements 214: Types of information used by various functions. Frequency of use. Accessing capabilities. Data entities and their relationships. Integrity constraints. Data retention requirements. Specify the following information, as required, for Internal and External Data : Identify the data; provide a name, if appropriate, and a brief description. Identify the source or destination. For external interfaces, reference the section within the IDD\/ICD where the data is speci\ufb01ed. Identify the units of measure required for the data, such as seconds, meters, kilohertz, etc. Identify the limit or range of values required for the data (for constants, provide the actual value). Identify the accuracy required for the data. Identify the precision or resolution required for the data in terms of signi\ufb01cant digits. For real-time systems, identify the frequency at which the external data is calculated or refreshed, such as 10 kHz, 50 msec., etc. Identify legality checks performed on external data. Identify the data type, such as integer, American Standard Code for Information Interchange, \ufb01xed, real, enumeration, etc. Identify the data representation or format. If it\u2019s better suited, this information may be captured in the project\u2019s Software Data Dictionary or Interface Control Document (ICD) and referenced in the SRS.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.4",
+        "text":"Safety Requirements While the SRS is not required to have a speci\ufb01c section that addresses the safety requirements, safety requirements are to be included in the SRS and designated (marked) as safety requirements. Software Safety Requirements de\ufb01ne how the software must behave to prevent, detect, mitigate, or respond to hazardous conditions that could lead to injury, loss of life, environmental damage, or signi\ufb01cant property loss. They are derived from the hazard analyses, system safety requirements, safety standards (e.g., ISO 26262, DO-178C, IEC 61508), program speci\ufb01cation, risk assessments, vehicle or facility requirements, and interface requirements. See also Topic 8.10 - Facility Software Safety Considerations. Software Safety Requirements de\ufb01ne the conditions, constraints, and behaviors necessary to avoid or mitigate hazards and reduce risk to an acceptable level. SWE-134 - Safety-Critical Software Design Requirements identi\ufb01es the speci\ufb01c safety items that must be accounted for. They are: SWE-134 - Safety-Critical Software Design Requirements",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.7.3",
+        "text":"If a project has safety-critical software or mission-critical software, the project manager shall implement the following items in the software: a. The software is initialized, at \ufb01rst start and restarts, to a known safe state. b. The software safely transitions between all prede\ufb01ned known states. c. Termination performed by software functions is performed to a known safe state. d. Operator overrides of software functions require at least two independent actions by an operator. e. Software rejects commands received out of sequence when execution of those commands out of sequence can cause a hazard. f. The software detects inadvertent memory modi\ufb01cation and recovers to a known safe state. g. The software performs integrity checks on inputs and outputs to\/from the software system. h. The software performs prerequisite checks prior to the execution of safety-critical software commands. i. No single software event or action is allowed to initiate an identi\ufb01ed hazard. j. The software responds to an off-nominal condition within the time needed to prevent a hazardous event. k. The software provides error handling. l. The software can place the system into a safe state. The Safety Requirements should also include: Valid and invalid modes or states of operation (See section 3.2.1.2 above) All software related safety constraints between the hardware, operator, and software. When the software, hardware or operator performs a safety critical function, document the hardware, software, and operator roles in that function, the precedence, and the failure modes as well as any known constraints, controls, mitigations, conditions, timing constraints, limits, and wear-out factors that impact how software needs to respond. Software Safety Requirements should be designated (marked) as safety requirements and carry a unique identi\ufb01cation or tag for traceability purposes (see SWE-052 - Bidirectional Traceability). A way to mark and trace these requirements throughout the development and operational phases is needed to enable assessment of impacts and changes to the requirements. The unique identi\ufb01cation or tag can be a special section in the requirements document, or a \ufb02ag beside the requirement, or within a database. The method of identi\ufb01cation is not important as long as it can be used for traceability and assessment. Identify Software Safety Requirements to: Protect human life and critical assets by ensuring safe system behavior. Prevent or mitigate hazards caused by software faults or failures. Ensure compliance with safety regulations and industry standards. Guide design decisions that prioritize safety-critical functionality. Support certi\ufb01cation and audit processes for safety-critical systems. Software Safety Requirements are used to: De\ufb01ne safety-critical functions and their constraints. Specify fail-safe behaviors, redundancy, and error handling. Ensure traceability from hazards to software mitigations. Types and Examples of Software Safety Requirements Type Description Requirement Example Hazard Mitigation Prevent or reduce the impact of identi\ufb01ed hazards. The system shall shut down the motor if temperature exceeds 100\u00b0C. Fail-Safe Behavior De\ufb01ne safe states in case of failure. The system shall enter a safe mode if communication with the central controller is lost. Redundancy and Monitoring Ensure backup or monitoring mechanisms. The system shall perform health checks on redundant sensors every 5 seconds. Error Detection and Handling Detect and respond to abnormal conditions. The system shall log and alert on checksum errors in sensor data. Timing and Watchdog Requirements Ensure timely execution of safety functions. The system shall reset if the main loop fails to execute within 100 ms. Access Control and Security Prevent unauthorized actions that could cause harm. Only authorized users shall be able to disable safety interlocks.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.5",
+        "text":"Control System Requirements Control system requirements specify the functional and performance expectations of a system that monitors and regulates the behavior of other systems or processes. These requirements de\ufb01ne how the control system should sense, decide, and act to maintain desired operational conditions. Identify control system requirements to: Ensure the system maintains stability, accuracy, and responsiveness under various operating conditions. De\ufb01ne how the system responds to inputs, disturbances, and faults. Support automation, safety, and ef\ufb01ciency in controlled environments. Be sure to de\ufb01ne and implement requirements for the following Best Practices: Specify and use control theory principles (e.g., PID, state-space models) to de\ufb01ne performance metrics. Specify response time, accuracy, stability, and robustness. Identify fault detection and recovery mechanisms. Provide traceability to system-level functions and safety requirements. Control system requirements are used in: Embedded systems (e.g., engine control units, \ufb02ight controllers) Industrial automation (e.g., PLCs, SCADA systems) Robotics (e.g., motion control, path planning) Smart infrastructure (e.g., HVAC, lighting, traf\ufb01c control) Characteristics of Control System Requirements Characteristic Description Dynamic Involve real-time monitoring and feedback loops. Quanti\ufb01able Often de\ufb01ned using measurable metrics (e.g., response time, error margin). Time-sensitive Require precise timing and synchronization. Safety-critical Often tied to safety and reliability in mission-critical systems. Environment-aware Must account for external disturbances and system variability. Examples of Control System Requirements The robot arm shall reach its target position within 0.5 seconds with a positional accuracy of \u00b10.1 mm. The control system shall stop all motion within 200 ms of an emergency stop signal.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.6",
+        "text":"Algorithm Requirements Algorithm requirements specify the logic, rules, and computational steps that a system must follow to perform a speci\ufb01c task or solve a problem. They de\ufb01ne how a function or process should be carried out, often in terms of inputs, processing logic, and expected outputs. Identify Algorithm requirements to: Ensure that the intended logic is implemented correctly and consistently. Provide a blueprint for developers to implement complex computations or decision-making processes. Support traceability from high-level requirements to detailed implementation. Enable validation and veri\ufb01cation of algorithm behavior. Be sure to de\ufb01ne and implement requirements for the following Best Practices: Clearly de\ufb01ne inputs, outputs, and constraints. Use pseudocode, \ufb02owcharts, or state diagrams to describe logic. Specify timing, accuracy, and performance expectations. Include edge cases and exception handling. Provide traceability to functional and system-level requirements. Algorithm requirements are used in: Control systems (e.g., PID control, trajectory planning) Data processing (e.g., \ufb01ltering, aggregation, transformation) Decision-making systems (e.g., rule engines, AI\/ML models) Safety-critical applications (e.g., collision avoidance, fault detection) Characteristics of Algorithm Requirements Characteristic Description Deterministic Should produce consistent results for the same inputs (unless probabilistic by design). Precise Must be described in unambiguous terms. Testable Should be veri\ufb01able through simulation or testing. Performance-bound Often include timing, accuracy, or resource constraints. Traceable Linked to higher-level functional or control requirements. Platform-aware May depend on hardware or software execution environments. Examples of Algorithm Requirements Control System The cruise control algorithm shall adjust throttle input every 100 ms to maintain vehicle speed within \u00b12 km\/h of the setpoint. Signal Processing The \ufb01ltering algorithm shall apply a second-order Butterworth low-pass \ufb01lter with a cutoff frequency of 10 Hz to all incoming sensor data. Decision Logic The system shall use a rule-based algorithm to determine whether to trigger an alert based on temperature, pressure, and vibration thresholds. Machine Learning The anomaly detection algorithm shall \ufb02ag any data point with a z-score greater than 3.0 as an outlier.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.7",
+        "text":"Input\/Output Requirements Input\/Output (I\/O) requirements specify how a system receives input from users, devices, or other systems, and how it produces output in response. These requirements de\ufb01ne the format, timing, validation, and handling of all data exchanges. I\/O checks must also be performed to verify and validate the input and output data to ensure it meets expected formats, ranges, and conditions before being processed or transmitted. Identify the I\/O requirements to: Ensure correct and consistent data \ufb02ow into and out of the system. De\ufb01ne interfaces for user interaction, hardware communication, or software integration. Support data validation, error handling, and feedback mechanisms. Ensure system reliability and safety, especially in real-time or critical systems. Identify the I\/O checking requirements to: Prevent invalid or unsafe data from entering the system. Detect and handle errors or anomalies early. Ensure data integrity and system stability. Be sure to de\ufb01ne and implement requirements for the following Best Practices: De\ufb01ne clear formats: Specify expected data types, units, and structures. De\ufb01ne data input constraints\/limits: Use range checks, format checks, and type checks. Include boundary values, thresholds, and invalid inputs. Sanitize inputs: Prevent injection attacks or malformed data. De\ufb01ne error handling requirements: Provide requirements for meaningful error messages or fallback behaviors so that the system can fail gracefully. De\ufb01ne I\/O Log events: For traceability, debugging, and auditing. I\/O requirements are used in: Embedded systems (e.g., sensor input, actuator output) User interfaces (e.g., form inputs, display outputs) Industrial control systems (e.g., PLC I\/O) Software applications (e.g., \ufb01le input\/output, API responses) Characteristics of I\/O Requirements Characteristic Description Bidirectional Covers both input (to the system) and output (from the system). Interface-speci\ufb01c Tied to user interfaces, hardware ports, APIs, etc. Validation-focused Includes checks to ensure data quality and safety. Performance-aware May include timing constraints (e.g., response time, sampling rate). Security-sensitive Must protect against malicious or malformed input. Examples of I\/O Requirements and Checks Input Requirements The system shall accept temperature readings from the sensor in the range of -40\u00b0C to 125\u00b0C. The user shall enter a valid email address in the format user@example.com. Output Requirements The system shall display a con\ufb01rmation message within 2 seconds after a successful transaction. The system shall send a JSON response with status code 200 upon successful API call. I\/O Checks The system shall reject any input string longer than 256 characters. The system shall log and discard sensor readings that fall outside the expected range. The system shall verify checksum values before processing incoming data packets.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.8",
+        "text":"Security and Privacy Requirements Security and Privacy Requirements are essential to ensure the integrity and protection of mission-critical data. Security requirements de\ufb01ne the measures and controls a system must implement to protect data, resources, services, and operations from unauthorized (accidental or malicious) access, misuse (use, modi\ufb01cation, destruction, or disclosure), or attacks. These include mechanisms for con\ufb01dentiality, integrity, availability, authentication, and authorization. Privacy requirements de\ufb01ne how the system must collect, store, process, and share personal or sensitive data in a way that respects user privacy and complies with legal and regulatory standards (e.g., GDPR, HIPAA, CCPA). Identify the Security and Privacy Requirements to: Protect sensitive data from unauthorized access or disclosure. Ensure system integrity, con\ufb01dentiality, and availability under normal and adverse conditions. Comply with industry standards and regulations. Safeguard user data and ensure it is handled ethically and legally. Prevent security breaches, data leaks, and unauthorized access. Speci\ufb01c requirements in this area could include the need to: 1. \"Utilize certain cryptographical techniques; 2. Keep speci\ufb01c log or history data sets; 3. Assign certain functions to different modules; 4. Restrict communications between some areas of the program; 5. Check data integrity for critical variables.\" 214 Be sure to de\ufb01ne and implement requirements for the following Best Practices: Apply the principle of least privilege for access control. Require encryption for data at rest and in transit. Perform penetration testing and vulnerability scanning. Require audit trails and real-time monitoring. Ensure user consent and transparency in data collection and processing. Identify regulatory and industry standards to be implemented. Security and Privacy Requirements are used in: System architecture and design (e.g., secure communication protocols) Software development (e.g., input validation, encryption) Compliance and auditing (e.g., data retention policies, access logs) Risk management (e.g., threat modeling, vulnerability assessments) Characteristics of Security and Privacy Requirements Characteristic Description Preventive Designed to stop threats before they occur. Regulatory-driven Often required by laws or standards (e.g., GDPR, HIPAA). Cross-cutting Affect multiple layers of the system (UI, APIs, databases). Risk-based Prioritized based on threat likelihood and impact. Testable Must be veri\ufb01able through audits, tests, or simulations. Evolving Must adapt to new threats and compliance requirements. Examples of Security and Privacy Requirements Security Requirements The system shall require multi-factor authentication for all administrative users. All data in transit shall be encrypted using TLS 1.3. All user data shall be encrypted at rest and in transit. The software shall encrypt all communication channels using AES-256. Command sequences must be encrypted using AES-256 during transmission to prevent unauthorized control The system shall log all access to sensitive data and retain logs for 12 months. The application shall lock a user account after \ufb01ve consecutive failed login attempts. Privacy Requirements The system shall allow users to view, download, and delete their personal data. The system shall anonymize user data before sharing it with third-party analytics providers. The system shall request explicit consent before collecting location data. Personal data shall be stored only for the duration necessary to ful\ufb01ll its intended purpose.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.9",
+        "text":"Fault Management Requirements Fault Management Requirements de\ufb01ne how a system must detect, isolate, report, and recover from faults (errors, failures, or abnormal conditions) in both hardware and software components. These requirements ensure that the system can continue operating safely and effectively, even when faults occur. This is critical for ensuring system resilience, reliability, and safety, especially in mission-critical or high-availability environments. Identify Fault Management requirements to: To minimize system downtime and maintain operational continuity. To prevent fault propagation that could lead to system-wide failures. To protect users, data, and equipment from harm or damage. To support diagnostics, maintenance, and recovery. To comply with safety and reliability standards (e.g., ISO 26262, DO-178C, IEC 61508). Be sure to de\ufb01ne and implement requirements for the following Best Practices: Perform Failure Mode and Effects Analysis (FMEA) to identify potential faults and their impacts. Identify redundancy requirements (e.g., dual sensors, backup modules) for critical components. Require use of watchdog timers to detect software hangs or crashes. Design for graceful degradation\u2014allow partial functionality when full operation is not possible. Include self-diagnostics and health monitoring features. Ensure fault logging and alerting mechanisms are in place and accessible. Fault Management requirements are used in: Embedded systems (e.g., avionics, automotive ECUs) Enterprise software (e.g., cloud services, databases) Industrial control systems (e.g., SCADA, robotics) Medical devices (e.g., infusion pumps, monitors) Characteristics of Fault Management Requirements Characteristic Description Proactive and Reactive Includes both fault prevention and fault response mechanisms. Cross-cutting Applies to hardware, software, and system-level behavior. Time-sensitive Often includes strict timing for detection and recovery. Safety-critical Essential in systems where faults can lead to harm or failure. Testable Must be veri\ufb01able through simulation, testing, or monitoring. Traceable Should be linked to risk assessments and system-level requirements. Examples of Fault Management Requirements Hardware Fault Management The system shall detect power supply failures and switch to backup power within 100 ms. The system shall isolate a faulty sensor and continue operation using redundant inputs. The system shall log all hardware faults with timestamps and severity levels. Software Fault Management The application shall restart the data processing module if it fails to respond within 5 seconds. The system shall validate all input data and reject malformed packets to prevent buffer over\ufb02ows. The software shall enter a safe state if a critical exception is thrown during runtime.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.10",
+        "text":"Operating System Requirements Operating System (OS) requirements specify the type, version, con\ufb01guration, and capabilities of the operating system that the software or system must run on or interact with. These requirements ensure compatibility, performance, and support for necessary system-level features. Identify OS requirements to: To ensure the software is compatible with the target OS environment. To de\ufb01ne platform constraints for development, deployment, and testing. To support security, performance, and resource management needs. To ensure compliance with organizational or regulatory standards. Be sure to de\ufb01ne and implement requirements for the following Best Practices: Specify exact OS versions and supported platforms. Include minimum hardware requirements if OS performance is a factor. De\ufb01ne real-time, multitasking, or security features if needed. Consider long-term support (LTS) versions for stability. Document OS-level dependencies (e.g., services, drivers, libraries). OS requirements are used in: Embedded systems (e.g., real-time OS like VxWorks, FreeRTOS) Enterprise applications (e.g., Windows Server, Red Hat Enterprise Linux) Mobile apps (e.g., Android 12+, iOS 16+) Cloud and containerized environments (e.g., Ubuntu 22.04 in Docker) Characteristics of OS Requirements Characteristic Description Platform-speci\ufb01c Tied to the hardware and software environment. Version-sensitive Often dependent on speci\ufb01c OS versions or builds. Security-relevant May include requirements for OS-level security features. Performance-impacting OS choice can affect system responsiveness and resource usage. Deployment-critical Determines how and where the software can be installed and run. Examples of OS Requirements General Software The application shall run on Windows 11 (64-bit) and macOS Ventura 13.0 or later. The software shall support Ubuntu LTS versions 20.04 and 22.04. Embedded System The control software shall run on FreeRTOS with a minimum kernel version of 10.4.3. The system shall boot within 5 seconds on a Linux-based OS with real-time extensions. Mobile Application The app shall support Android 12 and above, and iOS 16 and above. The app shall use OS-level biometric APIs for authentication.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.11",
+        "text":"Board Support Package Requirements A Board Support Package (BSP) is a collection of software components and con\ufb01guration \ufb01les that enable an operating system (typically an RTOS or embedded Linux) to run on a speci\ufb01c hardware platform (e.g., a microcontroller board or SoC). These requirements de\ufb01ne what the BSP must support, including hardware initialization, device drivers, bootloader con\ufb01guration, and OS integration. Identify BSP requirements to: To ensure the operating system can boot and run on the target hardware. To provide hardware abstraction so that application software can run independently of the underlying hardware. To enable early software development and testing before full hardware is available. To support portability and scalability across hardware variants. Be sure to de\ufb01ne and implement requirements for the following Best Practices: Require compliance with OS and hardware vendor guidelines. Specify testing requirements such as validate BSP functionality with hardware-in-the-loop (HIL) or emulators. BSP requirements are used in: Embedded systems development (e.g., automotive ECUs, avionics, IoT devices) RTOS and Linux kernel porting Hardware bring-up and validation Custom board design support Characteristics of BSP Requirements Characteristic Description Hardware-speci\ufb01c Tailored to a speci\ufb01c board or SoC. Low-level Operates close to the hardware layer. Boot-critical Required for system startup and OS initialization. OS-dependent Designed to work with a speci\ufb01c RTOS or Linux kernel. Reusable Can be adapted for similar hardware platforms. Testable Must be validated through board bring-up and integration testing. Examples of BSP Requirements Hardware Initialization The BSP shall initialize the system clock, memory controller, and GPIOs during boot. Device Drivers The BSP shall include drivers for UART, SPI, I2C, Ethernet, and USB interfaces. The BSP shall support interrupt-driven UART communication. Bootloader The BSP shall use U-Boot as the bootloader and support booting from NAND and SD card. OS Integration The BSP shall support FreeRTOS version 10.4.3 with tickless idle mode enabled. The BSP shall con\ufb01gure the Linux kernel to support device tree overlays for peripheral con\ufb01guration. Diagnostics and Debugging The BSP shall provide JTAG and serial console support for debugging. The BSP shall include a memory test utility for RAM veri\ufb01cation.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.12",
+        "text":"Partitioning Requirements Partitioning requirements de\ufb01ne how a system\u2019s resources, functions, and data are logically or physically separated to ensure isolation, integrity, and fault containment. Partitioning can apply to software, hardware, or both, and is often enforced by the operating system, hypervisor (aka virtual machine monitor), or hardware architecture. Identify Partitioning requirements to: To prevent interference between critical and non-critical components. To contain faults and prevent their propagation across system boundaries. To enforce security and safety boundaries between different software modules or subsystems. To support mixed-criticality systems, where components of different assurance levels coexist. To enable modular development, testing, and certi\ufb01cation. Be sure to de\ufb01ne and implement requirements for the following Best Practices: Require hardware-enforced isolation (e.g., MMU, MPU, virtualization) where possible. De\ufb01ne clear boundaries for memory, CPU time, I\/O access, and privileges. Apply ARINC 653 or similar standards for time and space partitioning in safety-critical systems. Ensure partition independence: a failure in one partition must not affect others. Document inter-partition communication mechanisms and their constraints. Partitioning requirements are used in: Real-time operating systems (RTOS) with memory and time partitioning (e.g., ARINC 653). Hypervisor-based systems (e.g., RedHat virtualization, Xen, QNX Hypervisor). Safety-critical systems (e.g., avionics, automotive ECUs). Multi-tenant or multi-domain systems (e.g., secure boot, sandboxing). Characteristics of Partitioning requirements Characteristic Description Isolation-focused Ensures that faults or attacks in one partition do not affect others. Deterministic Supports predictable behavior, especially in real-time systems. Security-enhancing Helps enforce access control and data con\ufb01dentiality. Safety-critical Essential in systems with mixed-criticality components. Resource-bound De\ufb01nes limits on memory, CPU, and I\/O per partition. Testable Can be veri\ufb01ed through simulation, testing, or formal methods. Examples of Partitioning requirements Software Partitioning The system shall isolate safety-critical functions from non-safety-critical functions using separate memory partitions. Each software partition shall have a \ufb01xed time slice and shall not exceed its allocated CPU time. Hardware Partitioning The system shall allocate separate memory banks for the control and diagnostic subsystems. The system shall use a hardware memory protection unit (MPU) to enforce access control between partitions. Security Partitioning The system shall separate user authentication logic from data processing logic to prevent privilege escalation. The system shall ensure that encrypted data is processed only within a secure execution environment.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.1.13",
+        "text":"Fault Tolerance and Common Mode Requirements Fault tolerance requirements specify how a system must continue to operate correctly even when one or more of its components fail. These requirements de\ufb01ne the system\u2019s ability to detect, isolate, and recover from faults without compromising safety or functionality. Common mode requirements address the need to identify, prevent, or mitigate failures that occur simultaneously across multiple components or subsystems due to a shared cause (e.g., power supply failure, software bug, environmental condition). Identify Fault Tolerance and Common Mode requirements to: To ensure system reliability and availability in the presence of faults. To prevent cascading failures and maintain safe operation. To identify and mitigate shared vulnerabilities that could lead to simultaneous failures. To support compliance with safety and reliability standards (e.g., ISO 26262, DO-178C, IEC 61508). Be sure to de\ufb01ne and implement requirements for the following Best Practices: Require redundancy (hardware, software, data paths) with independent failure modes. Perform Failure Mode and Effects Analysis (FMEA) and Common Cause Analysis (CCA). Design for graceful degradation\u2014maintain partial functionality when full operation is not possible. Implement diverse redundancy (e.g., different algorithms or hardware for the same function). Ensure physical and logical separation of redundant components. Fault Tolerance and Common Mode requirements are used in: Redundant systems (e.g., dual processors, backup sensors) Safety-critical applications (e.g., \ufb02ight control, braking systems) Distributed systems (e.g., cloud infrastructure, autonomous vehicles) Embedded systems with real-time constraints Characteristics of Fault Tolerance and Common Mode Requirements Characteristic Fault Tolerance Common Mode Focus Recovery from individual faults Prevention of simultaneous failures Goal Maintain operation during faults Avoid shared points of failure Scope Component-level or subsystem-level System-wide or cross-component Design Strategy Redundancy, error detection, recovery Diversity, isolation, independence Testability Veri\ufb01ed through fault injection and stress testing Veri\ufb01ed through hazard and dependency analysis Criticality Essential for high-availability systems Crucial for safety-critical systems. Examples of Fault Tolerance and Common Mode Requirements Fault Tolerance Requirements The system shall continue operating in degraded mode if one of the redundant sensors fails. The software shall automatically restart the communication module if it becomes unresponsive for more than 2 seconds. The system shall detect memory corruption and switch to a backup memory bank. Common Mode Requirements The system shall not rely on a single power source for both primary and backup controllers. The software and hardware watchdogs shall be implemented independently to avoid common mode failure. The system shall isolate redundant communication channels to prevent simultaneous failure due to EMI.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.2",
+        "text":"Non-Functional Requirements Non-functional requirements (NFRs) de\ufb01ne the quality attributes, performance constraints, and operational characteristics of a system\u2014how the system performs its functions rather than what it does. While functional requirements describe speci\ufb01c behaviors or functions, non-functional requirements set the standards and constraints that shape how those functions are delivered. Identify NFRs to: Ensure the system meets user expectations for performance, reliability, and usability. De\ufb01ne operational constraints such as response time, availability, and scalability. Guide architectural and design decisions. Support compliance with industry standards and regulations. The SRS should focus on identifying requirements for the following types of NFRs: Performance and Timing (See section 3.2.2.1 for additional information) Software Quality Attributes (See section 3.2.2.2 for additional information) Design and Implementation Constraints (See section 3.2.2.3 for additional information) Computer Hardware Resource Utilization (See section 3.2.2.4 for additional information) Be sure to de\ufb01ne and implement requirements for the following Best Practices for each type of NFR: Use precise metrics: Make NFRs measurable and testable (e.g., use speci\ufb01c thresholds or metrics \u2013 Avoid vague terms like \u201cfast\u201d or \u201cef\ufb01cient.\u201d). De\ufb01ne conditions: Specify under what load or scenario the requirement applies. Include tolerances: Use statistical thresholds (e.g., 95th percentile). Align with business goals: Ensure NFRs supports user expectations and mission needs. Document assumptions: Clarify hardware, network, and user load expectations. Prioritize: Identify which constraints are critical vs. desirable -- based on risk, impact, and feasibility. Traceable: Ensure traceability between NFRs and higher-level requirements. NFRs are used in: System architecture and design (e.g., choosing frameworks, infrastructure) Performance tuning and optimization Security planning and risk management Testing and validation (e.g., load testing, usability testing) Service Level Agreements (SLAs) Characteristics of Non-Functional Requirements Characteristic Description Quality-focused Concerned with how the system performs, not what it does. Cross-cutting Affect multiple components or the entire system. Measurable Should be quanti\ufb01able (e.g., response time, uptime). Testable Must be veri\ufb01able through testing or analysis. Constraint-driven Often de\ufb01ne limits or boundaries for system behavior. Architecture-in\ufb02uencing Drive decisions about infrastructure, frameworks, and design patterns. Why Non-Functional Requirements Matter They ensure user satisfaction by de\ufb01ning expectations for performance, security, and usability. They guide architectural decisions and technology choices. They reduce risk by setting measurable standards for quality and reliability.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.2.1",
+        "text":"Performance and Timing Requirements Performance and timing requirements specify measurable capacities and manageable volumes of activities for the system i.e., how fast or ef\ufb01ciently the system operates. Performance requirements de\ufb01ne the acceptable limits for the system\u2019s operational behavior under speci\ufb01c conditions. These constraints ensure the system meets expectations for speed, responsiveness, scalability, and resource usage. \uf1b3 Timing Requirements focus speci\ufb01cally on time-related behavior, such as deadlines, latency, and real-time constraints.\uf1b3 Identify Performance and Timing Requirements to: Ensure system responsiveness and reliability under expected and peak loads. De\ufb01ne measurable benchmarks for system performance. Guide architecture and design decisions to meet performance goals (e.g., need for load balancing, caching). Support scalability planning for future growth. Prevent bottlenecks and system failures under load. Enable performance testing and validation. Ensure compliance with real-time or mission-critical timing constraints. When capturing these requirements, de\ufb01ne any requirements for speed, capacity, ef\ufb01ciency, and responsiveness. Consider including the following: Number of simultaneous users to be supported. Number of concurrent transactions and\/or tasks to be supported. Amount of data to be processed within a speci\ufb01ed time period (normal and peak loads). System response times. Failure recovery times. Output data availability. External hardware interface timing. Command execution timing. Maximum bandwidth throughput or capacity. Performance and Timing Requirements give the design team a set of parameters in which to design the software solution. These requirements are used to: Set quantitative targets for system behavior. De\ufb01ne acceptable thresholds for time-sensitive operations (e.g., latency, throughput, and resource usage.) Guide design trade-offs (e.g., speed vs. accuracy). Establish performance baselines for testing and validation. Examples of Performance and Timing Requirements Type Requirement Example Response Time The system shall respond to user input within 1.5 seconds 95% of the time under normal load. Throughput The system shall handle up to 1000 telemetry data points per second with no more than 2% packet loss under peak load. Latency Data packets shall be transmitted with a maximum latency of 50 milliseconds. Deadline The system shall complete sensor data processing within 100 ms of receipt. Real-Time Constraint The control system shall update actuator positions every 10 ms. Startup Time The application shall initialize and be ready for use within 5 seconds. Capacity The system shall support 1,000 concurrent users without degradation",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.2.2",
+        "text":"Software Quality Attributes Software Quality Attributes describe how well a system performs its functions, rather than what the system does. They de\ufb01ne the overall characteristics that affect the user experience, system performance, and maintainability. Identify Software Quality Attributes to: Ensure the system meets stakeholder expectations beyond just functionality. Guide architectural and design decisions to support long-term system success. Establish measurable criteria for evaluating system performance and behavior. Support trade-off analysis when balancing competing priorities (e.g., performance vs. security). Facilitate testing and validation of system qualities. Software Quality Attributes are used to: De\ufb01ne system-wide goals that in\ufb02uence architecture and design. Set acceptance criteria for system evaluation. Inform testing strategies (e.g., load testing, usability testing). Software Quality Attributes requirements include requirements that specify software system characteristics. De\ufb01ne the requirements for the quality \u201c-ilities\u201d, as applicable: Attribute Description Example Requirement Scalability the ability to handle growth (e.g., users, data, transactions) The system shall support 10,000 concurrent users. The system shall scale horizontally to support increased traf\ufb01c. Availability the ability to be accessed and operated when needed i.e., System uptime and readiness. The system shall be available 99.9% of the time, excluding maintenance. Reliability the ability to perform with correct, consistent results; ability to operate without failure The system shall recover from failures within 30 seconds. The system shall have a mean time between failures (MTBF) of 1,000 hours. The system shall sustain 99.99% uptime during mission-critical operations. Usability the ability to be easily learned and used New users shall complete onboarding within 5 minutes. The interface shall comply with WCAG 2.1 accessibility standards. Maintainability the ability to be easily updated or \ufb01xed Code changes shall not require more than 2 hours of regression testing. Code shall be modular and documented to support future enhancements. Portability the ability to be easily modi\ufb01ed\/adapted to run in a new environment or on a different platform. The application shall run on Windows, macOS, and Linux. Interoperability the ability to work with other systems. The application shall integrate with external APIs using REST. Testability the ability to be easily and thoroughly tested; Ease of verifying system behavior. All modules shall have at least 80% unit test coverage. Reusability the ability to be used in multiple applications The XYZ API shall provide timing services to applications on the system. See also 8.02 - Software Quality",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.2.3",
+        "text":"Design and Implementation Constraints Design and Implementation Constraints are limitations or restrictions that affect how a software system is designed, developed, or implemented. These non-functional requirements must be adhered to during the software development lifecycle. They address constraints that \"can be imposed by other standards, hardware limitations, etc.\" 214 Document any constraints imposed by the system, hardware, standards, compliance, regulations, or tools. Identify Design and Implementation Constraints to: Ensure compliance with organizational, technical, or legal standards. Guide developers in making architectural and design decisions. Prevent rework by clarifying limitations early in the project. Align expectations among stakeholders, developers, and testers. Design and Implementation Constraints are used to: Set boundaries for design choices. Inform architecture and technology stack decisions. Highlight mandatory tools, platforms, or frameworks. Identify integration or interoperability requirements. Examples of Design and Implementation Constraints Here are some common examples of design and implementation constraints: Type Example of Constraints Hardware Must run on Raspberry Pi 4 with 4GB RAM. Software Must use PostgreSQL as the database. Programming Language Must be implemented in Java. Framework Must use React for the frontend. Security Must comply with HIPAA regulations. Performance Must support 1000 concurrent users. Integration Must integrate with existing SAP system. Deployment Must be containerized using Docker. Safety Must comply with the MISRA C coding standards for safety-critical systems. Additional \"examples include requirements concerning a. Use of a particular [Computer Software Con\ufb01guration Item] CSCI architecture or requirements on the architecture, such as required databases or other software units, use of standard, military, or existing components, or use of Government- or acquirer-furnished property (equipment, information, or software) b. Use of particular design or implementation standards, use of particular data standards, and use of a particular programming language c. Flexibility and expandability that must be provided to support anticipated areas of growth or changes in technology, threat, or mission.\" 214",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.2.4",
+        "text":"Computer Hardware Resource Utilization Requirements Computer Hardware Resource Requirements specify the minimum and recommended hardware speci\ufb01cations needed to run the software effectively. This includes CPU, memory (RAM), storage, GPU, network bandwidth, and other peripheral or specialized hardware. Utilization Requirements de\ufb01ne how ef\ufb01ciently the software should use these resources under various operating conditions, including normal, peak, and idle states. Computer hardware resource utilization includes items such as \"maximum allowable use of processor capacity, memory capacity, input\/output device capacity, auxiliary storage device capacity, and communications or network equipment capacity. The requirements (e.g., stated as percentages of the capacity of each computer hardware resource) include the conditions, if any, under which the resource utilization is to be measured.\" Identify hardware and utilization requirements to: Ensure compatibility with target deployment environments. Prevent performance degradation due to insuf\ufb01cient resources. Support capacity planning and infrastructure provisioning. Ensure system communication capabilities for data transmission Guide testing and benchmarking efforts. Be sure to de\ufb01ne memory, processor, storage, and other computer resource requirements including communication requirements. Communications requirements may include items such as \"geographic locations to be linked, con\ufb01guration and network topology, transmission technique, data transfer rates, gateways, required system use times, type and volume of data to be transmitted or received, time boundaries for transmission, reception, and response, peak volumes of data, and diagnostic features.\" These requirements are used to: De\ufb01ne baseline hardware speci\ufb01cations for development, testing, and production. Set resource usage thresholds for performance monitoring. Inform deployment decisions (e.g., cloud vs. on-premises, edge devices). Examples of Computer Hardware Resource Requirements Type Requirement Example CPU The system shall require a minimum of 4-core,",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"2.5",
+        "text":"GHz processor. Memory The application shall operate with at least 8 GB of RAM. Storage The system shall require 20 GB of free disk space for installation and operation. GPU The software shall support NVIDIA CUDA-enabled GPUs for AI processing. Network The system shall require a minimum of 100 Mbps network bandwidth. Utilization CPU usage shall not exceed 75% under peak load for more than 10 minutes. Power The embedded system shall operate within a 10W power envelope.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3",
+        "text":"Interface Requirements Interface requirements de\ufb01ne how the software interacts with other systems, hardware, users, or other software components. These are critical for integration and interoperability as they de\ufb01ne the boundaries and communication protocols between the system and its environment. Interface requirements cover all inputs and outputs for the software system to pass data to its appropriate location. There are a multitude of interface types that software systems may need to utilize to ful\ufb01ll the software\u2019s requirements. Some of the interfaces the software may have include external interfaces, internal interfaces, user interfaces, system interfaces, hardware interfaces, communication interfaces, and interfaces with services. Identify Interface requirements to: Ensure seamless integration with external systems or components. De\ufb01ne communication protocols and data exchange formats. Prevent compatibility issues during development and deployment. Support modularity and system scalability. Enable testing and validation of system interactions. To effectively de\ufb01ne and manage end Interface requirements, be sure to perform the following Best Practices: Use Interface De\ufb01nition Languages (IDLs): For structured APIs (e.g., gRPC, Thrift, OpenAPI). Use diagrams: Include interface diagrams (e.g., context diagrams, sequence diagrams, interface mockups) to visualize interactions. Specify data formats: Clearly de\ufb01ne input\/output formats (e.g., JSON schema, XML structure). Include error handling: Describe how the system should respond to invalid inputs or failed connections. Document dependencies: Note any third-party systems, APIs, or hardware the interface depends on. Version control: Document versions of APIs, protocols, and interfaces to manage compatibility. Use consistent terminology: Align with industry standards and naming conventions and data types. Validate with stakeholders: Con\ufb01rm interface expectations with developers, integrators, and end-users. Interface requirements are used to: Describe how the system connects to external systems or devices. Specify data formats, message structures, and protocols, reducing ambiguity. De\ufb01ne input\/output behavior for each interface. Serve as a reference for developers and integrators. Note that interface speci\ufb01cations may be captured in a separate interface requirements document; in that case, a reference to the separate document needs to be included in the SRS. See also Topic 5.02 - IDD - Interface Design Description.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.1",
+        "text":"External Interface Requirements External Interface Requirements de\ufb01ne how the software system interacts with external entities such as: Other software systems Hardware devices Users (via user interfaces) Communication networks Databases or storage systems Other external entities such as sensors and ground stations External Interface Requirements cover all inputs and outputs for the software system and expand on the interfaces. These requirements specify the data formats, protocols, communication methods, and interaction rules necessary for successful integration and interoperability. When capturing external interface requirements, consider including interfaces to items such as test equipment or transportation systems, CSCI-to-hardware, CSCI-to-CSCI, and\/or CSCI-to-external facilities. Each external interface is identi\ufb01ed by name and source. Any identifying documentation, such as an ICD, is referenced for each interface. An external interface diagram may be used as a description aid. Information such as the following is included, as applicable to the CSCI\/system: Identi\ufb01er (name). Description. Source (input) or destination (output). Valid range. Include Error handling and response codes. Units of measure. Timing. Data formats. (e.g., JSON, XML) Command formats. Type of interface, e.g., real-time data transfer, storage-and-retrieval of data. Authentication methods (e.g., OAuth2) Characteristics, e.g., data type, size, format, security, frequency, of data elements that the software must provide, store, send, access, receive. Characteristics of communication methods, e.g., message format, communication bands, transfer rate, API endpoints and protocols (e.g., REST, SOAP). Dependencies, versions, and Service Level Agreements (SLAs). Identify External Interface Requirements to: Ensure compatibility with external systems and components. Facilitate integration with external applications, APIs, platforms third-party services, hardware, or legacy systems. De\ufb01ne clear boundaries between the system and its environment. Support testing and validation of system interactions. Prevent miscommunication between development teams and external stakeholders. External Interface Requirements are used to: Describe how the system communicates with external components or entities. Specify input\/output formats, data structures, and protocols. De\ufb01ne authentication, error handling, and data validation rules. Examples of External Interface Requirements The system shall integrate with the PayPal API to process online payments using REST over HTTPS. The Power Management Software must interface with onboard solar panel controllers to report real-time power generation to the telemetry subsystem. All external communication shall use HTTPS with TLS 1.3 encryption. See also Topic 5.02 - IDD - Interface Design Description.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.2",
+        "text":"Internal Interface Requirements Internal Interface Requirements de\ufb01ne how components, functions, modules, or subsystems within the same software system interact with each other. These interfaces are not exposed to external systems or users but are critical for ensuring modularity, maintainability, and internal consistency. When capturing internal interface requirements, information such as that noted above for External Interface Requirements applies, as appropriate. Data \ufb02ow diagrams may be used to illustrate the interfaces if they are not left to the design phase. Note that software design interface speci\ufb01cations are captured in an 5.02 - IDD - Interface Design Description, which needs to be referenced in the SRS. Identify Internal Interface Requirements to: Ensure clear communication and data exchange between internal components including boundaries and communication protocols. Support modular design and separation of concerns. Facilitate parallel development by different teams or developers. Enable easier testing and debugging of individual modules. Promote maintainability and scalability of the system architecture. Internal Interface Requirements are used to: De\ufb01ne data exchange formats, function signatures, and communication protocols between internal modules. Specify dependencies, timing, and error handling mechanisms. Serve as a contract between development teams working on different parts of the system. Types of Internal Interfaces Type Description Examples Module-to-Module Interface De\ufb01nes how two software modules interact. Function calls, shared memory, message queues. Service Interface De\ufb01nes how internal services communicate. Internal REST endpoints, gRPC, service buses. Data Interface Speci\ufb01es how data is passed between components. Data structures, serialization formats (e.g., JSON, Protobuf). API Interface Internal APIs used by other parts of the system. Internal SDKs, utility libraries. Layered Interface De\ufb01nes interaction between architectural layers. UI layer calling business logic, business logic accessing data layer. Examples of Internal Interface Requirements The authentication module shall expose a validateUser(token) method to the session manager. The telemetry subsystem must receive attitude data from XYZ and pass it to the ground communication subsystem for transmission every 10 milliseconds. The TelemetryModule shall send sensor data to the DataLogger in JSON format with the following schema: { \"timestamp\": ISO8601, \"sensorId\": string, \"value\": \ufb02oat }. The Noti\ufb01cationService shall receive messages from the OrderService via an internal message queue using RabbitMQ.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.3",
+        "text":"User Interface Requirements User Interface Requirements de\ufb01ne how users interact with the software system, typically through graphical or command-line interfaces. These requirements describe the look, feel, behavior, and accessibility of the interface, including layout, navigation, input methods, visual elements, and responsiveness. They ensure the system is usable, intuitive, and accessible to its intended users. User interface requirements between the user and the software are commonly called Human-Computer Interface (HCI) requirements. These interfaces can be physical, visual, auditory, or cognitive, and they play a crucial role in usability, accessibility, and user experience. When writing these requirements, include the mode of interaction (e.g., command line, graphical user interface, input script) and requirements for speci\ufb01c capabilities (e.g., command line options, screen formats, batch processing.) To derive the user interface requirements, the software developer may need to develop a prototype and iterate with end-user and customer to dial in on the \ufb01nal set of requirements. Identify User Interface Requirements to: Ensure usability and accessibility for all user types. Guide UI\/UX design and development with clear expectations. Align the interface with user needs and work\ufb02ows. Support consistency across screens, platforms, and devices. Facilitate testing of visual and interactive elements. When gathering the user interface requirements, the following guidelines should also be considered: 697 1. Visibility of system status: Users need to know what is happening throughout their interaction with the product. 2. Match between system and the real world: Design elements should be familiar and intuitive. 3. User control and freedom: Users should have the ability to undo actions and navigate freely. 4. Consistency and standards: Follow established design patterns and conventions. 5. Error prevention: Design to minimize user errors. 6. Recognition rather than recall: Avoid requiring users to remember complex information. 7. Flexibility and ef\ufb01ciency of use: Accommodate both novice and expert users. 8. Aesthetic and minimalist design: Keep the interface clean and visually appealing. 9. Help users recognize, diagnose and recover from errors 10. Help and documentation: Provide concise, searchable documentation. Be sure to specify the logical characteristics of each interface between the software product and its users. User Interface Requirements are used to: De\ufb01ne how users interact with the system. Specify UI elements, layouts, and navigation \ufb02ows. Describe input\/output behavior, error messages, and feedback mechanisms. Ensure compliance with accessibility standards (e.g., Web Content Accessibility Guidelines (WCAG)). De\ufb01ne supported devices (e.g., web, mobile, or desktop applications) Common Types of User Interfaces include: 1. Command-Line Interface (CLI) \u2013 Text-based interface where users type commands and the computer responds by outputting text to the monitor. Example: Terminal, PowerShell, Bash. Use Case: System administration, programming, automation. Pros: Precise, powerful, scriptable. Cons: Steep learning curve, not user-friendly for beginners. 2. Graphical User Interface (GUI) \u2013 Visual interface with windows, icons, buttons, and menus. Accepts input via devices such as a computer keyboard and mouse. Use Case: General-purpose computing, desktop and mobile apps. Pros: Intuitive, user-friendly, visually rich. Cons: Resource-intensive, less ef\ufb01cient for repetitive tasks. 3. Touch User Interface (TUI) \u2013 GUIs that responds to touch gestures via a touchpad or touchscreen. Example: Smartphones, tablets, touchscreens in kiosks. Use Case: Mobile apps, point-of-sale systems, ATMs. Pros: Natural interaction, portable. Cons: Limited precision, not ideal for complex tasks. 4. Voice User Interface (VUI) \u2013 Interaction through spoken commands. Input is made by pressing keys or buttons or responding verbally to the interface. Example: Siri, Alexa, Google Assistant. Use Case: Smart homes, accessibility tools, hands-free environments. Pros: Hands-free, accessible. Cons: Limited by speech recognition accuracy and context understanding. 5. Natural Language Interface (NLI) \u2013 Allows users to interact using natural language (typed or spoken). Users type in a question and wait for a response. Example: Chatbots, virtual assistants, AI systems like Copilot. Use Case: Customer service, information retrieval, productivity tools. Pros: Conversational, intuitive. Cons: Ambiguity in language can lead to misunderstandings. 6. Gesture-Based Interface \u2013 Uses body movements or hand gestures to control the system. Example: Microsoft Kinect, Leap Motion, VR hand tracking. Use Case: Gaming, virtual reality, accessibility. Pros: Immersive, hands-free. Cons: Requires sensors, can be tiring or imprecise. 7. Batch Interface \u2013 Non-interactive user interface. User speci\ufb01es all the details in advance and receives the output when all batch processing is done. Example: Shell scripts, simulations. Use Case: System administration, programming, automation. Pros: Precise, powerful, process large amounts of data in short amount of time. Cons: Steep learning curve, not user-friendly for beginners. Examples of User Interface Requirements The login screen shall include \ufb01elds for username and password, and a \u201cForgot Password\u201d link. The UI shall collapse the sidebar into a hamburger menu on screens narrower than 768px. All images shall include descriptive alt text for screen readers. The homepage shall display a welcome message, a search bar, and a list of recent activities in a vertical layout. Widget XYZ shall have the following three options: Red, Yellow, Green. The system shall support dark mode and high-contrast themes. The system shall support inputs from a shell script written in Bash. Note: A style guide for the user interface can provide consistent rules for organization, coding and interaction of the user with the system. 696\uf1b3",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.4",
+        "text":"System Interface Requirements System Interface Requirements de\ufb01ne how the software system interacts with other systems, libraries, or APIs \u2014which may be internal subsystems or external systems. These interfaces specify the data exchange, communication protocols, integration points, and interaction rules between the system under development and other systems within the same environment. List each system interface and identify the functionality of the software to accomplish the system requirement and the interface description to match the system. 696 Identify System Interface Requirements to: Ensure interoperability between systems. De\ufb01ne integration boundaries and responsibilities. Facilitate data exchange and synchronization. Prevent integration issues during development and deployment. Support system scalability and modularity. Be sure to Include: Data exchange mechanisms including data formats and protocols. Timing\/scheduling of interactions. Security, audit, and access control requirements. System Interface Requirements are used to: Describe how the system communicates with other systems. Specify data formats, protocols, and authentication mechanisms. De\ufb01ne input\/output behavior, timing, and error handling. Types of System Interface Requirements Type Description Examples Application Programming Interface (API) Interfaces for software-to-software communication. REST, SOAP, GraphQL APIs. Database Interface Interfaces for accessing or sharing data between systems. Shared databases, data replication, ETL pipelines. File-Based Interface Systems exchange data via \ufb01les. CSV, XML, JSON \ufb01les over FTP\/SFTP. Message-Based Interface Asynchronous communication via messaging systems. Kafka, RabbitMQ, MQTT. Web Services Interface Web-based communication using standard protocols. HTTP\/HTTPS with JSON\/XML payloads. Middleware Interface Communication through integration platforms. ESB, iPaaS, service buses. Examples of System Interface Requirements Type Requirement Example API Interface The system shall expose a REST API at \/api\/v1\/inventory that accepts JSON-formatted POST requests and returns HTTP status codes. Database Interface The system shall read customer data from a shared PostgreSQL database using read-only credentials. File-Based Interface The system shall export daily transaction logs in CSV format to an SFTP server by 2:00 AM UTC. Message-Based Interface The system shall publish order status updates to the order_updates topic on Apache Kafka. Web Services Interface The system shall consume weather data from the external service at https:\/\/api.weather.com\/v3\/forecast using HTTPS and API keys.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.5",
+        "text":"Hardware Interfaces Hardware Interface Requirements specify how the software system interacts with physical hardware components. These requirements de\ufb01ne the electrical, mechanical, and data communication protocols used to connect and communicate with hardware devices. They ensure that the software can correctly control, monitor, or receive data from hardware elements such as sensors, actuators, controllers, or embedded systems. Specify the logical characteristics of each interface between the software product and the hardware elements of the system. This includes con\ufb01guration characteristics (number of ports, instruction sets, etc.). It also covers such matters as what devices are to be supported, how they are to be supported, and protocols. For example, terminal support may specify full- screen support as opposed to line-by-line support. 696 Identify Hardware Interface Requirements to: Ensure compatibility between software and hardware components. De\ufb01ne communication protocols (e.g., USB, Bluetooth) and data formats for hardware interaction. Support integration and testing of hardware-software systems. Prevent hardware-related failures due to miscommunication or mismatched speci\ufb01cations. Enable maintainability and scalability of hardware-dependent systems. Hardware Interface Requirements are used to: Describe how the software communicates with hardware devices. Specify data exchange formats, timing, voltage levels, and protocols. De\ufb01ne input\/output behavior, error handling, and device control logic. Types of Hardware Interface Requirements Type Description Examples Digital I\/O Binary signals for control or status. GPIO pins, relay control. Analog I\/O Continuous signals for sensors or actuators. Temperature sensors, potentiometers. Serial Communication Byte-stream communication. UART, RS-232, RS-485. Parallel Communication Multiple data lines for simultaneous transmission. Data buses in embedded systems. Network Interfaces Communication over Ethernet or wireless. TCP\/IP, CAN bus, Modbus TCP. USB Interfaces Universal serial communication. USB barcode scanners, USB HID devices. I2C\/SPI Interfaces Synchronous serial communication for embedded systems. EEPROM, accelerometers, displays. Examples of Hardware Interface Requirements Type Requirement Example Digital I\/O The software shall set GPIO pin 17 to HIGH to activate the cooling fan when the temperature exceeds 75\u00b0C. Serial Communication The system shall communicate with the GPS module over UART at 9600 baud, 8 data bits, no parity, 1 stop bit. USB Interface The software shall detect and read input from a USB-connected barcode scanner using the HID protocol. I2C Interface The system shall read temperature data from the I2C sensor at address 0x48 every 500 ms. CAN Bus The software shall transmit vehicle speed data over the CAN bus using message ID 0x0C0.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.6",
+        "text":"Communication interfaces Communication Interface Requirements describe how the software system exchanges data with other systems, components, or devices over a network or communication channel. These requirements de\ufb01ne the protocols, data formats, timing, security, and error handling mechanisms used in communication. They are essential for ensuring interoperability, data integrity, and secure transmission between distributed systems. If not already covered in other areas, specify the various interfaces to communications. De\ufb01ne protocols, ports, and encryption standards including timeout, retry, and failover strategies. Also document any \ufb01rewall and network con\ufb01guration requirements. Identify Communication Interface Requirements to: Ensure reliable and secure data exchange between systems. De\ufb01ne communication protocols (e.g., HTTPS, MQTT, WebSocket) and standards to be used. Facilitate integration with external systems, services, or devices. Support scalability and performance in distributed environments. Prevent communication failures due to mismatched expectations. Communication Interface Requirements are used in client-server, distributed, or cloud-based systems to: Specify how data is transmitted (e.g., protocol, port, frequency). De\ufb01ne message formats, timing, and synchronization. Describe security mechanisms (e.g., encryption, authentication). Outline error detection and recovery strategies. Types of Communication Interface Requirements Type Description Examples Network Communication Data exchange over LAN\/WAN\/Internet. TCP\/IP, UDP, HTTP, HTTPS. Message-Based Communication Asynchronous messaging between systems. MQTT, AMQP, Kafka, RabbitMQ. Remote Procedure Call (RPC) Invoking functions on remote systems. gRPC, XML-RPC, JSON-RPC. Web Services Communication via web-based APIs. REST, SOAP, GraphQL. Fieldbus\/Industrial Protocols Used in embedded or industrial systems. CAN, Modbus, Pro\ufb01bus. Wireless Communication Data exchange over wireless protocols. Bluetooth, Wi-Fi, Zigbee, LoRa. Examples of Communication Interface Requirements Type Requirement Example Network Communication The system shall communicate with the central server over TCP\/IP on port 443 using HTTPS. Message-Based Communication The application shall publish telemetry data to the sensor_data topic on MQTT broker every 5 seconds. Web Services The system shall consume weather data from https:\/\/api.weather.com\/v3\/forecast using REST and JSON. RPC The client shall invoke the getUserPro\ufb01le(userId) method on the remote service using gRPC. Industrial Protocol The system shall read temperature values from a Modbus RTU slave device at address 0x01 every 2 seconds.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.3.7",
+        "text":"Interfaces with Services Service Interface Requirements de\ufb01ne how a software system interacts with external services, which may include: cloud-based services (e.g., SaaS, PaaS), third-party APIs, enterprise systems, microservices or internal services. These requirements specify the communication protocols, data formats, authentication mechanisms, and interaction rules necessary for successful integration. Identify Service Interface Requirements to: Ensure reliable and secure integration with external services. De\ufb01ne technical expectations for data exchange and communication including retry and failover mechanisms Support maintainability and scalability of service-oriented architectures. Prevent integration issues due to mismatched protocols or data formats. Enable compliance with service-level agreements (SLAs), security, and regulatory standards. Service Interface Requirements are used to: Describe how the system connects to and interacts with services. Specify service endpoints, protocols, and data formats. De\ufb01ne authentication, rate\/usage limits, and error handling. Document dependencies and versioning of external services. Types of Service Interface Requirements Type Description Examples Web APIs REST, SOAP, or GraphQL interfaces for data exchange. Google Maps API, OpenWeather API Authentication Services Identity and access management. Auth0, Okta, Azure AD Payment Services Transaction processing and billing. Stripe, PayPal, Square Noti\ufb01cation Services Email, SMS, or push noti\ufb01cations. Twilio, SendGrid, Firebase Data Services Access to external datasets or analytics. Google Analytics, AWS Athena Cloud Storage Services File upload\/download and storage. Dropbox, Google Drive, Amazon S3 Enterprise Services Integration with ERP, CRM, or HR systems. Salesforce, SAP, Workday Examples of Service Interface Requirements Type Requirement Example REST API Integration The system shall retrieve weather data from https:\/\/api.weather.com\/v3\/forecast using HTTPS and JSON format. Authentication Service The system shall authenticate users via OAuth 2.0 using Auth0, with access tokens valid for 60 minutes. Payment Gateway The system shall process payments through Stripe using the \/v1\/charges endpoint with bearer token authentication. Email Noti\ufb01cation The system shall send password reset emails via SendGrid using the \/v3\/mail\/send endpoint.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.2.4",
+        "text":"User Requirements User Requirements describe the needs, expectations, and interactions of the people who will directly use the software system. These requirements focus on usability, accessibility, functionality, and user experience from the perspective of the end user. They describe what the end user needs the system to do, often in natural language or user stories and focus on the goals, tasks, and experiences of the user, rather than the technical implementation. De\ufb01ne user-speci\ufb01c needs, focusing on usability, personalization, and human-machine interaction. Identify User Requirements to: Ensure the software meets user expectations and supports their goals. Improve usability and satisfaction by aligning features with real-world tasks. This helps ensure the system is usable, relevant, and valuable to its intended users. Guide UI\/UX design and work\ufb02ow development. Support training, onboarding, and documentation efforts. Reduce rework by validating user needs early in the development process. Serve as a bridge between business requirements and functional\/system requirements. To effectively de\ufb01ne and manage end user requirements, be sure to perform the following Best Practices: Engage real users: Conduct interviews, surveys, or usability studies to gather input. Use personas and scenarios: Describe typical users and how they interact with the system. Be clear and speci\ufb01c: Avoid vague terms like \u201ceasy to use\u201d; de\ufb01ne what that means. Prioritize requirements: Identify which features are essential vs. nice-to-have. Include acceptance criteria: De\ufb01ne how each requirement will be validated. Iterate with feedback: Re\ufb01ne requirements based on user testing and stakeholder input. Validate them through prototypes, mockups, or user testing. User Requirements are used to: De\ufb01ne what the user can do with the system. Describe how the system should behave in response to user actions. Inform interface design, accessibility features, and user work\ufb02ows. Characteristics of User Requirements User-centered: Focused on the needs, tasks, and goals of the end user. Help de\ufb01ne the scope of the system from a user\u2019s point of view. Task-oriented: Describe what users need to accomplish. Observable: Can be validated through user testing or feedback. Context-aware: Consider the environment in which the software is used. Inclusive: Address accessibility, language, and skill level differences. Often expressed as user stories, use cases, or scenarios. Relationship to Other Requirements Business Requirement: Improve customer engagement. User Requirement: As a user, I want to receive noti\ufb01cations about new features. Functional Requirement: The system shall send an email noti\ufb01cation to users when a new feature is released. Examples of User Requirements Type Requirement Example Functional The user shall be able to reset their password via email veri\ufb01cation. Usability The system shall provide tooltips for all form \ufb01elds. Accessibility The application shall comply with WCAG",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"2.1",
+        "text":"AA standards. Localization The user interface shall support English and Spanish languages. Customization Users shall be able to con\ufb01gure dashboard widgets. Help & Support The system shall provide in-app help and a searchable knowledge base. Agile Examples: User Stories (Agile Format) As a user, I want to view my order history so I can track past purchases. As a customer, I want to track my order status so that I know when it will arrive. As an admin, I want to manage user accounts so that I can control access to the system. Use Case Format Title: Submit Feedback Actor: Registered User Description: The user submits feedback through a form, which is stored in the database and emailed to the support team.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.3",
+        "text":"Qualification Provisions Quali\ufb01cation Provisions are the planned methods, criteria, and conditions used to demonstrate that a software system or component meets its speci\ufb01ed requirements. These provisions de\ufb01ne the method for how each requirement will be veri\ufb01ed or validated, typically through testing, analysis, inspection, or demonstration. So, in addition to the requirements themselves, their veri\ufb01cation methods should be included in the SRS, either when the requirement is stated or in a separate veri\ufb01cation matrix (if in a separate document, provide a reference.) For each requirement, clearly outline the methodology for verifying and validating requirements to ensure traceability and compliance. Maintain an SRS traceability matrix mapping requirements to tests (see SWE-052 - Bidirectional Traceability). Types of Quali\ufb01cation Methods Method Description When Used Test Execute the system to observe behavior. Functional including safety, real-time performance, scalability, and interface requirements. Analysis Use models, simulations, or calculations. Performance, timing, or algorithmic requirements. Inspection Review documentation, code, or artifacts. Design, documentation, or coding standards. Demonstration Show functionality in a controlled environment. User interface, operational work\ufb02ows, complex integration or edge cases. Examples of Quali\ufb01cation Provisions ID Requirement Example Quali\ufb01cation Rationale Quali\ufb01cation Method REQ- 1 The system shall encrypt all data at rest using AES-256. Inspection of con\ufb01guration and analysis of encryption implementation. Inspection REQ- 2 The system shall respond to user input within 2 seconds. Test under simulated load conditions. Test REQ- 3 The system shall display a con\ufb01rmation message after form submission. Demonstration during UI walkthrough. Demonstration REQ- 4 The software shall comply with coding standard XYZ. Inspection of source code and static analysis reports. Inspection, Analysis See also Topic 5.14 - Test - Software Test Procedures.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.4",
+        "text":"Rationale and Supporting Information Supporting rationale provides additional information to help clarify the intent of the requirements at the time they were written. The rationale should explain\/justify why each requirement exists and its importance to mission success. The supporting rationale may be located with the requirements to which it applies. Consider including the following in the requirements rationale to provide context and justi\ufb01cation: Reason for the requirement. Assumptions, e.g., requirement assumes availability of new technology development. Relationships, e.g., requirement is based on expectation for how users will interact with the software. Design constraints, e.g., requirements written based on trade studies or decisions made during the design phase. Supporting information referenced in external documentation. Guidance for SWE-050 - Software Requirements also provides information on requirements rationale. Example: Rationale: The real-time pressure monitoring requirement for propulsion systems is essential to prevent potential failures during orbital insertion due to \ufb02uctuating fuel chamber conditions.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.5",
+        "text":"Additional Requirements and Information In order to build the software, there may be other requirements that must be complied with or information that is instrumental to the success of the project. They should be captured and documented also. They may include: 1. Legal, regulatory, or compliance requirements. 2. Use cases, scenarios, or work\ufb02ows illustrating the requirements. 3. Glossary of terms or abbreviations for clarity. 4. References to related documents, policies, standards, or speci\ufb01cations. 5. End of Life\/Retirement\/Decommissioning requirements. 6. Supporting information (see IEEE 29148 section 9.6.20)",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.6",
+        "text":"Assumptions and Limitations It is best to obtain de\ufb01nitive answers from the user community and software\/system designers before making any assumptions. In the event clari\ufb01cation cannot be provided, document all assumptions made, along with any limitations, related to hardware behavior, operator inputs, environmental conditions, or mission-critical scenarios. Provide context for each and allow for validation during system design and testing. Hardware assumptions: Clearly state expectations around hardware (e.g., sensor accuracy, actuation speed, latency), ensuring software requirements account for system limitations. Operator assumptions: De\ufb01ne assumptions about operator behavior, skills, training levels, and familiarity with the software systems. Environmental assumptions: Re\ufb02ect assumptions on environmental conditions (e.g., radiation levels, atmospheric conditions, gravitational forces). Examples: It is assumed that temperature sensors will provide accurate readings within \u00b12\u00b0C. It is assumed that operators are trained to manually override automated controls in critical situations. Software is developed under the assumption of nominal solar radiation levels during operation.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.7",
+        "text":"SRS Best Practices To comply with modern standards and effectively convey requirements: 1. Use Clear and Precise Language: Write measurable, testable, and unambiguous requirements, avoiding vague terms like \"ef\ufb01cient\" or \"easy to use.\" 2. Align with Industry Standards: Follow frameworks such as ISO\/IEC\/IEEE 29148:2011 or similar for software requirement de\ufb01nitions. 3. Visual Aids and Models: Enhance understanding using diagrams (e.g., UML models, data \ufb02ow diagrams, or state machines) and prototyping where applicable. 4. Enable Traceability: Maintain a requirements traceability matrix (RTM) to map requirements to design, code, and testing activities. Include system hazards, if applicable. 5. Support Agile, Hybrid, or Traditional Work\ufb02ows: Include \ufb02exibility in the SRS structure to accommodate iterative development or evolving requirements while maintaining version control. 6. Use Requirements Management Tools: Leverage specialized tools (e.g., Jama Connect, DOORS, or JIRA) to manage complex requirements ef\ufb01ciently. 7. Collaboration and Stakeholder Involvement: Engage users, developers, testers, and other stakeholders in reviewing the SRS for accuracy, completeness, and alignment with user needs. Incorporating best practices and modern methodologies ensures the SRS remains a living document that adapts to the dynamic needs of the project while fully supporting the development lifecycle. Keep the SRS consistent, concise, and focused on enabling successful delivery of the software solution.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    },
+    {
+        "swe_id":null,
+        "section":"3.8",
+        "text":"Additional Guidance When creating the SRS, take into consideration how Bidirectional Requirements Traceability will be performed and documented as one directly impacts the other. At a minimum, each requirement in the SRS must trace to a parent requirement and a test case. How this trace is done depends on how the documents are organized. Guidance for bidirectional requirements traceability is found in SWE-052 - Bidirectional Traceability of this Handbook. Links to Additional Guidance materials for this subject have been compiled in the Relevant Links table. Click here to see the Additional Guidance in the Resources tab.",
+        "source":"SWEHB 5.09",
+        "source_url":"https:\/\/swehb.nasa.gov\/spaces\/SWEHBVD\/pages\/102695669\/5.09+-+SRS+-+Software+Requirements+Specification"
+    }
+]
