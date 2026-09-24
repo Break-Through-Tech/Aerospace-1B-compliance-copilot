@@ -32,13 +32,19 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+```bash
+git clone https://github.com/Break-Through-Tech/Aerospace-1B-compliance-copilot.git
+cd Aerospace-1B-compliance-copilot
+pip install -r requirements.txt
+```
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+| Path | What's there |
+|---|---|
+| `data/sources/` | Original NASA documents: NPR 7150.2D (PDF) and SWE Handbook 5.09 (HTML) |
+| `data/clauses.json` | Every clause from both, labelled requirement / note / explanatory / guidance |
+| `data/Starhawk Mission Computer SRS.md` | The SRS being reviewed |
+| `notebooks/01_extract_clauses.ipynb` | Builds `clauses.json` from the sources |
+| `docs/` | Weeks 1–2 manual review of the SRS |
 
 ---
 
