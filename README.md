@@ -41,10 +41,12 @@ pip install -r requirements.txt
 | Path | What's there |
 |---|---|
 | `data/sources/` | Original NASA documents: NPR 7150.2D (PDF) and SWE Handbook 5.09 (HTML) |
-| `data/clauses.json` | Every clause from both, labelled requirement / note / explanatory / guidance |
 | `data/Starhawk Mission Computer SRS.md` | The SRS being reviewed |
+| `data/clauses.json` | Every clause from both, labelled requirement / note / explanatory / guidance |
+| `data/clause_annotations.csv` | Each clause labelled by whether an SRS can be checked against it |
 | `notebooks/01_extract_clauses.ipynb` | Builds `clauses.json` from the sources |
-| `docs/` | Weeks 1–2 manual review of the SRS |
+| `docs/manual_clause_spotcheck.csv` | Spot-check of 20 extracted clauses against NASA's source |
+| `docs/sprint-weeks-1-2/` | Weeks 1–2 manual review of the SRS, plus the sprint instructions |
 
 ---
 
