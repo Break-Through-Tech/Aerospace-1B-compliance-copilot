@@ -1,0 +1,21 @@
+chunk_id,swe_id,section,source,source_url,type,extraction_correct,notes
+npr-2.1.1.2-requirement,SWE-004,2.1.1.2,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2,requirement,True,Matches NODIS.
+swehb-3.2.3.7-guidance,,3.2.3.7,SWEHB 5.09,https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695669/5.09+-+SRS+-+Software+Requirements+Specification#tabs-3,guidance,True,Matches the Handbook page.
+npr-2.1.8.2-requirement,SWE-126,2.1.8.2,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2,requirement,True,Matches NODIS.
+npr-5.1.4-note,SWE-081,5.1.4,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter5,note,True,Matches NODIS.
+npr-2.1.5.13-requirement,SWE-215,2.1.5.13,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2,requirement,True,Matches NODIS.
+npr-4.1.3-requirement,SWE-051,4.1.3,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4,requirement,True,Matches NODIS.
+swehb-3.2.1.4-guidance,,3.2.1.4,SWEHB 5.09,https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695669/5.09+-+SRS+-+Software+Requirements+Specification#tabs-3,guidance,True,Was split off as a fake section 3.g (text inside a section was read as a heading); now part of swehb-3.2.1.4-guidance. Matches the Handbook page.
+npr-4.5.10-note,SWE-190,4.5.10,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4,note,True,Matches NODIS.
+swehb-3.2.1.1.2-guidance,,3.2.1.1.2,SWEHB 5.09,https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695669/5.09+-+SRS+-+Software+Requirements+Specification#tabs-3,guidance,True,Matches the Handbook page.
+npr-4.5.5-requirement,SWE-068,4.5.5,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4,requirement,True,Matches NODIS.
+npr-2.1.8.2-note,SWE-126,2.1.8.2,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2,note,True,Matches NODIS.
+npr-1.1.1-explanatory,,1.1.1,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter1,explanatory,True,Matches NODIS.
+swehb-4-guidance,,4,SWEHB 5.09,https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695669/5.09+-+SRS+-+Software+Requirements+Specification#tabs-4,guidance,True,Was split off as a fake section 5.2.1 (text inside a section was read as a heading); now part of swehb-4-guidance. Matches the Handbook page.
+npr-3.6.4-note,SWE-178,3.6.4,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3,note,True,Line repeated at the PDF page 25/26 break (found in this spot-check). Fixed in parser; now matches NODIS.
+swehb-3.2.1.1.3-guidance,,3.2.1.1.3,SWEHB 5.09,https://swehb.nasa.gov/spaces/SWEHBVD/pages/102695669/5.09+-+SRS+-+Software+Requirements+Specification#tabs-3,guidance,True,Matches the Handbook page.
+npr-3.7.4-requirement,SWE-219,3.7.4,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3,requirement,True,Matches NODIS.
+npr-3.4.1-requirement,SWE-017,3.4.1,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3,requirement,True,Matches NODIS.
+npr-3.11.1-explanatory,,3.11.1,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter3,explanatory,True,Matches NODIS.
+npr-2.2.1-explanatory,,2.2.1,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter2,explanatory,True,Matches NODIS.
+npr-4.5.8-requirement,SWE-073,4.5.8,NPR 7150.2D,https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002D_&page_name=Chapter4,requirement,True,Matches NODIS.
