@@ -1,0 +1,55 @@
+req_id,quality_status,issue_codes,matched_keywords,reason,cited_chunk_ids,cited_scores,method
+SFMC-REQ-001,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.7-guidance;swehb-3.2.1.5-guidance,0.08;0.05;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-002,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.13-guidance;swehb-3.2.1.5-guidance,0.16;0.08;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-003,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.1.2-guidance;swehb-3.2.1.1.2-guidance,0.05;0.04;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-004,NEEDS_REVIEW,VAGUE_CRITERION,efficient,VAGUE_CRITERION: contains 'efficient',npr-3.7.3-requirement;swehb-3.2.1.4-guidance;swehb-3.2.3.1-guidance,0.07;0.07;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-005,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.5-guidance;swehb-3.2.1.13-guidance,0.17;0.11;0.09,tfidf_top3 + keyword_rules
+SFMC-REQ-006,NEEDS_REVIEW,VAGUE_CRITERION,reasonabl,VAGUE_CRITERION: contains 'reasonabl',swehb-3.2.1.2-guidance;swehb-3.2.1.11-guidance;swehb-3.2.2.2-guidance,0.03;0.03;0.02,tfidf_top3 + keyword_rules
+SFMC-REQ-007,NEEDS_REVIEW,VAGUE_CRITERION,continuously monitor,VAGUE_CRITERION: contains 'continuously monitor',swehb-3.1.2-guidance;swehb-7.1-guidance;swehb-3.2.1.6-guidance,0.08;0.06;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-008,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.4-guidance;swehb-3.4-guidance;swehb-3.2.2.1-guidance,0.08;0.06;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-009,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.4-guidance;swehb-3.4-guidance;swehb-3.2.2.1-guidance,0.07;0.06;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-010,NEEDS_REVIEW,UNSPECIFIED_RESPONSE,appropriate corrective action;corrective action,"UNSPECIFIED_RESPONSE: contains 'appropriate corrective action, corrective action'",npr-4.1.6-requirement;swehb-3.2.1.13-guidance;swehb-3.1.2-guidance,0.11;0.07;0.06,tfidf_top3 + keyword_rules
+SFMC-REQ-011,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.7-guidance;swehb-3.2.2.1-guidance;swehb-3.2.2.2-guidance,0.16;0.03;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-012,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.1.2-guidance;swehb-3.2.1.2-guidance;swehb-3.2.1.1.2-guidance,0.07;0.05;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-013,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-3.12.1-requirement;swehb-3.2.1.5-guidance;swehb-3.2.1.7-guidance,0.03;0.03;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-014,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.13-guidance;swehb-3.2.1.9-guidance;swehb-3.2.1.4-guidance,0.05;0.05;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-015,NEEDS_REVIEW,UNDEFINED_TERM;UNVERIFIABLE_ABSOLUTE,friendly;never,UNDEFINED_TERM: contains 'friendly'; UNVERIFIABLE_ABSOLUTE: contains 'never',swehb-3.2.3.3-guidance;swehb-3.2.2.2-guidance;swehb-3.1.2-guidance,0.04;0.03;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-016,NEEDS_REVIEW,VAGUE_CRITERION,accurate,VAGUE_CRITERION: contains 'accurate',swehb-3.6-guidance;swehb-3.2.2.2-guidance;swehb-3.2.1.1.2-guidance,0.05;0.03;0.02,tfidf_top3 + keyword_rules
+SFMC-REQ-017,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.8-guidance;swehb-3.2.1.7-guidance;swehb-3.2.2.3-guidance,0.06;0.04;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-018,NEEDS_REVIEW,VAGUE_CRITERION,clearly,VAGUE_CRITERION: contains 'clearly',npr-3.11.8-note;swehb-3.2.1.8-guidance;swehb-3.2.1.6-guidance,0.06;0.04;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-019,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.13-guidance;swehb-3.2.3.5-guidance,0.12;0.09;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-020,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.4-guidance;swehb-3.2.1.7-guidance;swehb-3.2.2.2-guidance,0.02;0.02;0.02,tfidf_top3 + keyword_rules
+SFMC-REQ-021,NEEDS_REVIEW,VAGUE_CRITERION;UNDEFINED_TERM,quickly;dangerous,VAGUE_CRITERION: contains 'quickly'; UNDEFINED_TERM: contains 'dangerous',swehb-3.2.1.8-guidance;swehb-3.1.3-guidance;swehb-3.2.1.4-guidance,0.06;0.04;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-022,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.3.3-guidance;swehb-3.2.1-guidance;swehb-3.1.2-guidance,0.05;0.04;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-023,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.2-guidance;swehb-3.2.3.6-guidance;npr-3.7.3-requirement,0.06;0.04;0.03,tfidf_top3 + keyword_rules
+SFMC-REQ-024,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.3.6-guidance;swehb-3.2.3.4-guidance,0.07;0.07;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-025,NEEDS_REVIEW,VAGUE_CRITERION;UNDEFINED_TERM,securely;important,VAGUE_CRITERION: contains 'securely'; UNDEFINED_TERM: contains 'important',swehb-3.2.1.8-guidance;swehb-3.2.1.1.2-guidance;swehb-3.2.2.4-guidance,0.09;0.06;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-026,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.3.6-guidance;swehb-3.2.1.12-guidance;swehb-3.2.1.9-guidance,0.06;0.06;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-027,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;swehb-3.1.2-guidance,0.20;0.14;0.07,tfidf_top3 + keyword_rules
+SFMC-REQ-028,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;npr-3.12.1-requirement,0.26;0.15;0.06,tfidf_top3 + keyword_rules
+SFMC-REQ-029,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;swehb-3.2.1.5-guidance,0.36;0.22;0.09,tfidf_top3 + keyword_rules
+SFMC-REQ-030,NEEDS_REVIEW,VAGUE_CRITERION;UNDEFINED_TERM,immediately;critical fault,VAGUE_CRITERION: contains 'immediately'; UNDEFINED_TERM: contains 'critical fault',swehb-3.2.1.9-guidance;swehb-3.2.1.12-guidance;swehb-3.2.1.13-guidance,0.14;0.09;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-031,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.5-guidance;swehb-3.2.1.13-guidance,0.20;0.14;0.09,tfidf_top3 + keyword_rules
+SFMC-REQ-032,NEEDS_REVIEW,UNDEFINED_TERM,nonessential,UNDEFINED_TERM: contains 'nonessential',swehb-3.2.1.2-guidance;swehb-3.2.1.13-guidance;swehb-3.1.3-guidance,0.17;0.09;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-033,NEEDS_REVIEW,UNDEFINED_TERM,seriously damaged;safest,"UNDEFINED_TERM: contains 'seriously damaged, safest'",npr-3.11.8-note;swehb-3.2.1.6-guidance;swehb-3.2.2.2-guidance,0.06;0.03;0.02,tfidf_top3 + keyword_rules
+SFMC-REQ-034,NEEDS_REVIEW,UNDEFINED_TERM,safe location,UNDEFINED_TERM: contains 'safe location',npr-3.7.3-requirement;swehb-3.2.1.4-guidance;swehb-3.2.1.2-guidance,0.09;0.08;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-035,NEEDS_REVIEW,UNVERIFIABLE_ABSOLUTE,always,UNVERIFIABLE_ABSOLUTE: contains 'always',npr-4.1.4-requirement;swehb-3.6-guidance;npr-3.12.1-note,0.13;0.07;0.06,tfidf_top3 + keyword_rules
+SFMC-REQ-036,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.4-guidance;swehb-3.2.1.9-guidance;swehb-3.2.2.2-guidance,0.13;0.07;0.06,tfidf_top3 + keyword_rules
+SFMC-REQ-037,NEEDS_REVIEW,VAGUE_CRITERION,noticeable,VAGUE_CRITERION: contains 'noticeable',npr-3.7.3-requirement;swehb-3.2.1.4-guidance;swehb-3.1.2-guidance,0.08;0.06;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-038,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.1-guidance;swehb-3.2.1.2-guidance;swehb-3.5-guidance,0.12;0.11;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-039,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.2-guidance;swehb-3.1.2-guidance;swehb-3.2.2.4-guidance,0.08;0.05;0.04,tfidf_top3 + keyword_rules
+SFMC-REQ-040,NEEDS_REVIEW,UNVERIFIABLE_ABSOLUTE,never,UNVERIFIABLE_ABSOLUTE: contains 'never',npr-3.7.3-requirement;npr-3.12.1-requirement;npr-4.1.4-requirement,0.15;0.14;0.12,tfidf_top3 + keyword_rules
+SFMC-REQ-041,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;npr-3.11.8-note,0.16;0.11;0.07,tfidf_top3 + keyword_rules
+SFMC-REQ-042,NEEDS_REVIEW,UNDEFINED_TERM,important,UNDEFINED_TERM: contains 'important',swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;swehb-3.2.1.3-guidance,0.24;0.18;0.17,tfidf_top3 + keyword_rules
+SFMC-REQ-043,NEEDS_REVIEW,ESCAPE_CLAUSE,whenever possible,ESCAPE_CLAUSE: contains 'whenever possible',swehb-3.2.1.9-guidance;swehb-3.2.1.13-guidance;swehb-3.2.1.12-guidance,0.09;0.09;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-044,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-3.12.1-note;swehb-3.2.1.9-guidance;swehb-3.2.1.1.4-guidance,0.08;0.08;0.07,tfidf_top3 + keyword_rules
+SFMC-REQ-045,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.13-guidance;npr-3.12.1-note,0.17;0.09;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-046,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-3.11.8-note;swehb-3.1.2-guidance;swehb-3.2.2.1-guidance,0.14;0.09;0.09,tfidf_top3 + keyword_rules
+SFMC-REQ-047,NEEDS_REVIEW,VAGUE_CRITERION,sufficient,VAGUE_CRITERION: contains 'sufficient',npr-3.11.8-requirement;swehb-3.2.2.4-guidance;swehb-1-guidance,0.11;0.06;0.06,tfidf_top3 + keyword_rules
+SFMC-REQ-048,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-4.1.2-note;swehb-3.2.1.7-guidance;swehb-3.2.1.1.1-guidance,0.07;0.05;0.05,tfidf_top3 + keyword_rules
+SFMC-REQ-049,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-3.7.3-requirement;swehb-3.2.1.8-guidance;swehb-3.1.2-guidance,0.11;0.10;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-050,NEEDS_REVIEW,VAGUE_CRITERION,state-of-the-art,VAGUE_CRITERION: contains 'state-of-the-art',swehb-3.2.1.2-guidance;swehb-3.2.1.8-guidance;npr-3.7.3-requirement,0.20;0.12;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-051,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.2.4-guidance;npr-3.12.1-requirement;npr-3.7.3-requirement,0.12;0.10;0.10,tfidf_top3 + keyword_rules
+SFMC-REQ-052,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.3-guidance;swehb-3.2.3.6-guidance;swehb-3.2.1.8-guidance,0.15;0.15;0.12,tfidf_top3 + keyword_rules
+SFMC-REQ-053,ACCEPTABLE,NONE,,No taxonomy trigger word found.,swehb-3.2.1.2-guidance;swehb-3.2.1.13-guidance;swehb-3.1.3-guidance,0.14;0.09;0.08,tfidf_top3 + keyword_rules
+SFMC-REQ-054,ACCEPTABLE,NONE,,No taxonomy trigger word found.,npr-3.7.3-requirement;npr-3.12.1-requirement;swehb-3.2.1.4-guidance,0.11;0.09;0.08,tfidf_top3 + keyword_rules
