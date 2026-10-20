@@ -4,3 +4,8 @@ beautifulsoup4
 lxml
 pandas
 scikit-learn
+langchain-community
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+ipykernel
