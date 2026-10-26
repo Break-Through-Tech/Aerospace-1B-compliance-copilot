@@ -45,6 +45,16 @@ pip install -r requirements.txt
 | `data/clauses.json` | Every clause from both, labelled requirement / note / explanatory / guidance |
 | `data/clause_annotations.csv` | Each clause labelled by whether an SRS can be checked against it |
 | `notebooks/01_extract_clauses.ipynb` | Builds `clauses.json` from the sources |
+| `notebooks/02_filter_addressable_clauses.ipynb` | Keeps the 62 clauses an SRS can be checked against → `data/addressable_clauses.csv` |
+| `notebooks/03_build_vector_store.ipynb` | Embeds those clauses into a Chroma store → `data/chroma_db/` (not in git; run this first) |
+| `notebooks/04_keyword_baseline.ipynb` | TF-IDF + keyword baseline → `data/baseline_predictions.csv` |
+| `notebooks/05_finalize_filtering_dataframe.ipynb` | Parses the SRS → `data/srs_requirements.csv`, `data/requirement_clause_pairs.csv` |
+| `notebooks/06_build_answer_key.ipynb` | Expected answers for evaluation → `data/answer_key.csv` |
+| `notebooks/07_retrieve_relevant_clauses.ipynb` | Top 5 clauses per requirement → `data/rag_retrievals.csv` |
+| `notebooks/report_schema.py` | Pydantic models for `report.json`, matching the output contract |
+| `tests/` | Tests for `report_schema.py`; run `python -m pytest tests -v` from the repo root |
+| `contract/` | Mark's output contract, JSON schema, sample report, and `validate_report.py` |
+| `data/benchmark/` | Mark's benchmark inputs and calibration examples |
 | `docs/manual_clause_spotcheck.csv` | Spot-check of 20 extracted clauses against NASA's source |
 | `docs/sprint-weeks-1-2/` | Weeks 1–2 manual review of the SRS, plus the sprint instructions |
 
