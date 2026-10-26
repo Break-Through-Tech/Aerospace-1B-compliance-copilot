@@ -1,6 +1,6 @@
-"""Tests for report_schema.py 
+"""Tests for notebooks/report_schema.py
 Run from the repo root:
-    python -m pytest notebooks/test_report_schema.py -v
+    python -m pytest tests -v
 Each test maps to a "Done when" item or one of the 4 extra checks.
 """
 import copy
@@ -11,7 +11,8 @@ from pathlib import Path
 import pytest
 from pydantic import ValidationError
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "notebooks"))
 from report_schema import (  # noqa: E402
     DocumentFinding,
     Relationship,
@@ -20,9 +21,8 @@ from report_schema import (  # noqa: E402
     SweCoverage,
 )
 
-CONTRACT_DIR = Path(__file__).resolve().parent.parent / "contract"
-SAMPLE = json.loads((CONTRACT_DIR / "output_contract_schema_v1.json").parent.joinpath(
-    "sample_output_v1.json").read_text(encoding="utf-8"))
+CONTRACT_DIR = ROOT / "contract"
+SAMPLE = json.loads((CONTRACT_DIR / "sample_output_v1.json").read_text(encoding="utf-8"))
 
 
 def review(req_id):
@@ -167,7 +167,6 @@ def test_stretch_whole_sample_report_loads_and_round_trips(tmp_path):
 
 
 def test_stretch_round_trip_passes_marks_validator(tmp_path):
-    jsonschema = pytest.importorskip("jsonschema")
     sys.path.insert(0, str(CONTRACT_DIR))
     from validate_report import validate
 

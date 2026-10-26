@@ -9,3 +9,6 @@ langchain-huggingface
 langchain-chroma
 sentence-transformers
 ipykernel
+pydantic>=2
+jsonschema
+pytest
