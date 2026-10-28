@@ -1,0 +1,63 @@
+{
+  "analysis": "SFMC-REQ-015 defines an obligation on the software to prevent firing weapons at friendly spacecraft. However, the term 'friendly spacecraft' relies on classification criteria that are not defined in the SRS (and explicitly noted as an open item in §11, Open Item 10). Additionally, there is an unresolved safety interaction between this absolute weapon inhibit ('never permit') and SFMC-REQ-035, which states the pilot can 'always' override automatic controls.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement relies on identifying a 'friendly spacecraft', but the SRS does not define the criteria or mechanism for classifying a spacecraft as friendly.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "friendly spacecraft"
+        },
+        {
+          "locator": "§11, Open Item 10",
+          "excerpt": "Criteria for determining whether a detected spacecraft is friendly or hostile."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Specify the operational criteria, signal inputs (e.g., IFF transponder responses), or system status flags used by the software to classify a target as a friendly spacecraft.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "SAFETY_INTERACTION",
+      "severity": "CRITICAL",
+      "explanation": "The absolute safety inhibit prohibiting weapons fire ('never permit the pilot to fire a weapon at a friendly spacecraft') potentially interacts with SFMC-REQ-035, which allows the pilot to 'always be able to override automatic spacecraft controls'. The SRS leaves unresolved whether pilot manual overrides can bypass safety weapon inhibits.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "never permit the pilot to fire a weapon at a friendly spacecraft"
+        },
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "pilot shall always be able to override automatic spacecraft controls"
+        }
+      ],
+      "clause_ids": [
+        "npr-4.1.4-requirement",
+        "swehb-3.2.1.4-guidance"
+      ],
+      "recommendation": "Clarify the precedence between pilot manual override authority and safety inhibits, explicitly defining whether pilot overrides apply to or are blocked by friendly-fire inhibits.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "SFMC-REQ-015 captures a safety constraint to prevent friendly-fire hazards, but the criteria for classifying friendly targets are undefined and the override relationship between operator and software inhibits remains unresolved.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "The SFMC shall never permit the pilot to fire a weapon at a friendly spacecraft."
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-015 captures a software safety constraint against firing at friendly spacecraft, but uses an undefined classification category ('friendly spacecraft') and leaves the interaction with pilot control override (§4, SFMC-REQ-035) unresolved."
+}
