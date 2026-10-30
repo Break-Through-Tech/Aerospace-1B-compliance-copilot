@@ -1,0 +1,26 @@
+{
+  "analysis": "SFMC-REQ-007 defines a software function where the SFMC software must monitor spacecraft engine status. However, using the term 'continuously' for a discrete software system without providing a specific polling frequency, sampling rate, or timing bound makes the requirement unverifiable. Additionally, monitoring engine status without a specified protective action or safe transition is an ordinary monitoring function, so it does not meet the criteria for a SWE-184 safety control link.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The term 'continuously monitor' lacks a measurable timing bound or frequency (such as a sampling interval or update rate). Because software executes in discrete cycles, an unquantified requirement for 'continuous' monitoring cannot be verified through testing without a specified rate.",
+      "evidence": [
+        {
+          "locator": "§3.2, SFMC-REQ-007",
+          "excerpt": "continuously monitor"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Specify the exact sampling rate or maximum interval (e.g., at least once every 100 ms) at which the SFMC must poll or process main engine status data.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-007 is a valid software requirement, but it uses the vague timing criterion 'continuously monitor' without defining a testable sampling rate or polling interval."
+}

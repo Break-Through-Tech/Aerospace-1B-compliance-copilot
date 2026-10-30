@@ -1,0 +1,26 @@
+{
+  "analysis": "SFMC-REQ-005 specifies functional software behavior for controlling the propulsion system in Autopilot mode. However, it exhibits scope ambiguity regarding preconditions (e.g., when Autopilot mode is enabled without a valid or calculated 'selected route'), and lacks quantitative control system parameters (such as path-following tolerance or update frequency) necessary to verify implementation.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "SCOPE_AMBIGUITY",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies behavior when 'Autopilot mode is enabled' to follow 'the selected route', but fails to define the software condition or behavior if Autopilot mode is engaged when no destination or route has been selected.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-005",
+          "excerpt": "When Autopilot mode is enabled, the SFMC shall control the spacecraft propulsion system to follow the selected route."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Specify the required system response or safety behavior if Autopilot mode is activated without an active, valid route selection.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-005 specifies core software operational behavior for autopilot navigation, but it suffers from scope ambiguity regarding behavior when no route is selected prior to enabling Autopilot mode."
+}
