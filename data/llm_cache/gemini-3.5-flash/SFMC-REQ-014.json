@@ -1,0 +1,20 @@
+{
+  "analysis": "SFMC-REQ-014 specifies a clear software obligation to prevent weapon firing without explicit pilot authorization. The requirement uses mandatory language ('shall prevent'), identifies the SFMC as the responsible software system, and defines a unambiguous inhibit condition. It contains no vague terms, escape clauses, or unverifiable claims. Furthermore, it directly establishes a software safety control in accordance with NPR 7150.2D §4.1.4 (SWE-184).",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "DIRECT_CONTENT",
+      "explanation": "SFMC-REQ-014 directly states a software-enforced safety control and interlock between operator actions and weapon actuation, preventing inadvertent or unauthorized weapon firing.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-014",
+          "excerpt": "The SFMC shall prevent a weapon from firing unless the pilot has authorized weapons operation."
+        }
+      ]
+    }
+  ],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-014 is a well-written, testable software requirement that establishes a key safety interlock on weapon operations, directly embodying SWE-184 safety control requirements."
+}

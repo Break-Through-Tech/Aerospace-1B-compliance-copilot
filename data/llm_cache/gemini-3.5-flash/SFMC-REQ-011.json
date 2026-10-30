@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-011 specifies a clear software obligation for the SFMC to display detected spacecraft located within sensor range. It uses imperative language ('shall'), identifies the SFMC as the responsible subject, and establishes a specific functional condition without relying on vague degree terms, escape clauses, or unassigned responsibilities. No specific defects or safety constraints requiring NPR 7150.2D SWE-184 tracking are present.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-011 is an acceptable functional requirement specifying that the SFMC must display detected spacecraft within sensor range. It contains no vague terminology, escape clauses, or allocation ambiguities."
+}
