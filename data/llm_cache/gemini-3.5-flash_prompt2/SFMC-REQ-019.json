@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-019 specifies that when the spacecraft enters Combat mode, the SFMC software shall activate the defensive shields. The subject is unambiguously the SFMC, the triggering condition (entering Combat mode) relies on a mode defined in §1.3, and the action (activating defensive shields) refers to a system listed in §2.5. The requirement contains no vague degree words, undefined terms, or escape clauses, making it fully testable. It describes normal functional behavior for Combat mode rather than an explicit safety interlock or hazard mitigation, so SWE-184 does not apply.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-019 is a clear, testable mode-triggered functional requirement with proper software allocation and no identified quality defects."
+}

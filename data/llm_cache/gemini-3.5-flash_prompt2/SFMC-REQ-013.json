@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-013 is a clear functional requirement specifying the data attributes (relative distance, relative velocity, target classification, and targeting status) that the SFMC software must display to the pilot when a target is selected. The responsibility is explicitly assigned to the SFMC software, the trigger condition ('For a selected target') is specified, and the required output items are explicitly listed without vague qualifiers or escape clauses. No safety-critical interlocks or protective controls are defined here, so no SWE-184 link applies.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-013 clearly specifies the required display outputs for a pilot-selected target without ambiguous terminology or unassigned responsibilities."
+}

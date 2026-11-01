@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-022 requires the SFMC software to enable the pilot to transmit messages to fleet command. This describes standard system functionality allocated to the software. The requirement is clear, testable, and uses clear terminology without introducing vague qualifiers, escape clauses, or undefined categories. It does not describe a safety control or mitigation mechanism, so SWE-184 is not linked.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-022 is an acceptable software functional requirement stating that the SFMC shall allow the pilot to transmit messages to fleet command. It exhibits no defect requiring review."
+}

@@ -1,0 +1,42 @@
+{
+  "analysis": "SFMC-REQ-015 defines a functional safety interlock prohibiting weapons deployment against friendly spacecraft. However, the term 'friendly spacecraft' relies on classification criteria that are acknowledged as an unresolved open item in the SRS (§11, Open Item 10). Consequently, the condition governing this inhibit is undefined, making the requirement unverifiable and incomplete.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement prohibits permitting the pilot to fire at a 'friendly spacecraft', but the criteria used to classify a spacecraft as friendly are undefined and acknowledged as an unresolved open item in the SRS.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "friendly spacecraft"
+        },
+        {
+          "locator": "§11, Open Item 10",
+          "excerpt": "Criteria for determining whether a detected spacecraft is friendly or hostile."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Specify the exact criteria, message types, or system inputs (such as IFF responses or fleet status flags) used by the SFMC software to classify a spacecraft as friendly.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "The requirement establishes a safety firing inhibit interlock between the software, operator, and weapons hardware, but the rule for identifying friendly targets remains unresolved.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "The SFMC shall never permit the pilot to fire a weapon at a friendly spacecraft."
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-015 specifies a safety interlock to prevent firing at friendly spacecraft, but it relies on an undefined classification category that is marked as an open item in §11."
+}

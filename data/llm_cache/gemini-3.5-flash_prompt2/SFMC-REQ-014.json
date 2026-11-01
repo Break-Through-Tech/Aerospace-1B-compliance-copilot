@@ -1,0 +1,20 @@
+{
+  "analysis": "SFMC-REQ-014 specifies a clear software obligation requiring the SFMC to inhibit weapon firing unless pilot authorization is active. This serves as a safety interlock preventing unauthorized or inadvertent weapon discharge. The requirement is clear, objective, and testable.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "DIRECT_CONTENT",
+      "explanation": "SFMC-REQ-014 establishes a software safety interlock that inhibits weapon execution absent operator authorization, serving as an operator-software safety control.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-014",
+          "excerpt": "prevent a weapon from firing unless the pilot has authorized weapons operation"
+        }
+      ]
+    }
+  ],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-014 is a well-defined software requirement specifying a safety interlock against unauthorized weapon discharge, directly addressing SWE-184 safety controls."
+}
