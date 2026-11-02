@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-036 specifies a performance timing requirement for software initialization following hardware power-up. It defines a precise, measurable threshold (30 seconds) triggered by a distinct event ('spacecraft computer power is applied'). It contains no vague degree words, escape clauses, or unassigned responsibilities, adhering directly to guidance for startup timing requirements in SWEHB 5.09 §3.2.2.1.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-036 is an acceptable timing requirement that provides a verifiable 30-second threshold for software initialization after power is applied."
+}

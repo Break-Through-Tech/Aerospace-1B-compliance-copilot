@@ -1,0 +1,42 @@
+{
+  "analysis": "SFMC-REQ-034 defines software behavior for automated spacecraft navigation during emergencies, so software_requirement_status is YES. However, the requirement relies on the term 'safe location', which is nowhere defined in the specification (acknowledged in §11, Open Item 5). Because the criteria for determining a safe location are missing, the requirement cannot be verified or implemented without design assumptions. Furthermore, this requirement describes a safety mitigation (automatically flying the vehicle to safety during an emergency), linking it to SWE-184 as PARTIAL_CONTENT due to unresolved criteria.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement relies on 'safe location', which is not defined anywhere in the SRS, leaving the automated flight objective unverifiable and forcing design assumptions.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-034",
+          "excerpt": "safe location"
+        },
+        {
+          "locator": "§11, Open Item 5",
+          "excerpt": "Definition of a safe location during an emergency."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Specify the precise criteria, coordinates, or deterministic decision rules the SFMC software must use to select a safe location during emergency operations.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "The requirement specifies a safety mitigation function (automatically piloting the spacecraft to a safe location to protect the vehicle and crew during an emergency), but its target criteria remain unresolved.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-034",
+          "excerpt": "automatically flying the spacecraft to a safe location during an emergency"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-034 specifies an emergency safety function but relies on the undefined term 'safe location', making the software capability unverifiable until stakeholders establish objective destination selection criteria."
+}

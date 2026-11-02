@@ -1,0 +1,38 @@
+{
+  "analysis": "SFMC-REQ-031 specifies software behavior regarding transition into Emergency mode upon pilot input, so it is a software requirement. However, it is phrased with 'The pilot shall be able to' as the subject rather than defining the SFMC software's obligation upon receiving the cockpit control signal. It also relates to SWE-184 as an operator-initiated transition to Emergency mode (a protective state prioritizing crew survival).",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "ALLOCATION_UNCLEAR",
+      "severity": "MINOR",
+      "explanation": "The requirement uses 'The pilot shall' as the subject instead of specifying the obligation on the SFMC software to transition to Emergency mode when the cockpit control signal is received.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-031",
+          "excerpt": "The pilot shall be able to place the SFMC into Emergency mode"
+        }
+      ],
+      "clause_ids": [
+        "swehb-1.b-guidance",
+        "swehb-3.2.1-guidance"
+      ],
+      "recommendation": "Rephrase the requirement to state software behavior directly, e.g., 'The SFMC shall transition to Emergency mode upon receiving an activation signal from the dedicated emergency cockpit control.'",
+      "requires_stakeholder_input": false
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "The requirement specifies an operator control mechanism to transition the software into Emergency mode (which prioritizes crew survival and recovery), establishing an operator-to-software safety control interface.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-031",
+          "excerpt": "place the SFMC into Emergency mode using a dedicated cockpit control"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-031 is a valid software requirement describing an operator-initiated safety transition to Emergency mode, but it is phrased as a pilot capability ('The pilot shall') rather than an explicit software obligation."
+}
