@@ -1,0 +1,25 @@
+{
+  "analysis": "SFMC-REQ-052 specifies an obligation for the SFMC software to communicate with spacecraft subsystems over a designated data network, making it a software requirement (YES). However, it names the 'Starhawk spacecraft data network' without defining any communication protocols, data formats, timing/frequency, error handling mechanisms, or referencing an Interface Control Document (ICD) / Interface Design Description (IDD) as guided by NASA SWEHB §3.2.3.6.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement mandates communication over the 'Starhawk spacecraft data network', but this network interface, its protocols, message formats, and data rates are left undefined in the SRS, and no Interface Control Document (ICD) is referenced.",
+      "evidence": [
+        {
+          "locator": "§9, SFMC-REQ-052",
+          "excerpt": "Starhawk spacecraft data network"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.3.6-guidance"
+      ],
+      "recommendation": "Specify the exact communication protocols, data formats, and standards to be used on the Starhawk spacecraft data network, or reference the applicable Interface Control Document (ICD) or Interface Design Description (IDD).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-052 is a valid software requirement but needs review because it specifies communication over the 'Starhawk spacecraft data network' without defining the network protocols, message formats, or referencing an Interface Control Document (ICD)."
+}
