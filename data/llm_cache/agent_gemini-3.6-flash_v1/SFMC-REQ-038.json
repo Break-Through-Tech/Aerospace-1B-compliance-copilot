@@ -1,0 +1,90 @@
+{
+  "review": {
+    "analysis": "The requirement specifies a display update rate for the SFMC software ('SFMC shall update flight information displayed to the pilot at least 10 times per second'), making software_requirement_status YES. However, it suffers from three quality issues: (1) SCOPE_AMBIGUITY regarding 'During normal operation', which is not one of the five operating modes defined in SRS \u00a71.3; (2) UNDEFINED_TERM regarding 'flight information', which is not defined in the SRS; and (3) OVERLAP_CLARIFICATION with SFMC-REQ-002, which requires updating displayed position at least once every 500 ms (2 Hz), conflicting with the 10 Hz requirement if position is flight information. No safety controls/inhibits are specified, so swe_links is empty.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "The condition 'During normal operation' is ambiguous because SRS \u00a71.3 defines five specific operating modes (Standby, Manual Flight, Autopilot, Combat, Emergency) without identifying which modes constitute 'normal operation'.",
+        "evidence": [
+          {
+            "locator": "\u00a75, SFMC-REQ-038",
+            "excerpt": "During normal operation"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1.2-guidance"
+        ],
+        "recommendation": "Specify which operating modes (e.g., Manual Flight, Autopilot, Combat) constitute normal operation for the 10 Hz display update rate.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The term 'flight information' is not defined in the SRS, leaving it unclear which specific display parameters or data sets must be updated 10 times per second.",
+        "evidence": [
+          {
+            "locator": "\u00a75, SFMC-REQ-038",
+            "excerpt": "flight information"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Define 'flight information' or enumerate the specific display data fields subject to the 10 Hz update frequency requirement.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "OVERLAP_CLARIFICATION",
+        "severity": "MAJOR",
+        "explanation": "SFMC-REQ-038 requires updating flight information at least 10 times per second (every 100 ms), which overlaps with SFMC-REQ-002 requiring position updates every 500 ms (2 Hz), creating an inconsistency if spacecraft position is part of flight information.",
+        "evidence": [
+          {
+            "locator": "\u00a75, SFMC-REQ-038",
+            "excerpt": "update flight information displayed to the pilot at least 10 times per second"
+          },
+          {
+            "locator": "\u00a73.1, SFMC-REQ-002",
+            "excerpt": "update the displayed spacecraft position at least once every 500 milliseconds"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.2.1-guidance"
+        ],
+        "recommendation": "Reconcile SFMC-REQ-038 with SFMC-REQ-002 to ensure consistent timing requirements for position updates and general flight information updates.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-038 establishes a valid software performance requirement for display updates, but needs review due to scope ambiguity ('normal operation'), an undefined term ('flight information'), and an overlapping update rate constraint with SFMC-REQ-002."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.1.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.2.2.4-guidance"
+  ],
+  "queries": [
+    "performance timing display update rate",
+    "modes operational conditions scope ambiguity undefined term"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 65278,
+  "output_tokens": 5639
+}

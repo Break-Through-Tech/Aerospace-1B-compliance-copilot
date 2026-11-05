@@ -1,0 +1,83 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-033 requires the SFMC software to automatically determine the safest destination if the spacecraft is seriously damaged. This expresses software behavior, so software_requirement_status is YES. However, the requirement contains two major quality defects: (1) UNDEFINED_TERM for 'seriously damaged', as the SRS does not define what failure states or damage thresholds constitute serious damage; and (2) VAGUE_CRITERION for 'safest destination', which uses a subjective superlative without measurable bounds or criteria for comparing destination safety (further confirmed by Open Item 5 in \u00a711). This is a safety-related function, but its criteria are incomplete, linking to NPR 7150.2D \u00a74.1.4 (SWE-184) with PARTIAL_CONTENT strength.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The term 'seriously damaged' is undefined in the SRS, with no specific subsystem fault criteria, damage thresholds, or health monitoring states provided to trigger this automatic capability.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-033",
+            "excerpt": "seriously damaged"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Consult stakeholders to formally define the specific sensor inputs, health status conditions, or fault thresholds that classify the spacecraft as 'seriously damaged'.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The requirement uses the superlative 'safest destination' without defining objective, testable parameters or ranking algorithms for destination safety. This unresolved ambiguity is acknowledged in \u00a711, Open Item 5.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-033",
+            "excerpt": "safest destination"
+          },
+          {
+            "locator": "\u00a711, Open Item 5",
+            "excerpt": "Definition of a safe location during an emergency."
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Establish measurable criteria and metrics for evaluating destination safety in coordination with system stakeholders to resolve Open Item 5.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "SFMC-REQ-033 specifies an emergency software response to spacecraft damage to mitigate hazards to the vehicle and crew, but the trigger conditions and safety criteria are incomplete.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-033",
+            "excerpt": "If the spacecraft is seriously damaged, the SFMC shall automatically determine the safest destination."
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-033 defines software behavior during emergency operation, but relies on the undefined trigger 'seriously damaged' and the vague criterion 'safest destination', rendering it unverifiable without stakeholder resolution."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "vague criterion undefined term safety software requirement"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 69915,
+  "output_tokens": 5611
+}

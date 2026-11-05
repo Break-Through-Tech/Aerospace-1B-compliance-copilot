@@ -1,0 +1,64 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-020 specifies that the SFMC shall automatically deploy countermeasures against incoming guided weapons when automatic defense is enabled. This is a software requirement (YES). However, 'automatic defense' is an undefined term/condition: Section 1.3 defines the spacecraft's operational modes (Standby, Manual Flight, Autopilot, Combat, Emergency), but does not list or define 'automatic defense', nor is it defined elsewhere in the SRS. This creates scope ambiguity and relies on an undefined term, making it unclear under what operational modes or cockpit settings the software is obligated to deploy countermeasures.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement conditions deployment on 'automatic defense is enabled', but 'automatic defense' is not defined anywhere in the SRS. Operational modes defined in \u00a71.3 (Standby, Manual Flight, Autopilot, Combat, Emergency) do not include 'automatic defense', making the governing mode or condition undefined.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-020",
+            "excerpt": "automatic defense is enabled"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Define 'automatic defense' within the SRS (or clarify how it relates to Combat mode in \u00a71.3) and specify the precise pilot controls or system conditions that enable and disable automated countermeasure deployment.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "It is ambiguous which operational modes or environmental conditions permit or restrict automatic countermeasure deployment, as 'automatic defense' is not mapped to any established system mode or state.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-020",
+            "excerpt": "when automatic defense is enabled"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Specify the exact operational modes (e.g., Combat mode) and system states in which automatic countermeasure deployment is active.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-020 is a software requirement, but it relies on the undefined term 'automatic defense' and creates scope ambiguity regarding which operational modes permit automated countermeasure deployment."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "automatic countermeasures defensive response ambiguity timing"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 49780,
+  "output_tokens": 6115
+}

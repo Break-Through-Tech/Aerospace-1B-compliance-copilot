@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-052 specifies that the SFMC software must communicate with spacecraft subsystems via the Starhawk spacecraft data network. This is a functional/interface constraint requirement allocated to the SFMC software. The requirement is clear, direct, and contains no vague language, escape clauses, or undefined category terms. It does not state a safety control or mitigation, so no SWE-184 link applies.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-052 clearly specifies that the SFMC software must communicate with spacecraft subsystems using the Starhawk spacecraft data network with no demonstrated writing defects."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.3-guidance",
+    "swehb-3.2.3.1-guidance",
+    "swehb-3.2.3.4-guidance",
+    "swehb-3.2.3.5-guidance",
+    "swehb-3.2.3.6-guidance"
+  ],
+  "queries": [
+    "communication interface data network protocol format"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 43006,
+  "output_tokens": 3590
+}

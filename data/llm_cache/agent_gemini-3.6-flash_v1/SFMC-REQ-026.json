@@ -1,0 +1,71 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-026 mandates that the SFMC software monitor the health of five spacecraft subsystems. This is a functional requirement allocated to the SFMC software. However, the SRS does not define what constitutes subsystem 'health' (e.g., telemetry metrics, built-in test results, or status flags), nor does it specify the monitoring rate/frequency, input data, or operating modes under which monitoring occurs. Ordinary monitoring without a specified safety control or protective response does not trigger SWE-184.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement relies on the term 'health', which is not defined in the SRS. The specification does not state what parameters, status indicators, or failure criteria constitute the health of the Navigation, Propulsion, Weapons, Defensive, or Communications systems.",
+        "evidence": [
+          {
+            "locator": "\u00a73.6, SFMC-REQ-026",
+            "excerpt": "health"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define specific health parameters, status signals, or built-in test (BIT) criteria for each subsystem in the SRS or interface control documentation.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "The requirement lacks operational scope and timing bounds: it does not specify the sampling rate, polling frequency, data inputs, or spacecraft modes in which monitoring must occur.",
+        "evidence": [
+          {
+            "locator": "\u00a73.6, SFMC-REQ-026",
+            "excerpt": "monitor the health of the Navigation, Propulsion, Weapons, Defensive, and Communications systems"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Specify the monitoring frequency (e.g., periodic polling interval), input data streams, and applicable operating modes for subsystem health monitoring.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-026 requires the SFMC to monitor subsystem health, but 'health' is an undefined concept in the SRS and the requirement lacks operational scope, monitoring frequency, and input specifications."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.3-guidance",
+    "swehb-3.5-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "subsystem health monitoring fault management testability",
+    "monitor health clear criteria specific testable requirement"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 75555,
+  "output_tokens": 4785
+}

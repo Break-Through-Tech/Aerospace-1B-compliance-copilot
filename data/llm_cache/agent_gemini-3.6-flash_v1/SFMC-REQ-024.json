@@ -1,0 +1,30 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-024 specifies a functional requirement for the SFMC software to allow the pilot to designate outgoing messages as emergency messages. The obligation is clearly allocated to the SFMC software. The requirement contains no vague degree words, undefined categories, escape clauses, or unverifiable absolutes. It describes a standard user interface/communications feature. Furthermore, designating a message as an emergency message is an ordinary communication function rather than a safety interlock or automated mitigation, so no SWE-184 safety link applies.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-024 is an acceptable software functional requirement specifying that the SFMC must allow the pilot to designate an outgoing message as an emergency message."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.3-guidance",
+    "swehb-3.2.3.1-guidance",
+    "swehb-3.2.3.6-guidance",
+    "swehb-3.2.4-guidance"
+  ],
+  "queries": [
+    "emergency message outgoing message designation functional requirements input output interface"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 42690,
+  "output_tokens": 2819
+}

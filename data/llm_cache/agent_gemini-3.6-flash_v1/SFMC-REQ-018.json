@@ -1,0 +1,66 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-018 specifies software behavior for indicating threat priority, so software_requirement_status is YES. The requirement contains two quality defects: 1) VAGUE_CRITERION: 'clearly' is a subjective degree word without objective visual or auditory display criteria. 2) UNDEFINED_TERM: 'greatest danger' relies on a threat evaluation metric or prioritization logic that is nowhere defined in the SRS. Quality status is NEEDS_REVIEW.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The term 'clearly' is a subjective descriptor with no measurable threshold or specific presentation criteria (such as visual highlighting, dedicated UI placement, or priority list sorting), rendering the requirement unverifiable.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-018",
+            "excerpt": "clearly"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Replace 'clearly' with specific display mechanisms (e.g., visual highlighting, color coding, or displaying at the top of the threat list) and defined verification criteria.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement relies on 'greatest danger', but the SRS does not define the criteria or algorithm (e.g., time to impact, proximity, threat capability) used to quantify threat level or determine which threat is the greatest danger.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-018",
+            "excerpt": "greatest danger"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Stakeholders should define the operational rules and parameters (e.g., estimated time to impact, weapon type, proximity) used by the SFMC to calculate threat priority and determine which threat represents the greatest danger.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-018 specifies SFMC software behavior but uses the vague term 'clearly' and relies on the undefined concept 'greatest danger' without specifying threat prioritization rules or visual indication mechanisms."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "threat priority greatest danger vague criteria undefined term"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 49056,
+  "output_tokens": 3978
+}

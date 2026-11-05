@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-051 establishes a hardware platform constraint requiring the SFMC software to execute on the Starhawk Flight Computer. This is a standard design and implementation constraint directly applicable to the software system, making software_requirement_status 'YES'. The requirement is stated clearly, contains no vague or unbounded language, defines its scope and execution environment explicitly, and exhibits no quality defects (quality_status: 'ACCEPTABLE'). It does not define a safety control, inhibit, or hazard mitigation mechanism, so no SWE-184 link is included.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-051 clearly specifies the hardware platform constraint for the software without quality defects."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.11-guidance",
+    "swehb-3.2.1.12-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance"
+  ],
+  "queries": [
+    "hardware platform execution environment constraint design constraint"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 38495,
+  "output_tokens": 1583
+}

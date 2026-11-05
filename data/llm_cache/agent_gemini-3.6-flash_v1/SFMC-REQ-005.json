@@ -1,0 +1,35 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-005 specifies that when Autopilot mode is enabled, the SFMC shall control the spacecraft propulsion system to follow the selected route. The requirement clearly identifies the subject (SFMC), the trigger condition (Autopilot mode enabled), and the expected software behavior (control the propulsion system to follow the selected route). It uses defined modes and interfaces from \u00a71.3 and \u00a72.3. It contains no vague terms, undefined categories, escape clauses, or ambiguous allocations. Furthermore, as an ordinary flight control function rather than a safety control or hazard mitigation, it does not require a link to SWE-184.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-005 is an acceptable software requirement that defines the SFMC's obligation to control the propulsion system to follow a selected route when Autopilot mode is enabled."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.1.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.6-guidance"
+  ],
+  "queries": [
+    "control system requirements ambiguity functional requirements",
+    "scope ambiguity operational modes conditions"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 60600,
+  "output_tokens": 4859
+}

@@ -1,0 +1,67 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-014 specifies software behavior ('SFMC shall prevent a weapon from firing...'), making software_requirement_status YES. It introduces a safety inhibit/interlock preventing inadvertent weapon firing, which maps to NPR 7150.2D \u00a74.1.4 (SWE-184). However, the requirement relies on the term 'authorized weapons operation' without defining what actions, signals, arming states, or cockpit controls constitute pilot authorization. Because the criteria for this safety control are unresolved, quality_status is NEEDS_REVIEW and the SWE-184 link strength is PARTIAL_CONTENT.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement conditions the weapon fire inhibit on whether the pilot has 'authorized weapons operation', but the SRS does not define what actions, cockpit switch states, command sequences, or software arming states constitute authorization.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-014",
+            "excerpt": "authorized weapons operation"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance",
+          "swehb-3.2.1.4-guidance"
+        ],
+        "recommendation": "Define the explicit criteria, control inputs, or software states (e.g., weapon arm switch, Combat mode selection) that establish pilot authorization for weapons operation.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "The requirement establishes a safety control/inhibit preventing weapon release unless authorized by the pilot. Because the authorization criteria are undefined, this represents a safety constraint with unresolved criteria.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-014",
+            "excerpt": "The SFMC shall prevent a weapon from firing unless the pilot has authorized weapons operation."
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-014 defines a safety inhibit on weapon firing, but relies on the undefined term 'authorized weapons operation' to establish when firing is permitted."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.7-guidance",
+    "swehb-3.2.1.8-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.4-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "weapon authorization inhibit safety control NPR 7150.2D SWE-184",
+    "undefined term vagueness safety inhibit requirements analysis"
+  ],
+  "model_calls": 6,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 90746,
+  "output_tokens": 4173
+}

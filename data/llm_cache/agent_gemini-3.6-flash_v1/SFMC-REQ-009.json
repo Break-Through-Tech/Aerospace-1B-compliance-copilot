@@ -1,0 +1,30 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-009 specifies software behavior for the SFMC when remaining fuel falls below 5 percent of usable fuel capacity (displaying a critical-fuel warning and generating an audible alarm). The subject, trigger condition, quantitative threshold (5%), and output actions are explicit and testable. Warning/alarm display does not constitute a safety control (inhibit, interlock, or automated safe state transition) under SWE-184 guidance, so swe_links remains empty. No defects found.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-009 is an acceptable, testable functional requirement with clear quantitative thresholds and unambiguous software output obligations."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-3.2.4-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "functional requirements clear display alert warning alarm software"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 47262,
+  "output_tokens": 1754
+}

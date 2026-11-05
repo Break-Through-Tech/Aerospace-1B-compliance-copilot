@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "The requirement specifies software behavior for the SFMC upon receiving a subsystem fault report. It clearly defines the trigger (a monitored subsystem reporting a fault), the required software action (displaying the affected subsystem and reported fault to the pilot), and a specific, testable timing constraint (within 1 second). No defects were identified, so quality_status is ACCEPTABLE and quality_issues is empty. Since displaying fault information is an ordinary monitoring/reporting function without an automated protective interlock or transition to a safe state, no SWE-184 link is included.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-027 is a well-defined software requirement that specifies the display of reported subsystem faults to the pilot within a 1-second timing threshold."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "fault display response time user interface monitoring"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 43441,
+  "output_tokens": 1905
+}

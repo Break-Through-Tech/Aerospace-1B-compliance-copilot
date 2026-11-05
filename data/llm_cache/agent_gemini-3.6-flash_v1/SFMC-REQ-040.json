@@ -1,0 +1,50 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-040 states that the SFMC software shall never crash during a mission. This is a software obligation, so software_requirement_status is YES. Stating that software 'shall never crash' is an absolute universal claim over arbitrary execution states and inputs that cannot be verified by any finite test suite (UNVERIFIABLE_ABSOLUTE). To make reliability and availability requirements verifiable, the requirement should specify measurable metrics or specific fault handling mechanisms.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNVERIFIABLE_ABSOLUTE",
+        "severity": "MAJOR",
+        "explanation": "The requirement mandates that the SFMC software 'shall never crash', which represents an absolute claim over all potential inputs and mission states. No finite set of testing or analysis can prove that software will never crash under any condition.",
+        "evidence": [
+          {
+            "locator": "\u00a76, SFMC-REQ-040",
+            "excerpt": "shall never crash"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.2-guidance"
+        ],
+        "recommendation": "Replace the absolute claim with verifiable reliability and fault-tolerance metrics or specific fault handling requirements after consulting with stakeholders.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-040 contains an unverifiable absolute claim that the software 'shall never crash', which cannot be established by finite testing."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "unverifiable absolute never crash testable reliability non-functional"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 61229,
+  "output_tokens": 3873
+}

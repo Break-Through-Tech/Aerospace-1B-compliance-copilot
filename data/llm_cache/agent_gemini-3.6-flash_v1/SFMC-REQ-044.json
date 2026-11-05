@@ -1,0 +1,35 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-044 requires the SFMC software to maintain a mission log. This defines functional behavior allocated to the SFMC software, so software_requirement_status is YES. The requirement is clear, testable, and free of vague terms, escape clauses, or ambiguous scope. Subordinate requirements in \u00a77 (SFMC-REQ-045 through SFMC-REQ-047) further specify the contents, timestamps, and capacity of the mission log. Therefore, quality_status is ACCEPTABLE and quality_issues is empty. It is a standard data recording function, not a safety control or mitigation under NPR 7150.2D \u00a74.1.4, so swe_links is empty.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-044 is an acceptable software functional requirement specifying that the SFMC must maintain a mission log."
+  },
+  "allowed": [
+    "npr-4.1.2-note",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-1.c-guidance",
+    "swehb-1.e-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.3-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "mission log data requirements function",
+    "verifiable testable specific software requirement specification"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 60591,
+  "output_tokens": 2252
+}

@@ -1,0 +1,41 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-031 requires that the SFMC transition into Emergency mode when activated by the pilot using a dedicated cockpit control. This specifies operational state/mode behavior required of the SFMC software (software_requirement_status = YES). The requirement uses clear language, referencing Emergency mode (defined in \u00a71.3) and the dedicated cockpit control interface (\u00a72.1). There are no vague terms, missing responses, or ambiguous scope. Thus, quality_status is ACCEPTABLE. Transitioning to Emergency mode (which prioritizes crew survival per \u00a71.3) via operator control constitutes a software safety control / transition to a safe state under SWE-184 (NPR 7150.2D \u00a74.1.4).",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "DIRECT_CONTENT",
+        "explanation": "SFMC-REQ-031 establishes an operator-initiated control allowing the pilot to transition the SFMC into Emergency mode (defined in \u00a71.3 to prioritize crew survival and spacecraft recovery), fulfilling SWE-184 requirements for software safety controls and state transitions.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-031",
+            "excerpt": "The pilot shall be able to place the SFMC into Emergency mode using a dedicated cockpit control."
+          }
+        ]
+      }
+    ],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-031 is an acceptable functional requirement that clearly specifies pilot-initiated transition of the SFMC into Emergency mode via a dedicated cockpit control."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "Emergency mode dedicated cockpit control user pilot requirement software obligation"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 46558,
+  "output_tokens": 4114
+}

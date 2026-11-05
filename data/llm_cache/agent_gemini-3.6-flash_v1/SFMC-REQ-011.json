@@ -1,0 +1,55 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-011 requires the SFMC software to display detected spacecraft within sensor range. This is a software obligation, so software_requirement_status is YES. However, the requirement suffers from scope ambiguity because it does not specify which operational modes (defined in \u00a71.3) this behavior applies to, nor does it specify what data elements or display conditions are required. This ambiguity forces design decisions and makes verification unclear, warranting a MAJOR severity rating.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "The requirement states that the SFMC shall display detected spacecraft within sensor range, but it fails to specify which operational modes (\u00a71.3) this requirement applies to (e.g., whether it is active in Standby, Manual Flight, Autopilot, Combat, or Emergency mode) or what specific data elements and display formats are required for detected spacecraft.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-011",
+            "excerpt": "The SFMC shall display detected spacecraft within sensor range."
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1.2-guidance",
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Consult stakeholders to specify the operational modes in which target detection display is active and define the specific data fields, update criteria, and visual format for displaying detected spacecraft.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-011 specifies a software display function but suffers from scope ambiguity because it does not define which operational modes or specific display parameters apply."
+  },
+  "allowed": [
+    "npr-4.1.2-note",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.3-guidance",
+    "swehb-3.5-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "display software requirements data format updates sensor range ambiguous scope",
+    "scope ambiguity modes conditions functional requirement spec"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 59422,
+  "output_tokens": 4123
+}

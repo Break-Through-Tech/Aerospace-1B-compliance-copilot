@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-039 specifies that the SFMC software must operate continuously for missions lasting up to 72 hours. This is a non-functional software performance/reliability requirement with a clear, quantitative, and testable bound of 72 hours. It contains no vague criteria, undefined terms, escape clauses, or unassigned allocations. It does not state a safety control, interlock, or safe-state transition, so no SWE-184 link applies.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-039 is an acceptable performance/reliability requirement specifying continuous operation for missions up to 72 hours with clear, verifiable criteria."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "mission duration continuous operation performance reliability"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 41464,
+  "output_tokens": 1693
+}

@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-003 specifies that the SFMC software shall allow the pilot to select a navigation destination. This states a functional behavior required of the SFMC software, so software_requirement_status is YES. The requirement was evaluated against all defect criteria: it contains no vague degree words (VAGUE_CRITERION), undefined terms (UNDEFINED_TERM), unspecified responses (UNSPECIFIED_RESPONSE), unclear responsibility (ALLOCATION_UNCLEAR), unverifiable absolutes (UNVERIFIABLE_ABSOLUTE), escape clauses (ESCAPE_CLAUSE), or scope ambiguities (SCOPE_AMBIGUITY). It represents a standard high-level functional requirement as described in SWEHB 5.09 \u00a73.2.1. Additionally, it does not state a safety constraint, inhibit, or hazard mitigation, so SWE-184 does not apply. Thus, quality_status is ACCEPTABLE.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-003 clearly states a functional software requirement allowing the pilot to select a navigation destination without writing defects."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.4-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "functional requirement destination selection user interaction clear verifiable input output"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 57991,
+  "output_tokens": 2591
+}

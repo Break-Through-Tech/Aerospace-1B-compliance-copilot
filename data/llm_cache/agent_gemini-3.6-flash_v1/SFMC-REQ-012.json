@@ -1,0 +1,29 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-012 specifies that the SFMC software shall enable the pilot to select/designate any detected spacecraft as a target. Evaluating against issue types:\n- VAGUE_CRITERION: None present; no unbounded degree words.\n- UNDEFINED_TERM: 'detected spacecraft' and 'target' are standard domain concepts referenced throughout Section 3.3.\n- UNSPECIFIED_RESPONSE: The response (designating the spacecraft as target) is specific.\n- ALLOCATION_UNCLEAR: Clearly allocated to the SFMC software.\n- UNVERIFIABLE_ABSOLUTE: None present.\n- ESCAPE_CLAUSE: None present.\n- SCOPE_AMBIGUITY: Applies to detected spacecraft.\n- SAFETY_INTERACTION: Target designation itself is a basic functional feature, not a safety interlock or hazard mitigation.\n- OVERLAP_CLARIFICATION: Does not conflict with other targeting requirements.\nThe requirement is a clear, testable functional user requirement.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-012 is an acceptable functional requirement that clearly specifies the SFMC software must enable the pilot to designate a detected spacecraft as a target."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-3.2.4-guidance"
+  ],
+  "queries": [
+    "target selection functional user interface requirement criteria"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 42500,
+  "output_tokens": 2345
+}

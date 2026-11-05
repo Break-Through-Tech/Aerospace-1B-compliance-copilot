@@ -1,0 +1,56 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-043 specifies software behavior during subsystem unavailability, so software_requirement_status is YES. The requirement contains the phrase 'whenever possible', which is a classic escape clause that excuses non-compliance and makes verification impossible. Therefore, quality_status is NEEDS_REVIEW with an ESCAPE_CLAUSE defect. The defect is MAJOR as it renders the requirement unverifiable. No specific safety interlock or safe-state transition is defined, so swe_links remains empty.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "ESCAPE_CLAUSE",
+        "severity": "MAJOR",
+        "explanation": "The phrase 'whenever possible' acts as an escape clause that excuses non-compliance, leaving the required degraded operation ambiguous and unverifiable.",
+        "evidence": [
+          {
+            "locator": "\u00a76, SFMC-REQ-043",
+            "excerpt": "whenever possible"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Remove 'whenever possible' and explicitly define the specific degraded operational modes, redundant fallback paths, and system Shedding rules for each subsystem failure state in coordination with stakeholders.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-043 contains an escape clause ('whenever possible') that excuses non-compliance and leaves degraded system behavior unverifiable."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.7-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.3-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "escape clause whenever possible fault tolerance degraded operation",
+    "escape clause ambiguous testable verifiable whenever possible"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 63530,
+  "output_tokens": 2673
+}

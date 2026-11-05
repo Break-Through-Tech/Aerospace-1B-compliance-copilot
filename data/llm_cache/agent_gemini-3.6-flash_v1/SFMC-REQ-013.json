@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-013 defines software display behavior for target data when a target is selected by the pilot ('For a selected target, the SFMC shall display: - relative distance, - relative velocity, - target classification, and - targeting status'). This specifies functional display output allocated directly to the SFMC software, so software_requirement_status is YES. The requirement contains no vague thresholds, escape clauses, unassigned allocations, or undefined condition categories; its output items are explicit. Therefore, quality_status is ACCEPTABLE. SWE-184 is not linked because displaying target parameters is a standard operational display function rather than a safety constraint, interlock, or hazard mitigation.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-013 clearly specifies software display obligations for selected target parameters and contains no writing defects. It does not state a safety control or mitigation, so SWE-184 is not linked."
+  },
+  "allowed": [
+    "npr-3.11.8-note",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.3-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "display target information relative distance velocity classification targeting status"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 42490,
+  "output_tokens": 2905
+}

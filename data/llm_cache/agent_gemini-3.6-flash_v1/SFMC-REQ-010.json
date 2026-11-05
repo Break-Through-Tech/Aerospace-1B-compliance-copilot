@@ -1,0 +1,61 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-010 defines software behavior for handling engine failure (\"If the SFMC detects a failure of a main engine, it shall notify the pilot and take appropriate corrective action\"). Therefore, software_requirement_status is YES. \n\nHowever, the requirement specifies a trigger (\"If the SFMC detects a failure of a main engine\") but uses the placeholder phrase \"take appropriate corrective action\" for the required software response. This is an UNSPECIFIED_RESPONSE defect. Because engine failure handling is a critical safety mitigation, leaving the response unspecified leaves the safety function unimplementable and unverifiable, resulting in a CRITICAL severity. Stakeholder input is required to specify the precise corrective actions (e.g., thrust vector adjustment, shutting down affected engine, automatic transition to Emergency mode).\n\nRegarding SWE-184 link: The requirement specifies a safety control/mitigation in response to a main engine failure hazard, but the specific mitigation criteria and actions are unresolved due to the placeholder \"appropriate corrective action\". Thus, it connects to SWE-184 with PARTIAL_CONTENT.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNSPECIFIED_RESPONSE",
+        "severity": "CRITICAL",
+        "explanation": "The requirement specifies a trigger (engine failure detection) but provides a placeholder phrase ('take appropriate corrective action') instead of defining the specific software response or recovery procedure.",
+        "evidence": [
+          {
+            "locator": "\u00a73.2, SFMC-REQ-010",
+            "excerpt": "take appropriate corrective action"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-3.2.1.4-guidance"
+        ],
+        "recommendation": "Specify the exact automated actions the SFMC software must perform upon detecting a main engine failure (e.g., rebalancing thrust across remaining engines, shutting down fuel flow to the failed engine, or transitioning the system to Emergency mode).",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "SFMC-REQ-010 requires software mitigation for a main engine failure hazard, but leaves the specific safety control behavior unresolved by specifying 'appropriate corrective action'.",
+        "evidence": [
+          {
+            "locator": "\u00a73.2, SFMC-REQ-010",
+            "excerpt": "take appropriate corrective action"
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-010 contains an unspecified response defect by requiring the software to 'take appropriate corrective action' upon engine failure without defining the required behavior."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "unspecified response appropriate corrective action safety control engine failure"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 42932,
+  "output_tokens": 2935
+}

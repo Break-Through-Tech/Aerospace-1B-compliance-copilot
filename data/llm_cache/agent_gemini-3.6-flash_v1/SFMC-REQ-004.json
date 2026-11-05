@@ -1,0 +1,70 @@
+{
+  "review": {
+    "analysis": "The requirement SFMC-REQ-004 specifies software behavior for route calculation upon pilot destination selection, making software_requirement_status YES. However, it contains two writing defects: 'efficient' is a vague subjective criterion without quantitative metrics (VAGUE_CRITERION), and 'safe' relies on undefined safety rules/criteria, explicitly identified as Open Item 1 in \u00a711 (UNDEFINED_TERM). Both issues make the requirement unverifiable and force design choices, justifying MAJOR severity. SFMC-REQ-004 is a standard navigation functional requirement rather than a safety constraint/control/mitigation/inhibit, so swe_links is empty.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The term 'efficient' is a subjective degree word with no quantitative metrics, thresholds, or constraints (e.g., fuel consumption, time, or distance optimization targets), rendering the requirement unverifiable.",
+        "evidence": [
+          {
+            "locator": "\u00a73.1, SFMC-REQ-004",
+            "excerpt": "efficient"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-3.2.2-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define quantifiable metrics for efficiency (e.g., minimum fuel consumption, shortest flight time, or shortest distance) in consultation with stakeholders.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement requires calculation of a 'safe' route, but the SRS does not define the criteria or constraints for route safety, explicitly leaving it as an unresolved open item.",
+        "evidence": [
+          {
+            "locator": "\u00a73.1, SFMC-REQ-004",
+            "excerpt": "safe"
+          },
+          {
+            "locator": "\u00a711, Open Item 1",
+            "excerpt": "Definition of a safe route."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define the explicit constraints, hazard avoidance parameters, and keep-out boundaries required for a route to be considered safe.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-004 defines a software functionality but is unverifiable because 'efficient' is a vague subjective term and 'safe' relies on safety criteria that remain an open item in \u00a711."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.5-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "vague terms defined safe efficient requirement criteria"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 43565,
+  "output_tokens": 2939
+}
