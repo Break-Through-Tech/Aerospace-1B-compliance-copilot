@@ -1,0 +1,73 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-015 states software behavior by requiring the SFMC to inhibit firing weapons at a friendly spacecraft. However, the term 'friendly spacecraft' is not defined in the SRS, and \u00a711 Open Item 10 acknowledges that criteria for determining friendly status remain open. This constitutes an UNDEFINED_TERM issue. Furthermore, since SFMC-REQ-015 defines a safety inhibit against fratricide, it links to NPR 7150.2D \u00a74.1.4 (SWE-184) with PARTIAL_CONTENT strength due to incomplete identification criteria.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement restricts weapon firing based on target status as a 'friendly spacecraft', but the SRS does not define the criteria or identification mechanism to classify a spacecraft as friendly, as confirmed by \u00a711, Open Item 10. Without explicit criteria, the behavior cannot be unambiguously implemented or tested.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-015",
+            "excerpt": "friendly spacecraft"
+          },
+          {
+            "locator": "\u00a711, Open Item 10",
+            "excerpt": "Criteria for determining whether a detected spacecraft is friendly or hostile."
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Stakeholders must define the criteria or technical mechanisms (e.g., IFF transponder signal, fleet registry) used to classify a spacecraft as friendly, resolving \u00a711 Open Item 10.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "SFMC-REQ-015 establishes a software safety control (weapon firing inhibit to prevent friendly fire/fratricide), but because the criteria for classifying friendly spacecraft remain unresolved in \u00a711 Open Item 10, the strength is PARTIAL_CONTENT.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-015",
+            "excerpt": "The SFMC shall never permit the pilot to fire a weapon at a friendly spacecraft."
+          },
+          {
+            "locator": "\u00a711, Open Item 10",
+            "excerpt": "Criteria for determining whether a detected spacecraft is friendly or hostile."
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-015 defines a software requirement prohibiting weapon firing at friendly spacecraft, but uses the undefined term 'friendly spacecraft', whose classification criteria remain an open item (\u00a711, Open Item 10)."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.3-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "undefined terms criteria safety constraints inhibits weapons",
+    "undefined terms testable unambiguous criteria"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 74332,
+  "output_tokens": 3411
+}

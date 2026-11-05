@@ -1,0 +1,30 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-022 specifies that the SFMC software must allow the pilot to transmit messages to fleet command, which is a software functional obligation (software_requirement_status = YES). The requirement is clearly stated, assigns responsibility to the SFMC, defines the user action and destination, and contains no vague criteria, undefined terms, or escape clauses. Therefore, quality_status is ACCEPTABLE with no quality issues. It describes normal communication functionality rather than a safety constraint, interlock, or safe-state mitigation, so no SWE-184 link is required.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-022 defines a functional software requirement for message transmission to fleet command. The requirement is clear, testable, and contains no quality defects."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-3.2.4-guidance"
+  ],
+  "queries": [
+    "functional requirements communication interface user interaction completeness"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 41982,
+  "output_tokens": 2265
+}

@@ -1,0 +1,55 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-042 specifies software fault recovery behavior for the SFMC software, so software_requirement_status is YES. However, the term 'important mission data' is undefined in the SRS, leaving it unclear which data sets or parameters must be preserved during recovery. This makes the requirement unverifiable and forces design assumptions, constituting a MAJOR defect (UNDEFINED_TERM).",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement mandates preserving 'important mission data' during software fault recovery, but the SRS never defines which data items, logs, or state parameters fall into the category of 'important mission data'. Without a precise definition, developers cannot implement data preservation mechanisms deterministically and verification cannot be performed.",
+        "evidence": [
+          {
+            "locator": "\u00a76, SFMC-REQ-042",
+            "excerpt": "important mission data"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Specify the explicit data items, logs, or state parameters (such as the mission log, fault log, or flight state parameters) that must be preserved across software fault recoveries, or state that all persistent mission data must be preserved.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-042 defines software fault recovery behavior, but relies on the undefined term 'important mission data', making it unverifiable."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.3-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "undefined term vague data recovery fault tolerance",
+    "ambiguity testable undefined term specific"
+  ],
+  "model_calls": 6,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 90072,
+  "output_tokens": 3389
+}

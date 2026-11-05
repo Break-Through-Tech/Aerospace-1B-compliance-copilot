@@ -1,0 +1,37 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-036 defines a measurable performance and timing requirement for system startup, specifying that the SFMC software must initialize and become operational within 30 seconds after spacecraft computer power is applied. The trigger (power application) and performance boundary (30 seconds) are unambiguous and testable. No ambiguous criteria, undefined terms, or escape clauses are present. The requirement does not establish a safety control, inhibit, or hazard mitigation, so NPR 7150.2D SWE-184 is not applicable.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-036 is an acceptable performance and timing requirement that specifies a clear, testable 30-second initialization limit following spacecraft power application."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.1.11-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.2.2.4-guidance"
+  ],
+  "queries": [
+    "performance timing startup initialization operational",
+    "\"operational\" undefined term initialization startup"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 58151,
+  "output_tokens": 1883
+}

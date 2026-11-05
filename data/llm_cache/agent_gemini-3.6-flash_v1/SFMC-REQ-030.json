@@ -1,0 +1,73 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-030 requires the SFMC to 'immediately notify the pilot of all critical faults.' The requirement is allocated to the SFMC software (YES). However, it suffers from two defects: 'immediately' is a vague timing term lacking a measurable latency requirement, and 'critical faults' is an undefined category explicitly noted as an open item in Section 11. Reporting a fault without an automated protective response is an ordinary reporting function, so no SWE-184 safety link applies.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The term 'immediately' is a vague timing criterion without a defined latency threshold or maximum response time, rendering the timing constraint unmeasurable and unverifiable.",
+        "evidence": [
+          {
+            "locator": "\u00a73.6, SFMC-REQ-030",
+            "excerpt": "immediately"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.2.1-guidance"
+        ],
+        "recommendation": "Specify a quantitative maximum notification latency or response time threshold (e.g., within 250 milliseconds).",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement relies on the category 'critical faults', which is not defined in the specification or interface requirements, leaving the set of triggering conditions ambiguous. Section 11 explicitly lists this as Open Item 3.",
+        "evidence": [
+          {
+            "locator": "\u00a73.6, SFMC-REQ-030",
+            "excerpt": "critical faults"
+          },
+          {
+            "locator": "\u00a711, Open Item 3",
+            "excerpt": "Definition of critical fault."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Define explicit criteria or enumerate the specific fault conditions that classify as critical faults to resolve Open Item 3.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-030 specifies software behavior but uses the vague timing term 'immediately' and relies on the undefined term 'critical faults' (Open Item 3)."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.5-guidance",
+    "swehb-6.1-guidance"
+  ],
+  "queries": [
+    "vague timing immediately undefined term timing performance criteria",
+    "undefined term vague requirement verification criteria"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 58144,
+  "output_tokens": 3251
+}

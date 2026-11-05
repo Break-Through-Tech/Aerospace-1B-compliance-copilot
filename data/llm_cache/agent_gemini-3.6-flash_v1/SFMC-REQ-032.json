@@ -1,0 +1,61 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-032 specifies behavior that the SFMC software must carry out during Emergency mode (prioritizing life-support, navigation, and propulsion functions over nonessential spacecraft functions), so software_requirement_status is YES. However, the requirement relies on the term 'nonessential spacecraft functions', which is never defined in the SRS, and fails to specify the concrete rules or mechanisms for prioritization. Because it defines a safety control in Emergency mode with incomplete criteria, it links to SWE-184 under PARTIAL_CONTENT.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement mandates prioritizing certain functions over 'nonessential spacecraft functions', but the SRS never defines which subsystems or functions belong to the nonessential category, nor does it specify the rules or mechanisms for function prioritization.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-032",
+            "excerpt": "nonessential spacecraft functions"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define explicitly which spacecraft functions are classified as nonessential, and specify the measurable prioritization criteria and resource allocation mechanisms for Emergency mode.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "The requirement defines a safety control intended to protect crew survival during emergency operation by prioritizing critical functions, but the scope and criteria for prioritizing against nonessential functions are unresolved.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-032",
+            "excerpt": "While operating in Emergency mode, the SFMC shall prioritize life-support, navigation, and propulsion functions over nonessential spacecraft functions."
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-032 specifies software prioritization in Emergency mode, but relies on the undefined term 'nonessential spacecraft functions' and lacks measurable prioritization rules."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "prioritize functions ambiguous undefined term vague criterion"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 45057,
+  "output_tokens": 3228
+}

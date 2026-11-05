@@ -52,6 +52,8 @@ pip install -r requirements.txt
 | `notebooks/06_build_answer_key.ipynb` | Expected answers for evaluation → `data/answer_key.csv` |
 | `notebooks/07_retrieve_relevant_clauses.ipynb` | Top 5 clauses per requirement → `data/rag_retrievals.csv` |
 | `notebooks/08_generate_report.ipynb` | LLM (Gemini) verdict for each requirement → `data/report.json`, checked with `validate_report.py`. Needs `GOOGLE_API_KEY` in a `.env` file |
+| `notebooks/11_tool_calling_agent.ipynb` | Tool-calling agent (`retrieve_clause`, `check_requirement`, `log_gap`) → `data/report_agent.json`. Needs `data/chroma_db/` from notebook 03 and `GOOGLE_API_KEY` |
+| `notebooks/review_tools.py` | Shared by 08 and 11: the draft format, prompt rules, and citation filling |
 | `notebooks/report_schema.py` | Pydantic models for `report.json`, matching the output contract |
 | `tests/` | Tests for `report_schema.py`; run `python -m pytest tests -v` from the repo root |
 | `contract/` | Mark's output contract, JSON schema, sample report, and `validate_report.py` |

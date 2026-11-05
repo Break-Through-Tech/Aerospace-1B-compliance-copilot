@@ -1,0 +1,35 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-001 specifies that the SFMC software shall display the spacecraft's current position to the pilot. The requirement clearly assigns responsibility to the SFMC software, states a mandatory functional obligation (\"shall display\"), and references clear inputs (spacecraft position from Navigation System, \u00a72.2) and outputs (pilot display, \u00a72.1). There are no vague degree words, undefined category terms, escape clauses, or unverifiable absolutes. As an ordinary display function, it does not constitute a safety control or mitigation under NPR 7150.2D SWE-184.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-001 is a clear and verifiable software requirement for displaying the spacecraft's current position to the pilot with no quality defects identified."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.1.2-guidance",
+    "swehb-3.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-3.2.4-guidance",
+    "swehb-3.3-guidance"
+  ],
+  "queries": [
+    "display requirements user interface position display criteria testability",
+    "operational modes states scope ambiguity requirement conditions"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 62379,
+  "output_tokens": 3282
+}

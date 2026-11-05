@@ -1,0 +1,103 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-021 requires the SFMC software to respond quickly to dangerous threats. It describes software behavior, so software_requirement_status is YES. However, it contains multiple quality defects: 'quickly' is a vague degree word with no quantitative timing limit (VAGUE_CRITERION); 'dangerous threats' is an undefined category in the SRS (UNDEFINED_TERM); and 'respond' fails to specify what concrete action or response the software must perform (UNSPECIFIED_RESPONSE). This leaves a defensive safety control with unresolved scope and criteria, corresponding to NPR 7150.2D SWE-184 (PARTIAL_CONTENT).",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The term 'quickly' is a vague degree word without a quantitative response time limit or measurable latency constraint.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-021",
+            "excerpt": "quickly"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.2-guidance",
+          "swehb-3.2.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Specify an explicit maximum response time (e.g., within 500 milliseconds) for threat response.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The SRS does not define the category 'dangerous threats' or specify criteria for classifying detected threats as dangerous.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-021",
+            "excerpt": "dangerous threats"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define objective criteria for classifying threats as dangerous or reference a threat definition matrix.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNSPECIFIED_RESPONSE",
+        "severity": "MAJOR",
+        "explanation": "The required behavior 'respond' is generic and unspecified, failing to describe what action the software must execute upon detecting a threat.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-021",
+            "excerpt": "respond"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance",
+          "swehb-7.1-guidance"
+        ],
+        "recommendation": "Define the required software response action (e.g., deploying countermeasures, raising an alert, or enabling defensive shields).",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "The requirement specifies a software response to mitigate dangerous threats to the spacecraft, but its timing, threat criteria, and protective actions remain unresolved.",
+        "evidence": [
+          {
+            "locator": "\u00a73.4, SFMC-REQ-021",
+            "excerpt": "The SFMC shall respond quickly to dangerous threats."
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-021 requires software behavior but contains vague timing ('quickly'), an undefined threat classification ('dangerous threats'), and an unspecified response action ('respond')."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.3-guidance",
+    "swehb-3.3-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "vague criterion timing response quickly performance requirement testable",
+    "NPR 7150.2D 4.1.4 safety constraints controls mitigations SWE-184"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 68028,
+  "output_tokens": 5172
+}

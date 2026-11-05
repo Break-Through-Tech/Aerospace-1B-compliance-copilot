@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-023 defines functional software behavior for notifying the pilot upon reception of a fleet message. The requirement has a clear subject ('The SFMC'), a well-defined trigger ('when a new fleet message is received'), and an explicit action ('notify the pilot'). There are no vague degree words, placeholder responses, undefined categories, or escape clauses present. It does not represent a safety interlock, inhibit, or hazard mitigation, so SWE-184 is not applicable.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-023 specifies software behavior requiring the SFMC to notify the pilot when a new fleet message is received, meeting quality standards without demonstrated defects."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.3.2-guidance",
+    "swehb-3.2.3.4-guidance",
+    "swehb-3.2.3.5-guidance",
+    "swehb-3.2.3.6-guidance"
+  ],
+  "queries": [
+    "notification interface user interface message reception timing"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 40210,
+  "output_tokens": 2211
+}

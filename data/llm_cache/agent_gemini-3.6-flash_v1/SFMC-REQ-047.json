@@ -1,0 +1,54 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-047 states that the mission log shall contain 'sufficient storage for an entire mission'. The word 'sufficient' is explicitly a vague criterion without a quantitative threshold or unit (e.g., megabytes, number of entries, or event recording duration). Furthermore, \u00a711 Open Item 6 confirms that the required mission-log storage capacity remains unresolved. This makes the requirement unverifiable and forces design assumptions. The obligation is allocated to the SFMC mission log software/system, so software_requirement_status is YES. The requirement does not state a safety control or hazard mitigation, so SWE-184 does not apply.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The requirement uses the subjective term 'sufficient storage' without defining a quantifiable capacity (such as storage size in megabytes/gigabytes or a minimum number of log entries). This leaves the required hardware resource utilization and storage bounds unverifiable. \u00a711 Open Item 6 acknowledges that the mission-log storage capacity is an unresolved open item.",
+        "evidence": [
+          {
+            "locator": "\u00a77, SFMC-REQ-047",
+            "excerpt": "sufficient storage"
+          },
+          {
+            "locator": "\u00a711, Open Item 6",
+            "excerpt": "Required mission-log storage capacity."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.2-guidance",
+          "swehb-3.2.2.4-guidance"
+        ],
+        "recommendation": "Specify a quantitative capacity for the mission log storage (e.g., in megabytes or maximum number of logged events) based on the maximum expected mission duration (72 hours per SFMC-REQ-039) and logging rate. Resolving Open Item 6 with stakeholder input is required.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-047 uses the vague criterion 'sufficient storage' without specifying measurable capacity bounds, leaving the storage requirement unverifiable."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.12-guidance",
+    "swehb-3.2.1.3-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.2.2.4-guidance"
+  ],
+  "queries": [
+    "vague subjective terms sufficient bounded storage capacity"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 40560,
+  "output_tokens": 2185
+}

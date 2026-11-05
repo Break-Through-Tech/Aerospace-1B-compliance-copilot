@@ -1,0 +1,30 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-017 specifies that the SFMC software must display a threat warning to the pilot when an incoming threat is identified by the Defensive System. The requirement clearly defines the trigger condition and the software action without using vague terms, escape clauses, or placeholder responses. Displaying a warning is an ordinary status/notification function, not an active safety control or interlock, so SWE-184 does not apply.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-017 clearly defines a software requirement for displaying a threat warning to the pilot upon detection of an incoming threat by the Defensive System, with no quality defects identified."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.3.3-guidance",
+    "swehb-3.2.4-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "threat warning user interface notification display functional requirement"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 48723,
+  "output_tokens": 2562
+}

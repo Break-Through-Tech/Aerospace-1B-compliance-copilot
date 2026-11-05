@@ -1,0 +1,31 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-002 specifies a functional timing requirement for updating the displayed spacecraft position at least once every 500 milliseconds during Manual Flight, Autopilot, or Combat mode. The obligation is allocated to the SFMC software (software_requirement_status = YES). The timing threshold (500 ms) is explicit and verifiable, and the operational modes are clearly defined in \u00a71.3. Updating displayed position is a standard navigation/display function rather than a safety control or hazard mitigation, so NPR 7150.2D \u00a74.1.4 (SWE-184) does not apply. No defects are present, making the requirement ACCEPTABLE.",
+    "software_requirement_status": "YES",
+    "quality_issues": [],
+    "swe_links": [],
+    "quality_status": "ACCEPTABLE",
+    "summary": "SFMC-REQ-002 is an acceptable software requirement specifying a testable 500-millisecond update rate for displayed spacecraft position across defined operational modes."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.2.2.4-guidance"
+  ],
+  "queries": [
+    "update rate timing requirement display position mode"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 39582,
+  "output_tokens": 2212
+}

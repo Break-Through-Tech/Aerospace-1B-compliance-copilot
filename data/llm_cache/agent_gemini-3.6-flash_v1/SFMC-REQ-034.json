@@ -1,0 +1,69 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-034 requires the SFMC to automatically fly the spacecraft to a safe location during an emergency. This specifies software behavior for the SFMC, so software_requirement_status is YES. However, the term 'safe location' is undefined in the SRS, as explicitly noted in \u00a711, Open Item 5. Without a definition, standard, or algorithm to determine what constitutes a 'safe location', the required flight destination cannot be implemented or verified. The requirement also describes an emergency safety control/mitigation (automated flight to safety), but because the criteria are unresolved, it links to NPR 7150.2D SWE-184 as PARTIAL_CONTENT.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The term 'safe location' is undefined, making it impossible to implement or verify where the autopilot should direct the spacecraft. The SRS explicitly lists this as an unresolved item in \u00a711, Open Item 5.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-034",
+            "excerpt": "safe location"
+          },
+          {
+            "locator": "\u00a711, Open Item 5",
+            "excerpt": "Definition of a safe location during an emergency."
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Define the quantitative parameters, conditions, or algorithms used to determine a 'safe location' during an emergency, resolving Open Item 5 in consultation with system safety stakeholders.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "The requirement specifies a software safety mitigation (automatically piloting the spacecraft to safety during an emergency), but the operational criteria and destination definitions remain incomplete.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-034",
+            "excerpt": "automatically flying the spacecraft to a safe location during an emergency"
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-034 uses the undefined term 'safe location' (acknowledged in \u00a711, Open Item 5), rendering the emergency autopilot behavior unverifiable."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.3.4-guidance",
+    "swehb-6.1-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "undefined term safe location vague criterion capability emergency autopilot",
+    "NPR 7150.2D 4.1.4 SWE-184"
+  ],
+  "model_calls": 6,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 92759,
+  "output_tokens": 4119
+}

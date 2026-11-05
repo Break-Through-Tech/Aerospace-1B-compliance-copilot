@@ -1,0 +1,73 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-025 specifies that 'All important communications shall be securely encrypted.' This is a software requirement (software_requirement_status: YES). However, it exhibits two major quality defects:\n1. UNDEFINED_TERM: 'important communications' relies on an undefined classification category, as acknowledged in \u00a711, Open Item 4 ('Definition of important communication.').\n2. VAGUE_CRITERION: 'securely encrypted' uses the subjective modifier 'securely' without specifying the cryptographic algorithms, protocols, or standards to use, which is noted in \u00a711, Open Item 9 ('Required cybersecurity algorithms and standards.').\n\nNo safety inhibit, interlock, or hazard mitigation transition is specified, so no SWE-184 link applies.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement restricts encryption to 'important communications', but the SRS does not define which communication types or categories count as important, leaving it as an unresolved open item.",
+        "evidence": [
+          {
+            "locator": "\u00a73.5, SFMC-REQ-025",
+            "excerpt": "important communications"
+          },
+          {
+            "locator": "\u00a711, Open Item 4",
+            "excerpt": "Definition of important communication."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Explicitly enumerate the specific message types, channels, or severity levels that require encryption, or specify that all external communications must be encrypted, in coordination with stakeholders.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The modifier 'securely' is subjective and vague, omitting mandatory encryption algorithms, cipher strengths, or protocol standards required for implementation and verification.",
+        "evidence": [
+          {
+            "locator": "\u00a73.5, SFMC-REQ-025",
+            "excerpt": "securely encrypted"
+          },
+          {
+            "locator": "\u00a711, Open Item 9",
+            "excerpt": "Required cybersecurity algorithms and standards."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1.8-guidance"
+        ],
+        "recommendation": "Specify the exact cryptographic standards, key lengths, and protocols (e.g., AES-256, TLS 1.3) required for secure communication encryption in consultation with security stakeholders.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-025 is a software requirement but has major defects: 'important communications' relies on an undefined category (Open Item 4), and 'securely encrypted' uses a vague quality term without defining required encryption standards or algorithms (Open Item 9)."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.8-guidance",
+    "swehb-3.3-guidance",
+    "swehb-3.5-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "undefined term secure encryption vague criteria security"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 44344,
+  "output_tokens": 3225
+}

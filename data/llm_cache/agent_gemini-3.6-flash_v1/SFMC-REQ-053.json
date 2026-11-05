@@ -1,0 +1,70 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-053 specifies software behavior regarding software installation during Standby mode, so software_requirement_status is YES.\nHowever, it suffers from UNDEFINED_TERM because 'Authorized maintenance personnel' relies on a category/role that is nowhere defined in the SRS (only pilot authentication is addressed elsewhere).\nIt also exhibits SCOPE_AMBIGUITY because 'while the spacecraft is in Standby mode' is ambiguous about whether software updates are strictly inhibited in all other operational modes or if Standby mode is simply one supported context.\nThese defects force design decisions and require stakeholder clarification. Therefore, quality_status is NEEDS_REVIEW.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The requirement relies on the term 'Authorized maintenance personnel', but the SRS does not define maintenance personnel roles, credentials, or authorization mechanisms.",
+        "evidence": [
+          {
+            "locator": "\u00a79, SFMC-REQ-053",
+            "excerpt": "Authorized maintenance personnel"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1.8-guidance"
+        ],
+        "recommendation": "Define maintenance personnel roles and specify the authorization/authentication mechanism required to install software updates.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "It is ambiguous whether software updates are strictly prohibited in all operational modes other than Standby mode, or if Standby mode is merely one mode in which updates are permitted.",
+        "evidence": [
+          {
+            "locator": "\u00a79, SFMC-REQ-053",
+            "excerpt": "while the spacecraft is in Standby mode"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1.2-guidance"
+        ],
+        "recommendation": "Specify whether software updates must be inhibited in all non-Standby operational modes.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-053 specifies software functionality for installing updates, but it relies on the undefined term 'Authorized maintenance personnel' and leaves scope ambiguous regarding whether updates are prohibited in other operating modes."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.13-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.8-guidance",
+    "swehb-3.2.2.2-guidance",
+    "swehb-3.2.3.7-guidance",
+    "swehb-3.6-guidance"
+  ],
+  "queries": [
+    "software update maintenance standby mode authorized personnel",
+    "authentication authorization security maintenance role"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 59411,
+  "output_tokens": 4695
+}

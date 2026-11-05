@@ -1,0 +1,79 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-035 defines software behavior for handing control back to the pilot when overriding automatic systems, so software_requirement_status is YES. The requirement contains defects: 'automatic spacecraft controls' is ambiguous regarding which automated software functions are included (SCOPE_AMBIGUITY), and 'override automatic spacecraft controls' does not specify the software response (e.g., mode transition to Manual Flight, control disengagement) upon receiving an override input (UNSPECIFIED_RESPONSE). This requirement represents a safety control allowing pilot override of automated software behavior, but since criteria and mechanisms are incomplete, it maps to NPR 7150.2D \u00a74.1.4 (SWE-184) with PARTIAL_CONTENT strength.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MAJOR",
+        "explanation": "The phrase 'automatic spacecraft controls' is ambiguous as it is unclear whether it applies strictly to flight autopilot (SFMC-REQ-005), emergency autopilot (SFMC-REQ-034), automated countermeasures (SFMC-REQ-020), or all automated software routines.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-035",
+            "excerpt": "automatic spacecraft controls"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1.2-guidance",
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Specify the exact set of automated functions and operational modes to which the pilot override requirement applies.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "UNSPECIFIED_RESPONSE",
+        "severity": "MAJOR",
+        "explanation": "The requirement states that the pilot can override controls, but fails to specify the required software system response upon receiving an override signal (e.g., disengaging autopilot thruster commands, transitioning operating mode to Manual Flight, and alerting the pilot).",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-035",
+            "excerpt": "override automatic spacecraft controls"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-1.b-guidance"
+        ],
+        "recommendation": "Define the exact sequence of actions and state transitions the SFMC software must perform when an override action is initiated by the pilot.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [
+      {
+        "swe_id": "SWE-184",
+        "strength": "PARTIAL_CONTENT",
+        "explanation": "SFMC-REQ-035 establishes a safety control allowing operator override of automated software functions, but leaves the detailed software response and scope unresolved.",
+        "evidence": [
+          {
+            "locator": "\u00a74, SFMC-REQ-035",
+            "excerpt": "override automatic spacecraft controls"
+          }
+        ]
+      }
+    ],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-035 specifies a safety control for pilot override of automated software systems, but lacks details on which automated controls are included and what software response or mode transition occurs upon override."
+  },
+  "allowed": [
+    "npr-3.7.3-requirement",
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.2-guidance",
+    "swehb-3.2.1.4-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.6-guidance"
+  ],
+  "queries": [
+    "override safety constraints controls automated control mode transition"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 58131,
+  "output_tokens": 4464
+}

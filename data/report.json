@@ -7,8 +7,8 @@
     "evaluation_scope": "DEMO",
     "npr_reference_version": "NPR-7150.2D",
     "handbook_reference": "NASA-HDBK-2203-5.09",
-    "method": "RAG: top-5 clauses retrieved from Chroma (all-MiniLM-L6-v2) plus 3 always-included clauses; verdicts by gemini-3.5-flash with structured output; citations filled from addressable_clauses.csv; validated with report_schema.py",
-    "generated_at_utc": "2026-11-05T15:51:56Z",
+    "method": "RAG: top-5 clauses retrieved from Chroma (all-MiniLM-L6-v2) plus 3 always-included clauses; verdicts by gemini-3.5-flash (served by the API as gemini-3.6-flash) with structured output; citations filled from addressable_clauses.csv; validated with report_schema.py",
+    "generated_at_utc": "2026-11-05T20:52:48Z",
     "limitations": [
       "Requirement reviews only; relationships, document findings, and SWE coverage are not generated yet.",
       "No NASA project compliance is determined from the SRS alone.",

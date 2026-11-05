@@ -1,0 +1,71 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-007 specifies software behavior for the SFMC to monitor engine status, so software_requirement_status is YES. However, using 'continuously' without a specific sampling rate, polling interval, or operational mode scope makes the requirement vague and unverifiable. In digital systems, monitoring occurs at discrete intervals, requiring a defined frequency (e.g., 10 Hz) or maximum latency. Additionally, it does not specify which operational modes (\u00a71.3) require engine status monitoring. It does not state a safety control, interlock, or safe-state transition, so swe_links is empty.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The term 'continuously' is vague and non-measurable for digital software, which operates at discrete execution intervals. Without a specified sampling rate, update frequency, or polling period, the monitoring performance cannot be verified.",
+        "evidence": [
+          {
+            "locator": "\u00a73.2, SFMC-REQ-007",
+            "excerpt": "continuously"
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.2.1-guidance",
+          "swehb-3.2.2-guidance"
+        ],
+        "recommendation": "Specify a precise quantitative sampling rate or update frequency (e.g., at least once every 100 milliseconds) for engine status monitoring. Stakeholders must define the required monitoring rate.",
+        "requires_stakeholder_input": true
+      },
+      {
+        "issue_code": "SCOPE_AMBIGUITY",
+        "severity": "MINOR",
+        "explanation": "The requirement does not specify which operational modes (e.g., Standby, Manual Flight, Autopilot, Combat, Emergency as listed in \u00a71.3) engine monitoring must take place in.",
+        "evidence": [
+          {
+            "locator": "\u00a73.2, SFMC-REQ-007",
+            "excerpt": "The SFMC shall continuously monitor the status of the spacecraft's main engines."
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1-guidance"
+        ],
+        "recommendation": "Clarify whether engine status monitoring is required in all operational modes or only specific modes (such as active flight modes). Stakeholders should confirm mode applicability.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-007 is a software requirement, but it contains vague criteria ('continuously') without a measurable sampling rate or update frequency, and lacks scope clarification regarding operational modes."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.1.2-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.5-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.1.9-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.2.2.1-guidance",
+    "swehb-3.3-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "continuously monitor timing rate frequency",
+    "vague ambiguous testable verifiable performance monitoring sampling rate"
+  ],
+  "model_calls": 5,
+  "tool_calls": [
+    "retrieve_clause",
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 64905,
+  "output_tokens": 4874
+}

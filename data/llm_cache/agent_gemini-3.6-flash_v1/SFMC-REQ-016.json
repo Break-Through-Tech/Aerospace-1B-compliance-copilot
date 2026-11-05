@@ -1,0 +1,52 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-016 requires that 'The targeting system shall be extremely accurate.' This specifies targeting performance expected of the SFMC software, so software_requirement_status is YES. However, 'extremely accurate' is a subjective, unmeasurable degree phrase (VAGUE_CRITERION) without quantitative metrics or error bounds. This is also flagged in \u00a711, Open Item 7 ('Required targeting accuracy.'). Consequently, the requirement cannot be verified and forces developers to guess performance expectations.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "VAGUE_CRITERION",
+        "severity": "MAJOR",
+        "explanation": "The phrase 'extremely accurate' is a subjective quality term without defined quantitative error bounds or measurable tolerance thresholds. This defect makes the requirement unverifiable and forces developers to make design assumptions regarding targeting precision, especially since \u00a711, Open Item 7 explicitly identifies required targeting accuracy as unresolved.",
+        "evidence": [
+          {
+            "locator": "\u00a73.3, SFMC-REQ-016",
+            "excerpt": "extremely accurate"
+          },
+          {
+            "locator": "\u00a711, Open Item 7",
+            "excerpt": "Required targeting accuracy."
+          }
+        ],
+        "clause_ids": [
+          "swehb-3.2.1-guidance",
+          "swehb-3.2.2-guidance"
+        ],
+        "recommendation": "Specify precise, measurable quantitative accuracy metrics (e.g., maximum allowable targeting position error or angular tolerance) once stakeholders resolve Open Item 7.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-016 relies on the vague term 'extremely accurate' without quantitative performance thresholds, making the targeting requirement unverifiable."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.6-guidance",
+    "swehb-3.2.2-guidance",
+    "swehb-3.3-guidance",
+    "swehb-7.1-guidance"
+  ],
+  "queries": [
+    "vague terms testability performance requirements measurement bounds"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 43865,
+  "output_tokens": 2402
+}

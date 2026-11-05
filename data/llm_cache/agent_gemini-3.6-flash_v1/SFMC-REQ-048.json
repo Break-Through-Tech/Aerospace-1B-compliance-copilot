@@ -1,0 +1,49 @@
+{
+  "review": {
+    "analysis": "SFMC-REQ-048 states software behavior (verifying pilot authorization before enabling spacecraft operation), so software_requirement_status is YES. However, the term 'authorized' is undefined in the SRS, as no authentication mechanisms, credentials, or criteria are specified for verifying a pilot's identity/authorization. This forces software developers to make design decisions about security authentication. Thus quality_status is NEEDS_REVIEW with an UNDEFINED_TERM issue.",
+    "software_requirement_status": "YES",
+    "quality_issues": [
+      {
+        "issue_code": "UNDEFINED_TERM",
+        "severity": "MAJOR",
+        "explanation": "The SRS does not define what criteria, credentials, or mechanisms (e.g., biometrics, password, security token) constitute an 'authorized' pilot or how verification is to be performed.",
+        "evidence": [
+          {
+            "locator": "\u00a78, SFMC-REQ-048",
+            "excerpt": "authorized"
+          }
+        ],
+        "clause_ids": [
+          "swehb-1.b-guidance",
+          "swehb-3.2.1.8-guidance",
+          "swehb-3.2.1.1.1-guidance"
+        ],
+        "recommendation": "Specify the authentication mechanisms, credential requirements, and authorization criteria used to verify pilot identity.",
+        "requires_stakeholder_input": true
+      }
+    ],
+    "swe_links": [],
+    "quality_status": "NEEDS_REVIEW",
+    "summary": "SFMC-REQ-048 specifies software behavior for pilot verification, but uses the undefined term 'authorized' without defining the necessary authentication mechanisms or criteria."
+  },
+  "allowed": [
+    "npr-4.1.4-requirement",
+    "swehb-1.b-guidance",
+    "swehb-3.2.1-guidance",
+    "swehb-3.2.1.1.1-guidance",
+    "swehb-3.2.1.1.2-guidance",
+    "swehb-3.2.1.7-guidance",
+    "swehb-3.2.1.8-guidance"
+  ],
+  "queries": [
+    "authentication authorization security verification"
+  ],
+  "model_calls": 4,
+  "tool_calls": [
+    "retrieve_clause",
+    "check_requirement",
+    "log_gap"
+  ],
+  "input_tokens": 42077,
+  "output_tokens": 3367
+}
