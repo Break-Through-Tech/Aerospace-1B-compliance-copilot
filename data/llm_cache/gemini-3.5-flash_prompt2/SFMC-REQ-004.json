@@ -1,0 +1,47 @@
+{
+  "analysis": "SFMC-REQ-004 specifies software behavior for calculating routes upon pilot destination selection, making it a valid software requirement. However, it uses 'efficient' (a vague criterion without quantitative metrics) and 'safe' (an undefined term lacking measurable hazard avoidance rules, as acknowledged by Open Item 1 in §11). As general navigation functionality, it does not act as an explicit safety interlock or control under SWE-184.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies that the route must be 'efficient' without providing any measurable bounds, metrics, or thresholds (e.g., fuel usage, time of arrival) to evaluate compliance.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-004",
+          "excerpt": "efficient"
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance",
+        "swehb-3.2.1-guidance"
+      ],
+      "recommendation": "Define measurable performance and resource criteria for route efficiency, such as maximum time or fuel usage bounds, with stakeholder input.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The term 'safe' is undefined in the requirement, leaving the criteria for hazard avoidance or path constraints unspecified. This defect is acknowledged in §11 Open Item 1.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-004",
+          "excerpt": "safe"
+        },
+        {
+          "locator": "§11, Open Item 1",
+          "excerpt": "Definition of a safe route."
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance",
+        "swehb-3.2.1.6-guidance"
+      ],
+      "recommendation": "Specify explicit rules and constraints for what constitutes a 'safe' route (e.g., minimum clearance distance from hazardous bodies or hostile zones).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-004 states a valid software obligation, but suffers from quality defects due to the vague term 'efficient' and the undefined domain term 'safe'. Quantitative efficiency criteria and safety constraints must be defined by stakeholders to make the requirement verifiable."
+}

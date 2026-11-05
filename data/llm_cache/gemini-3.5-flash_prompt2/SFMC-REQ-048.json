@@ -1,0 +1,43 @@
+{
+  "analysis": "SFMC-REQ-048 defines software behavior regarding pilot authentication prior to spacecraft operation, so software_requirement_status is YES. However, the requirement uses the undefined term 'authorized' without specifying the credentials or authentication mechanisms required, and uses the ambiguous scope 'spacecraft operation' without defining which specific modes or functions are inhibited prior to successful authentication.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement states that the SFMC must verify that the pilot is 'authorized', but the SRS does not define the criteria, credentials, or mechanism (e.g., biometrics, passcode, security token) used to verify pilot authorization.",
+      "evidence": [
+        {
+          "locator": "§8, SFMC-REQ-048",
+          "excerpt": "authorized"
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance",
+        "swehb-3.2.1-guidance"
+      ],
+      "recommendation": "Define the specific authentication mechanisms, credential formats, and authorization criteria required for pilot verification.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "SCOPE_AMBIGUITY",
+      "severity": "MAJOR",
+      "explanation": "The phrase 'spacecraft operation' is ambiguous regarding which subsystems, modes, or flight controls are inhibited prior to pilot verification versus which basic functions (e.g., telemetry monitoring or standby diagnostics) remain accessible.",
+      "evidence": [
+        {
+          "locator": "§8, SFMC-REQ-048",
+          "excerpt": "spacecraft operation"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Explicitly identify the scope of spacecraft operations and functions that are disabled until pilot authorization is established.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-048 requires pilot verification prior to enabling operation, but fails to define the criteria or mechanisms for verifying that a pilot is 'authorized' and leaves the scope of 'spacecraft operation' ambiguous."
+}

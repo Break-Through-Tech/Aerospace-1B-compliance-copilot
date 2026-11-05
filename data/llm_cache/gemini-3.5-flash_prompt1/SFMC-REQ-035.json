@@ -1,0 +1,54 @@
+{
+  "analysis": "SFMC-REQ-035 defines a mandatory capability of the SFMC software to accept pilot overrides of automated spacecraft functions, making software_requirement_status YES. However, the absolute claim 'always' creates an unquantified universal condition across all states and failure modes, and 'automatic spacecraft controls' is scope-ambiguous regarding which automated systems (e.g., Autopilot, Emergency Autopilot, or Automatic Countermeasures) are included and how the override is executed.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNVERIFIABLE_ABSOLUTE",
+      "severity": "MAJOR",
+      "explanation": "The requirement asserts an unbounded universal claim using 'always', which cannot be verified across all possible temporal and environmental states (such as software startup, initialization, or severe hardware failures) without defined operational bounds.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "always"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.4-guidance"
+      ],
+      "recommendation": "Replace the universal term 'always' with specified operational conditions, states, and timing constraints under which the override function is available.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "SCOPE_AMBIGUITY",
+      "severity": "MAJOR",
+      "explanation": "The phrasing 'automatic spacecraft controls' leaves it ambiguous as to which automated functions (e.g., Autopilot in SFMC-REQ-005, Automatic Countermeasures in SFMC-REQ-020, or Emergency Autopilot in SFMC-REQ-034) are subject to override and how the SFMC software processes the transition.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "automatic spacecraft controls"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.2-guidance",
+        "swehb-3.2.1.4-guidance"
+      ],
+      "recommendation": "Explicitly identify which automated functions can be overridden and detail the input interface and required control actions (e.g., requiring two independent pilot actions per safety design rules).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "The requirement captures an operator safety control over automated software functions, but leaves the specific safety constraints, preconditions, and execution mechanisms unresolved.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "override automatic spacecraft controls"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-035 specifies a software obligation for pilot override of automated controls, but uses an unverifiable absolute ('always') and an ambiguous scope ('automatic spacecraft controls'). It partially satisfies SWE-184 as a safety control, but lacks explicit operational bounds and safety constraints."
+}

@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-020 specifies a functional requirement for the SFMC software to deploy countermeasures automatically when incoming guided weapons are detected and automatic defense is enabled. The requirement clearly defines the system responsibility (SFMC), the triggering conditions (incoming guided weapons when automatic defense is enabled), and the required automated action (deploy countermeasures). It contains no vague terms, escape clauses, or ambiguous allocations, making it testable and acceptable.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-020 is a well-defined functional requirement that clearly specifies the software's trigger condition and automated response for deploying defensive countermeasures."
+}

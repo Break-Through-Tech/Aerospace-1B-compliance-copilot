@@ -1,0 +1,38 @@
+{
+  "analysis": "Requirement SFMC-REQ-007 states a required software function for the SFMC to monitor main engine status. However, using 'continuously' without specifying a sampling rate, period, or latency creates a vague, unmeasurable timing criterion for discrete digital software.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies that the SFMC shall 'continuously monitor' engine status, but 'continuously' is vague for software execution. It lacks a measurable sampling frequency, period, or update rate (e.g., in Hz or milliseconds), forcing software designers to guess the required sampling rate.",
+      "evidence": [
+        {
+          "locator": "§3.2, SFMC-REQ-007",
+          "excerpt": "continuously monitor"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.5-guidance",
+        "swehb-3.2.1.9-guidance"
+      ],
+      "recommendation": "Specify a concrete maximum sampling interval or update rate for engine status monitoring (e.g., 'at least once every 100 milliseconds').",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "INDIRECT_CONTEXT",
+      "explanation": "Engine status monitoring provides operational data relevant to propulsion safety and fault detection, but the requirement does not explicitly define a safety control or hazard mitigation.",
+      "evidence": [
+        {
+          "locator": "§3.2, SFMC-REQ-007",
+          "excerpt": "monitor the status of the spacecraft's main engines"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-007 is a valid software requirement, but it uses the vague term 'continuously monitor' without specifying a measurable sampling rate or timing threshold."
+}

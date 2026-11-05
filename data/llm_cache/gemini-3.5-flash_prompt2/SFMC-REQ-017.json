@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-017 specifies a clear software obligation for the SFMC software to display a threat warning to the pilot whenever the Defensive System identifies an incoming threat. It has a clear trigger and action, without vague degree terms, undefined categories, or ambiguous scope. Additionally, as a display/reporting requirement without an automated protective response, it does not constitute a safety control under NPR 7150.2D SWE-184.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-017 is acceptable as written. It clearly defines the required software action of displaying a threat warning upon receiving threat identification from the Defensive System."
+}

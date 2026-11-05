@@ -1,0 +1,53 @@
+{
+  "analysis": "SFMC-REQ-035 establishes a requirement for the SFMC software to support pilot override of automated controls. However, it lacks specificity regarding which automated functions are covered (scope ambiguity) and how the override mechanism interacts with safety functions, timing, and precedence rules (safety interaction / unspecified operational details).",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "SCOPE_AMBIGUITY",
+      "severity": "MAJOR",
+      "explanation": "The term 'automatic spacecraft controls' is ambiguous because the SRS does not specify which automated functions or operational modes (e.g., Autopilot in SFMC-REQ-005, Emergency Autopilot in SFMC-REQ-034, Automatic Countermeasures in SFMC-REQ-020) are subject to pilot override.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "automatic spacecraft controls"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.2-guidance"
+      ],
+      "recommendation": "Explicitly identify all automated functions, control loops, and operational modes that the pilot can override.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "SAFETY_INTERACTION",
+      "severity": "MAJOR",
+      "explanation": "The requirement states the pilot must 'always be able to override' automated controls, but fails to define the safety precedence, input mechanism, or constraints (such as requiring two independent pilot actions to prevent inadvertent override during critical automated maneuvers).",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "always be able to override"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.4-guidance"
+      ],
+      "recommendation": "Define the precise pilot actions required to perform an override, precedence logic between manual inputs and automatic controls, and any safety constraints on override execution.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "SFMC-REQ-035 states an operator safety control (allowing human manual override of automated spacecraft control software), but leaves the specific control criteria, safety preconditions, and precedence undefined.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "override automatic spacecraft controls"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-035 defines a pilot safety override function, but is incomplete. It suffers from scope ambiguity regarding which automatic controls can be overridden and lacks explicit safety interaction criteria such as precedence and input validation mechanics."
+}

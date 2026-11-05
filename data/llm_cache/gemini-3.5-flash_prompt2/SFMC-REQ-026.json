@@ -1,0 +1,43 @@
+{
+  "analysis": "SFMC-REQ-026 defines software monitoring behavior for five spacecraft subsystems, so software_requirement_status is YES. However, the requirement uses the undefined concept 'health' without specifying what data, status parameters, or heartbeat signals constitute system health for each subsystem, nor does it specify the polling frequency or monitoring interval. As guidance in SWEHB §3.2.1 and §3.2.1.5 notes, control and monitoring requirements must define clear inputs/outputs, parameters, and measurable timing criteria to be verifiable. Under NPR 7150.2D §4.1.4 (SWE-184), routine monitoring functions without explicit safety controls or protective transitions do not qualify for a SWE-184 link.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The term 'health' is not defined within the SRS for the Navigation, Propulsion, Weapons, Defensive, or Communications subsystems, leaving developers and testers unable to determine which specific telemetry metrics, status flags, or diagnostics the software is required to evaluate.",
+      "evidence": [
+        {
+          "locator": "§3.6, SFMC-REQ-026",
+          "excerpt": "health"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Define the specific parameters, status messages, or heartbeat signals that constitute system 'health' for each of the five listed subsystems.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies that the software shall 'monitor' subsystem health but omits any measurable execution frequency, polling interval, or sampling rate.",
+      "evidence": [
+        {
+          "locator": "§3.6, SFMC-REQ-026",
+          "excerpt": "monitor the health"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Specify the required monitoring rate or polling cycle (e.g., periodic sampling interval in milliseconds) for monitoring subsystem health.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-026 specifies valid software monitoring behavior but needs review because 'health' is an undefined term and no monitoring frequency or quantitative criteria are provided. Routine monitoring functions do not mandate a SWE-184 safety link."
+}

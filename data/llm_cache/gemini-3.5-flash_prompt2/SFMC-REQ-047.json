@@ -1,0 +1,26 @@
+{
+  "analysis": "SFMC-REQ-047 specifies a requirement for internal data storage capacity managed by the mission computer software. However, the requirement uses the subjective term 'sufficient storage', which provides no concrete MB/GB sizing, maximum entry count, or measurable data rate constraint over a 72-hour mission. This makes the requirement unverifiable and incomplete.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies 'sufficient storage' without defining a quantifiable capacity (e.g., megabytes, gigabytes, or maximum number of log entries), making it unverifiable during testing.",
+      "evidence": [
+        {
+          "locator": "§7, SFMC-REQ-047",
+          "excerpt": "sufficient storage"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.3-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Specify the exact data storage size (or entry capacity) needed to accommodate event logging over the maximum defined mission duration.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-047 is an unquantified data storage requirement because 'sufficient storage' is non-measurable. Specific log capacity metrics or sizing constraints must be defined."
+}

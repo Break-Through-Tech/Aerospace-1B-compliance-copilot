@@ -1,0 +1,27 @@
+{
+  "analysis": "SFMC-REQ-006 defines behavior for the SFMC software autopilot. However, it uses the vague and subjective phrase 'reasonably close' without providing a specific numerical distance or positional tolerance, rendering the requirement unverifiable.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The criterion 'reasonably close' is subjective and lacks a measurable bound or target threshold for distance, making the requirement unverifiable through finite testing.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-006",
+          "excerpt": "reasonably close"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance",
+        "swehb-3.2.2.1-guidance"
+      ],
+      "recommendation": "Replace 'reasonably close' with a quantitative positional tolerance threshold (e.g., within X kilometers of the selected destination). Stakeholder input is required to resolve Open Item 2.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-006 specifies autopilot arrival behavior but uses the vague qualifier 'reasonably close' instead of a measurable distance threshold, making it unverifiable."
+}

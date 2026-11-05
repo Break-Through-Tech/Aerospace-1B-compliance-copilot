@@ -1,0 +1,57 @@
+{
+  "analysis": "SFMC-REQ-021 specifies an obligation for the SFMC software to handle defensive responses. However, it suffers from multiple specification defects: 'quickly' is a non-measurable vague criterion, 'respond' leaves the exact software action unspecified, and 'dangerous threats' is an undefined category of events.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The term 'quickly' is a subjective degree word that provides no measurable bound or timing threshold, rendering the requirement unverifiable.",
+      "evidence": [
+        {
+          "locator": "§3.4, SFMC-REQ-021",
+          "excerpt": "quickly"
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Specify an explicit maximum response latency (e.g., within 100 milliseconds) for threat handling.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "UNSPECIFIED_RESPONSE",
+      "severity": "MAJOR",
+      "explanation": "The requirement states that the software shall 'respond', but fails to specify what concrete action or sequence of operations the SFMC must execute upon detecting a threat.",
+      "evidence": [
+        {
+          "locator": "§3.4, SFMC-REQ-021",
+          "excerpt": "respond"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance"
+      ],
+      "recommendation": "Define the specific software behaviors required when a threat is detected (e.g., deploying automated countermeasures, alerting the pilot, or initiating evasive maneuvering).",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement uses the phrase 'dangerous threats' without defining the classification parameters or criteria used to categorize a threat as dangerous.",
+      "evidence": [
+        {
+          "locator": "§3.4, SFMC-REQ-021",
+          "excerpt": "dangerous threats"
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Specify the threat classification criteria or reference a defined threat evaluation document that identifies which threat conditions trigger this requirement.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-021 is a software requirement, but it is unmeasurable and incomplete. It uses the vague term 'quickly', leaves the required software 'respond' action unspecified, and relies on the undefined concept of 'dangerous threats'."
+}

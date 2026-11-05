@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-009 specifies software behavior for the SFMC upon detecting that fuel falls below 5 percent capacity (displaying a warning and sounding an alarm). The trigger condition and output responses are clear, quantitative, and testable without ambiguous terms, unspecified responses, or escape clauses. Furthermore, displaying a warning and sounding an alarm is an annunciation function rather than an automated protective control or interlock, so no SWE-184 link is required.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-009 is an acceptable software requirement with clear, testable trigger conditions and response behaviors for alerting the pilot to low fuel levels."
+}

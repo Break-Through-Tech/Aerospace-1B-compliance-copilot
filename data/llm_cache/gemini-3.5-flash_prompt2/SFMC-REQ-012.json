@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-012 defines a functional capability for the software to allow target designation of detected spacecraft by the pilot. The requirement subject is clearly the SFMC software, the inputs/preconditions (detected spacecraft) and actions (designating as a target) are well-defined and testable, and there are no vague terms, escape clauses, or ambiguous operational scopes. Target designation is a normal combat system function, not a safety control, inhibit, or hazard mitigation, so no SWE-184 safety link applies.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-012 is a clear, testable functional requirement that defines target designation functionality for the pilot without writing defects."
+}

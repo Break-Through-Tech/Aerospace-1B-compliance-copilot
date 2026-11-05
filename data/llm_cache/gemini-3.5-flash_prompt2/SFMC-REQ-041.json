@@ -1,0 +1,26 @@
+{
+  "analysis": "SFMC-REQ-041 specifies that the SFMC software must automatically recover from recoverable software faults without pilot intervention. This is an obligation on the software (software_requirement_status = YES). However, the requirement uses the undefined category 'recoverable software fault' without defining what fault types, conditions, or boundaries classify a software fault as recoverable versus unrecoverable. Additionally, 'recover automatically' lacks specific operational behavior or defined safe state target upon recovery.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement conditions behavior on a 'recoverable software fault', but the SRS provides no definition, categorization, or criteria to distinguish software faults that are recoverable from those that are not, rendering test verification ambiguous.",
+      "evidence": [
+        {
+          "locator": "§6, SFMC-REQ-041",
+          "excerpt": "recoverable software fault"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.9-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Specify the exact types of software faults (e.g., process crashes, execution timeouts, memory exceptions) that require automatic recovery, along with the required recovery mechanism (e.g., module restart, fallback state, or checkpoint restore).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-041 requires automatic fault recovery for software, but relies on the undefined term 'recoverable software fault' without specifying fault categories or concrete recovery mechanisms."
+}

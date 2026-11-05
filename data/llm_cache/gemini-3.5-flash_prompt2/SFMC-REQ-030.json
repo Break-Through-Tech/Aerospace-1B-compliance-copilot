@@ -1,0 +1,47 @@
+{
+  "analysis": "SFMC-REQ-030 specifies required software behavior for fault notification to the pilot, so software_requirement_status is YES. However, it contains two quality defects: 'critical faults' is an undefined categorization explicitly listed as unresolved in Section 11 (Open Item 3), and 'immediately' is a vague timing term with no quantitative latency threshold. Per SWE-184 guidelines, simply notifying or reporting a fault without specifying an automated protective safety control does not constitute a safety link.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The term 'critical faults' is not defined within the SRS, leaving it unclear which fault conditions require this behavior. Section 11 acknowledges this gap as Open Item 3 ('Definition of critical fault').",
+      "evidence": [
+        {
+          "locator": "§3.6, SFMC-REQ-030",
+          "excerpt": "critical faults"
+        },
+        {
+          "locator": "§11, Open Item 3",
+          "excerpt": "Definition of critical fault."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.9-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Define a explicit categorization or listing of fault types that constitute critical faults in collaboration with system stakeholders.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The timing term 'immediately' lacks a bounded, measurable threshold (such as a maximum response time in milliseconds), rendering the temporal requirement unverifiable by test.",
+      "evidence": [
+        {
+          "locator": "§3.6, SFMC-REQ-030",
+          "excerpt": "immediately"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.9-guidance"
+      ],
+      "recommendation": "Replace 'immediately' with an explicit maximum duration threshold (e.g., 'within 250 milliseconds').",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-030 requires pilot notification of fault conditions, but uses the undefined term 'critical faults' (Open Item 3) and an unmeasurable timing constraint ('immediately')."
+}

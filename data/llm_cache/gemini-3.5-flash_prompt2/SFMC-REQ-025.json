@@ -1,0 +1,51 @@
+{
+  "analysis": "SFMC-REQ-025 states software encryption behavior for communications, but relies on the undefined term 'important communications' (tracked in Open Item 4) and uses the vague criterion 'securely encrypted' without defining a specific cryptographic protocol or standard (tracked in Open Item 9). It does not represent a safety control under SWE-184.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies encryption for 'important communications', but the SRS does not define which communications are classified as important, rendering the applicability scope undefined.",
+      "evidence": [
+        {
+          "locator": "§3.5, SFMC-REQ-025",
+          "excerpt": "important communications"
+        },
+        {
+          "locator": "§11, Open Item 4",
+          "excerpt": "Definition of important communication."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.8-guidance",
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Specify the explicit communication types or channels (e.g., all outgoing telemetry, command messages) to which encryption applies.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The modifier 'securely encrypted' is non-verifiable because it lacks an objective encryption algorithm, standard, or protocol specification.",
+      "evidence": [
+        {
+          "locator": "§3.5, SFMC-REQ-025",
+          "excerpt": "securely encrypted"
+        },
+        {
+          "locator": "§11, Open Item 9",
+          "excerpt": "Required cybersecurity algorithms and standards."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.8-guidance",
+        "swehb-3.2.3.6-guidance"
+      ],
+      "recommendation": "Define the mandatory cryptographic algorithm or protocol standard (such as AES-256 or TLS 1.3).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-025 is incomplete and unverifiable because it relies on the undefined category 'important communications' and fails to specify an encryption standard or algorithm."
+}

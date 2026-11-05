@@ -51,6 +51,7 @@ pip install -r requirements.txt
 | `notebooks/05_finalize_filtering_dataframe.ipynb` | Parses the SRS → `data/srs_requirements.csv`, `data/requirement_clause_pairs.csv` |
 | `notebooks/06_build_answer_key.ipynb` | Expected answers for evaluation → `data/answer_key.csv` |
 | `notebooks/07_retrieve_relevant_clauses.ipynb` | Top 5 clauses per requirement → `data/rag_retrievals.csv` |
+| `notebooks/08_generate_report.ipynb` | LLM (Gemini) verdict for each requirement → `data/report.json`, checked with `validate_report.py`. Needs `GOOGLE_API_KEY` in a `.env` file |
 | `notebooks/report_schema.py` | Pydantic models for `report.json`, matching the output contract |
 | `tests/` | Tests for `report_schema.py`; run `python -m pytest tests -v` from the repo root |
 | `contract/` | Mark's output contract, JSON schema, sample report, and `validate_report.py` |

@@ -1,0 +1,26 @@
+{
+  "analysis": "The requirement SFMC-REQ-042 specifies software behavior during fault recovery (preserving data). However, the phrase 'important mission data' relies on an undefined classification of data, making it unclear which data elements must be preserved across software fault recoveries.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNDEFINED_TERM",
+      "severity": "MAJOR",
+      "explanation": "The requirement relies on the term 'important mission data', but the SRS does not define which data categories or specific state/log items are considered 'important'. Without defining what data must be retained, implementation cannot guarantee proper persistence, and verification cannot test for data loss.",
+      "evidence": [
+        {
+          "locator": "§6, SFMC-REQ-042",
+          "excerpt": "important mission data"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Specify the explicit data types, parameters, or logs (e.g., mission log, current navigation state, vehicle fault history) that must be preserved during fault recovery.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-042 specifies an obligation on the software during fault recovery, but relies on the undefined term 'important mission data'. Stakeholders must define which data sets require persistence during fault recovery to make the requirement implementable and testable."
+}

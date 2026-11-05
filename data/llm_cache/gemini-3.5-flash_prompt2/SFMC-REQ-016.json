@@ -1,0 +1,42 @@
+{
+  "analysis": "SFMC-REQ-016 requires 'The targeting system' to be 'extremely accurate'. The subject is stated as 'The targeting system' rather than the SFMC software, making system allocation unclear. Furthermore, 'extremely accurate' is a vague, subjective term lacking any quantitative metric or measurable threshold, rendering the requirement unverifiable.",
+  "software_requirement_status": "UNCERTAIN",
+  "quality_issues": [
+    {
+      "issue_code": "VAGUE_CRITERION",
+      "severity": "MAJOR",
+      "explanation": "The requirement relies on the subjective phrase 'extremely accurate' without providing measurable bounds, error tolerances, or quantitative targeting metrics.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-016",
+          "excerpt": "extremely accurate"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Define explicit, measurable targeting accuracy parameters (such as maximum allowable position or angular error) in coordination with project stakeholders, as noted in Section 11 Open Item 7.",
+      "requires_stakeholder_input": true
+    },
+    {
+      "issue_code": "ALLOCATION_UNCLEAR",
+      "severity": "MAJOR",
+      "explanation": "The requirement assigns the obligation to 'the targeting system' rather than specifying the SFMC software, leaving it unclear whether this requirement applies to the mission computer software or external weapons hardware/subsystems.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-016",
+          "excerpt": "targeting system"
+        }
+      ],
+      "clause_ids": [
+        "swehb-1.b-guidance"
+      ],
+      "recommendation": "Clarify the target of the requirement to explicitly name the SFMC software and delineate software responsibilities from external targeting hardware.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-016 suffers from major quality defects: it uses the unmeasurable term 'extremely accurate' and ambiguously attributes the obligation to 'the targeting system' rather than the SFMC software."
+}

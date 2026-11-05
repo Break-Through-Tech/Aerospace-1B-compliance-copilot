@@ -1,0 +1,26 @@
+{
+  "analysis": "SFMC-REQ-043 specifies software behavior regarding degraded operation when a spacecraft subsystem fails, so it is a software requirement (software_requirement_status = YES). However, it uses the qualifier 'whenever possible', which is an escape clause that excuses non-compliance and leaves the requirement unverifiable without defined conditions for degraded functionality.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "ESCAPE_CLAUSE",
+      "severity": "MAJOR",
+      "explanation": "The qualifier 'whenever possible' excuses non-compliance and makes the requirement unverifiable, as it does not define specific conditions, degraded modes, or boundaries under which the software is obligated to maintain operation.",
+      "evidence": [
+        {
+          "locator": "§6, SFMC-REQ-043",
+          "excerpt": "whenever possible"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1-guidance",
+        "swehb-6.1-guidance"
+      ],
+      "recommendation": "Remove the escape clause and specify explicit degraded operating modes and capabilities for each subsystem failure scenario.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-043 contains an escape clause ('whenever possible') that makes degraded operation behavior undefined and unverifiable. Specific degraded modes and failure responses must be defined with stakeholder input."
+}

@@ -1,0 +1,38 @@
+{
+  "analysis": "Requirement SFMC-REQ-010 assigns an explicit behavior to the SFMC software upon detecting a main engine failure. However, the phrase 'take appropriate corrective action' is a placeholder that leaves the software's required recovery or mitigation behavior completely unspecified and unverifiable.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNSPECIFIED_RESPONSE",
+      "severity": "MAJOR",
+      "explanation": "The requirement specifies a trigger (detection of a main engine failure), but leaves the software's response undefined by using the phrase 'take appropriate corrective action'. This forces design decisions and prevents clear verification.",
+      "evidence": [
+        {
+          "locator": "§3.2, SFMC-REQ-010",
+          "excerpt": "take appropriate corrective action"
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.9-guidance",
+        "swehb-3.2.1.4-guidance"
+      ],
+      "recommendation": "Consult system safety and propulsion stakeholders to explicitly specify the exact software mitigation steps (e.g., isolating fuel supply, rebalancing thrust, transitioning flight modes).",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [
+    {
+      "swe_id": "SWE-184",
+      "strength": "PARTIAL_CONTENT",
+      "explanation": "SFMC-REQ-010 establishes a software mitigation trigger for a major hardware failure (main engine failure), but leaves the specific safety control/action unresolved.",
+      "evidence": [
+        {
+          "locator": "§3.2, SFMC-REQ-010",
+          "excerpt": "take appropriate corrective action"
+        }
+      ]
+    }
+  ],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-010 assigns engine failure handling to the SFMC software, but uses an unspecified response ('take appropriate corrective action') that renders the requirement unverifiable."
+}

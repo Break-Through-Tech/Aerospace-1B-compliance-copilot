@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-046 requires the SFMC software to include spacecraft mission time for every mission-log entry. This is a clear, testable data logging requirement specifying data attributes for recorded events. No writing defects (such as vague criteria or unassigned allocation) are present. It does not represent a safety control, interlock, or safe-state mitigation, so SWE-184 does not apply.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-046 is an acceptable data logging requirement that clearly specifies including spacecraft mission time in each mission-log entry."
+}

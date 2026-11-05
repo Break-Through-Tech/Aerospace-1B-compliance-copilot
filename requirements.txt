@@ -12,3 +12,6 @@ ipykernel
 pydantic>=2
 jsonschema
 pytest
+langchain
+langchain-google-genai
+python-dotenv

@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-027 specifies that when a monitored subsystem reports a fault, the SFMC shall display the affected subsystem and fault information to the pilot within 1 second. The trigger, subject, specific software output, and maximum latency (1 second) are clearly stated and testable. No vague terms, escape clauses, or scope ambiguities are present. Displaying fault notifications is an ordinary reporting function without an automated protective control or safe-state transition, so no SWE-184 link applies.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-027 is a well-formulated functional requirement with a clear trigger, unambiguous output, and precise 1-second timing requirement. It exhibits no quality defects and is fully testable."
+}

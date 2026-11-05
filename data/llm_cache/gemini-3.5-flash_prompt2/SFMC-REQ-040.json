@@ -1,0 +1,25 @@
+{
+  "analysis": "Requirement SFMC-REQ-040 specifies that the SFMC software shall never crash during a mission. This is an obligation on the software system, so software_requirement_status is YES. However, stating that software shall 'never crash' is a universal absolute claim over unbounded time and inputs, which cannot be verified through finite testing.",
+  "software_requirement_status": "YES",
+  "quality_issues": [
+    {
+      "issue_code": "UNVERIFIABLE_ABSOLUTE",
+      "severity": "MAJOR",
+      "explanation": "The phrase 'shall never crash' constitutes an absolute universal statement across unbounded operational inputs and execution scenarios. Finite testing cannot verify that a crash will never occur under any circumstance.",
+      "evidence": [
+        {
+          "locator": "§6, SFMC-REQ-040",
+          "excerpt": "shall never crash"
+        }
+      ],
+      "clause_ids": [
+        "swehb-7.1-guidance"
+      ],
+      "recommendation": "Stakeholders should replace this absolute statement with verifiable reliability, availability, or fault-handling metrics, such as a specified Mean Time Between Failures (MTBF) or explicit fault-recovery requirements.",
+      "requires_stakeholder_input": true
+    }
+  ],
+  "swe_links": [],
+  "quality_status": "NEEDS_REVIEW",
+  "summary": "SFMC-REQ-040 contains a writing defect because 'shall never crash' is an unverifiable absolute claim that cannot be verified by finite testing. Stakeholders should define concrete, verifiable reliability metrics or crash recovery behaviors instead."
+}

@@ -1,0 +1,8 @@
+{
+  "analysis": "SFMC-REQ-011 specifies a mandatory software function requiring the SFMC to display detected spacecraft within sensor range, so software_requirement_status is YES. The requirement uses clear language with a defined subject ('The SFMC'), directive verb ('shall display'), and actionable scope ('detected spacecraft within sensor range'). It contains no vague degree words, escape clauses, undefined terms, or allocation ambiguities. Displaying detected spacecraft is a standard situational monitoring function rather than a safety mitigation or inhibit mechanism, so no SWE-184 link applies.",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-011 is an acceptable software requirement specifying the display of detected spacecraft within sensor range. It contains no quality defects and involves no SWE-184 safety controls."
+}

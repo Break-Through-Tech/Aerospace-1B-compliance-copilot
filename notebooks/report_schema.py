@@ -56,8 +56,9 @@ CORE_SWE_SECTIONS = {
 
 
 def _norm_text(s: str) -> str:
-    """Collapse whitespace and straighten quotes so harmless formatting
-    differences don't fail an exact-match check."""
+    """Collapse whitespace, straighten quotes, and drop markdown bold so harmless
+    formatting differences don't fail an exact-match check."""
+    s = s.replace("**", "")
     s = s.replace("\u2019", "'").replace("\u2018", "'")
     s = s.replace("\u201c", '"').replace("\u201d", '"')
     return " ".join(s.split())

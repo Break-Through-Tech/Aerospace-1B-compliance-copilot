@@ -1,0 +1,8 @@
+{
+  "analysis": "Requirement SFMC-REQ-003 states that the SFMC shall allow the pilot to select a navigation destination. This is a clear, standard functional requirement defining a software capability (allowing pilot input for navigation destination selection). It contains no vague terms, unassigned allocations, or missing criteria, matching example functional requirements in NASA guidance (e.g., SWEHB 5.09 §3.2.1).",
+  "software_requirement_status": "YES",
+  "quality_issues": [],
+  "swe_links": [],
+  "quality_status": "ACCEPTABLE",
+  "summary": "SFMC-REQ-003 is a clear and verifiable functional requirement directing the SFMC software to allow the pilot to select a navigation destination."
+}
