@@ -8,7 +8,7 @@
     "npr_reference_version": "NPR-7150.2D",
     "handbook_reference": "NASA-HDBK-2203-5.09",
     "method": "RAG: top-5 clauses retrieved from Chroma (all-MiniLM-L6-v2) plus 3 always-included clauses; verdicts by gemini-3.5-flash (served by the API as gemini-3.6-flash) with structured output; citations filled from addressable_clauses.csv; validated with report_schema.py; relationships, document findings, and SWE coverage by gemini-3.5-flash in notebook 09 (one call per section, whole SRS in context), citations filled from addressable_clauses.csv",
-    "generated_at_utc": "2026-11-11T23:11:36Z",
+    "generated_at_utc": "2026-11-11T23:26:50Z",
     "limitations": [
       "No NASA project compliance is determined from the SRS alone.",
       "Verdicts are LLM-generated and have not been checked by a human reviewer.",
@@ -2294,9 +2294,7 @@
       "document_evidence": "PARTIAL_EVIDENCE",
       "project_compliance": "NOT_DETERMINED",
       "rationale": "Software requirements are established and recorded within the SRS document. However, requirements for COTS, GOTS, MOTS, OSS, or reused software components are completely absent, and formal approval/maintenance records reside outside the document.",
-      "supported_by_requirement_ids": [
-        "SFMC-REQ-001"
-      ],
+      "supported_by_requirement_ids": [],
       "srs_evidence": [
         {
           "locator": "§1.1, Purpose",
