@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "case_id": "REL-001",
+      "analysis": "SFMC-REQ-015 establishes an absolute safety inhibit preventing weapons fire against friendly craft ('never permit'). SFMC-REQ-035 states that the pilot shall 'always' be able to override automatic spacecraft controls. It is unclear whether pilot override applies only to automated flight control modes or extends to safety interlocks and weapon inhibits.",
+      "status": "NEEDS_CLARIFICATION",
+      "issue_code": "SAFETY_INTERACTION",
+      "explanation": "There is a potential scope overlap and interaction regarding whether pilot override can bypass software safety inhibits. SFMC-REQ-015 restricts weapon firing unconditionally, while SFMC-REQ-035 grants universal pilot override authority over automatic controls without defining if safety inhibits are included.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "The SFMC shall never permit the pilot to fire a weapon at a friendly spacecraft."
+        },
+        {
+          "locator": "§4, SFMC-REQ-035",
+          "excerpt": "The pilot shall always be able to override automatic spacecraft controls."
+        }
+      ],
+      "clause_ids": [
+        "npr-4.1.4-requirement",
+        "npr-4.1.6-requirement"
+      ],
+      "recommendation": "Clarify SFMC-REQ-035 to explicitly bound pilot override to flight navigation controls and specify that safety inhibits, such as friendly fire blocks, cannot be overridden."
+    },
+    {
+      "case_id": "REL-002",
+      "analysis": "SFMC-REQ-002 requires position display updates at least once every 500 milliseconds (2 Hz), while SFMC-REQ-038 requires flight information updates at least 10 times per second (10 Hz). A display update rate of 10 Hz or faster satisfies both requirements simultaneously.",
+      "status": "NO_CONFIRMED_CONFLICT",
+      "issue_code": "NONE",
+      "explanation": "Different numeric minimums are not a conflict because updating displayed flight information at 10 Hz (every 100 milliseconds) fulfills both the general display update constraint and the 500 millisecond position display requirement.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-002",
+          "excerpt": "The SFMC shall update the displayed spacecraft position at least once every 500 milliseconds"
+        },
+        {
+          "locator": "§5, SFMC-REQ-038",
+          "excerpt": "the SFMC shall update flight information displayed to the pilot at least 10 times per second."
+        }
+      ],
+      "clause_ids": [
+        "npr-4.1.6-requirement",
+        "swehb-3.2.2.1-guidance"
+      ],
+      "recommendation": "No requirement change is needed to resolve a conflict. Optionally, harmonize display timing references across sections for clarity."
+    },
+    {
+      "case_id": "REL-003",
+      "analysis": "SFMC-REQ-033 specifies automatic determination of a safe destination when damaged, and SFMC-REQ-034 specifies the capability to automatically fly to a safe location during emergencies. These requirements define complementary aspects of emergency navigation and flight control.",
+      "status": "NO_CONFIRMED_CONFLICT",
+      "issue_code": "NONE",
+      "explanation": "The requirements work together without contradiction: SFMC-REQ-033 provides the destination selection logic, while SFMC-REQ-034 provides the automated piloting capability to execute transit to that location.",
+      "evidence": [
+        {
+          "locator": "§4, SFMC-REQ-033",
+          "excerpt": "the SFMC shall automatically determine the safest destination."
+        },
+        {
+          "locator": "§4, SFMC-REQ-034",
+          "excerpt": "The SFMC shall be capable of automatically flying the spacecraft to a safe location during an emergency."
+        }
+      ],
+      "clause_ids": [
+        "npr-4.1.6-requirement",
+        "swehb-3.2.1.5-guidance"
+      ],
+      "recommendation": "Maintain both requirements as complementary elements of Emergency mode functionality."
+    }
+  ]
+}
