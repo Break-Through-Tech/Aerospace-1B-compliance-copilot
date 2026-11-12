@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "case_id": "DOC-001",
+      "analysis": "Section 10 lists high-level mission needs (MN-01 to MN-10) but explicitly states that the requirement-to-mission-need traceability matrix has not yet been developed. This leaves requirement traceability incomplete.",
+      "criterion": "TRACEABILITY",
+      "status": "PARTIAL",
+      "issue_code": "INCOMPLETE_TRACEABILITY",
+      "searched_scope": "SRS §10",
+      "explanation": "Section 10 identifies high-level mission needs but lacks mapping between the software requirements and these parent needs.",
+      "evidence": [
+        {
+          "locator": "§10",
+          "excerpt": "A complete requirement-to-mission-need traceability matrix has not yet been developed."
+        }
+      ],
+      "clause_ids": [
+        "npr-3.12.1-requirement",
+        "swehb-3.8-guidance"
+      ],
+      "recommendation": "Develop and include a complete bidirectional requirement-to-mission-need traceability matrix linking each software requirement to its parent mission need."
+    },
+    {
+      "case_id": "DOC-002",
+      "analysis": "Inspection of the entire document reveals that no qualification provisions section or verification matrix (test, analysis, inspection, demonstration) is present in the document.",
+      "criterion": "QUALIFICATION_PROVISIONS",
+      "status": "MISSING",
+      "issue_code": "MISSING_QUALIFICATION_PROVISIONS",
+      "searched_scope": "FULL",
+      "explanation": "The SRS contains no section specifying qualification provisions or verification methods for the defined software requirements.",
+      "evidence": [],
+      "clause_ids": [
+        "swehb-1.c-guidance",
+        "swehb-3.3-guidance"
+      ],
+      "recommendation": "Add a Qualification Provisions section specifying the verification method (testing, analysis, inspection, or demonstration) for each software requirement."
+    },
+    {
+      "case_id": "DOC-003",
+      "analysis": "Multiple requirements across sections 3 through 9 contain subjective, qualitative phrasing such as 'reasonably close', 'extremely accurate', and 'without noticeable delay' without quantitative pass/fail criteria.",
+      "criterion": "ACCEPTANCE_CRITERIA",
+      "status": "PARTIAL",
+      "issue_code": "MISSING_ACCEPTANCE_CRITERIA",
+      "searched_scope": "SRS §§3–9",
+      "explanation": "Several requirement statements rely on ambiguous, non-measurable language instead of quantitative acceptance criteria.",
+      "evidence": [
+        {
+          "locator": "§3.1, SFMC-REQ-006",
+          "excerpt": "reasonably close"
+        },
+        {
+          "locator": "§3.3, SFMC-REQ-016",
+          "excerpt": "extremely accurate"
+        },
+        {
+          "locator": "§5, SFMC-REQ-037",
+          "excerpt": "without noticeable delay"
+        }
+      ],
+      "clause_ids": [
+        "npr-4.1.2-note",
+        "swehb-3.7-guidance"
+      ],
+      "recommendation": "Replace subjective terms with clear, quantitative, and testable acceptance criteria across requirements in sections 3 through 9."
+    },
+    {
+      "case_id": "DOC-004",
+      "analysis": "Section 2.1 contains two normative 'shall' statements that do not have unique requirement identifiers assigned to them.",
+      "criterion": "REQUIREMENT_IDENTIFIERS",
+      "status": "PARTIAL",
+      "issue_code": "UNNUMBERED_REQUIREMENTS",
+      "searched_scope": "SRS §2.1",
+      "explanation": "Section 2.1 includes normative requirements containing 'shall' that lack requirement tags/identifiers.",
+      "evidence": [
+        {
+          "locator": "§2.1",
+          "excerpt": "The SFMC shall receive pilot commands from the cockpit controls."
+        },
+        {
+          "locator": "§2.1",
+          "excerpt": "The SFMC shall display spacecraft status information on the pilot's primary display."
+        }
+      ],
+      "clause_ids": [
+        "swehb-1.b-guidance",
+        "npr-4.1.2-note"
+      ],
+      "recommendation": "Assign unique requirement identifiers to all normative 'shall' statements in section 2.1 or rephrase them as non-normative context."
+    },
+    {
+      "case_id": "DOC-005",
+      "analysis": "Safety-critical requirements in sections 3.3 and 4 depend on terms such as 'friendly spacecraft' and 'safe location', but section 11 lists the definitions of these critical safety terms as open unresolved items.",
+      "criterion": "SAFETY_DEFINITIONS",
+      "status": "PARTIAL",
+      "issue_code": "INCOMPLETE_SAFETY_DEFINITIONS",
+      "searched_scope": "SRS §§3.3,4,11",
+      "explanation": "Key terms governing safety-critical functions (e.g., friendly spacecraft target interlocks and emergency safe locations) are not defined in the requirements and are documented as open items.",
+      "evidence": [
+        {
+          "locator": "§3.3, SFMC-REQ-015",
+          "excerpt": "friendly spacecraft"
+        },
+        {
+          "locator": "§11, Open Item 5",
+          "excerpt": "Definition of a safe location during an emergency."
+        },
+        {
+          "locator": "§11, Open Item 10",
+          "excerpt": "Criteria for determining whether a detected spacecraft is friendly or hostile."
+        }
+      ],
+      "clause_ids": [
+        "swehb-3.2.1.4-guidance",
+        "npr-4.1.4-requirement"
+      ],
+      "recommendation": "Resolve open items to explicitly define safety-critical terms and logic relied upon by safety requirements."
+    }
+  ]
+}
