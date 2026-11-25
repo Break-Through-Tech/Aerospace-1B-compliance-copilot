@@ -143,6 +143,21 @@ The project data is primarily text-based and is stored or processed in formats i
 
 ---
 
+## 🔄 Reproduce the Results
+
+To reproduce the project results, run the notebooks in numerical order from `01` through `12`.
+
+Notebooks `08`, `09`, and `11` call Gemini, but their responses are cached in `data/llm_cache/`. A fresh clone can rerun these notebooks without an API key as long as the cached responses are present.
+
+A `GOOGLE_API_KEY` in a `.env` file is only required if you want to regenerate an LLM response after deleting its corresponding cache file.
+
+Notebook `11` also requires the Chroma vector store created by notebook `03`:
+
+```text
+data/chroma_db/
+
+---
+
 ## 📝 **License**
 
 Specify how your project can be used by others. Choose an appropriate license and link it here (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type. 
